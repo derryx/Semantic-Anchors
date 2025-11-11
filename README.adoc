@@ -405,6 +405,30 @@ Below is a curated list of semantic anchors useful for software development, arc
 * Projects where business rules must be protected from technology changes
 ====
 
+=== SOLID Principles
+
+[%collapsible]
+====
+*Full Name*: SOLID Object-Oriented Design Principles
+
+*Core Concepts*:
+
+* *Single Responsibility Principle (SRP)*: Each class should have one responsibility
+* *Open/Closed Principle (OCP)*: Entities should be open for extension, closed for modification
+* *Liskov Substitution Principle (LSP)*: Subtypes must be substitutable for their base types
+* *Interface Segregation Principle (ISP)*: Clients should not be forced to depend on interfaces they do not use
+* *Dependency Inversion Principle (DIP)*: Depend on abstractions, not concrete implementations
+
+*Key Proponent*: Robert C. Martin ("Uncle Bob")
+
+*When to Use*:
+
+* Designing maintainable and scalable object-oriented systems
+* Refactoring legacy code to improve structure
+* Building systems where flexibility and testability are important
+* Teaching or enforcing good software design practices
+====
+
 === User Story Mapping
 
 [%collapsible]
