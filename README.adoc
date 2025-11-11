@@ -103,7 +103,7 @@ Below is a curated list of semantic anchors useful for software development, arc
 * Retrospectives and team communication
 ====
 
-=== Mental Model nach Naur
+=== Mental Model according to Naur
 
 [%collapsible]
 ====
@@ -200,7 +200,7 @@ Below is a curated list of semantic anchors useful for software development, arc
 * Long-lived systems requiring maintainability
 ====
 
-=== ADR nach Nygard
+=== ADR according to Nygard
 
 [%collapsible]
 ====
@@ -284,7 +284,7 @@ Below is a curated list of semantic anchors useful for software development, arc
 * Replacing or supplementing UML
 ====
 
-=== Docs-as-Code nach Ralf D. Müller
+=== Docs-as-Code according to Ralf D. Müller
 
 [%collapsible]
 ====
@@ -320,7 +320,7 @@ Below is a curated list of semantic anchors useful for software development, arc
 * Projects requiring multiple output formats (HTML, PDF, etc.)
 ====
 
-=== Domain-Driven Design nach Evans
+=== Domain-Driven Design according to Evans
 
 [%collapsible]
 ====
