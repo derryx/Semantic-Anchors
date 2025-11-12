@@ -668,7 +668,7 @@ Below is a curated list of semantic anchors useful for software development, arc
 ====
 *Core Concepts*:
 * A specification for adding human and machine readable meaning to commit messages
-* determining a semantic version bump (based on the types of commits landed)
+* Determining a semantic version bump (based on the types of commits landed)
 * Communicating the nature of changes to teammates, the public, and other stakeholders
 * *Schema*: <type>[!][(optional scope)]: <description> + optional body/footer
 * *Common Types*:
