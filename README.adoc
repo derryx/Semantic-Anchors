@@ -775,6 +775,45 @@ The catalog is organized into the following categories:
 
 ====
 
+[[bem-methodology]]
+==== BEM Methodology
+
+[%collapsible]
+====
+*Full Name*: Block Element Modifier (BEM) (S)CSS Methodology
+
+*Core Concepts*:
+
+* *Motivation*: Solve CSS specificity wars, naming conflicts, and stylesheet maintainability issues in large codebases
+* *Block*: Standalone component that is meaningful on its own (e.g., `menu`, `button`, `header`)
+* *Element*: Part of a block with no standalone meaning (e.g., `menu__item`, `button__icon`)
+* *Modifier*: Flag on blocks or elements that changes appearance or behavior (e.g., `button--disabled`, `menu__item--active`)
+* *Naming convention*: `block__element--modifier` structure
+* *Independence*: Blocks are self-contained and reusable
+* *No cascading*: Avoid deep CSS selectors, use flat structure
+* *Explicit relationships*: Clear parent-child relationships through naming
+* *Reusability*: Components can be moved anywhere in the project
+* *Mix*: Combining multiple BEM entities on a single DOM node
+* *File structure*: Often paired with component-based file organization
+
+*Naming Examples*:
+
+* Block: `.search-form`
+* Element: `.search-form__input`, `.search-form__button`
+* Modifier: `.search-form--compact`, `.search-form__button--disabled`
+
+*Key Proponents*: Yandex development team
+
+*When to Use*:
+
+* Large-scale web applications with many components
+* Team projects requiring consistent (S)CSS naming conventions
+* When (S)CSS maintainability and scalability are priorities
+* Projects where developers need to quickly understand (S)CSS structure
+* Component-based architectures (React, Vue, Angular)
+
+====
+
 == Testing and Contributing Semantic Anchors
 
 === Testing a Semantic Anchor
