@@ -13,12 +13,23 @@ image::https://api.star-history.com/svg?repos=LLM-Coding/Semantic-Anchors&type=d
 
 === Why Semantic Anchors Matter
 
-When working with LLMs like Claude, using semantic anchors provides several advantages:
+When working with LLMs, using semantic anchors provides several advantages:
 
 * *Precision*: Anchors reduce ambiguity by referencing established bodies of knowledge
 * *Efficiency*: A single anchor term can activate complex conceptual frameworks without lengthy explanations
 * *Consistency*: Well-known anchors ensure the LLM interprets concepts as intended by the broader community
 * *Context Compression*: Anchors allow you to convey rich context with minimal tokens
+
+=== Model Considerations
+
+While semantic anchors are knowledge-based and most large frontier models share similar training data, there may be variations in how different LLM providers interpret specific anchors:
+
+* *Knowledge Base Variations*: Different models may have varying levels of familiarity with specific methodologies, especially for niche or emerging practices
+* *Model Training Cutoff*: Newer methodologies may not be recognized by models with earlier training cutoff dates
+* *Cultural and Regional Context*: Some anchors may be better recognized in models trained with specific regional or linguistic focuses
+* *Testing Across Models*: When precision is critical, consider testing semantic anchors with your specific LLM provider using the testing approach described later in this document
+
+For most established semantic anchors in software development, the major LLM providers (such as Claude, GPT-4, Gemini, etc.) demonstrate consistent understanding. However, if you experience significant variations, you may need to provide additional context or choose more widely-recognized anchors.
 
 === How to Use Semantic Anchors Effectively
 
@@ -1036,6 +1047,8 @@ Before adding a new semantic anchor to your catalog, it's valuable to test wheth
 * Identify gaps or misconceptions in the LLM's understanding
 * Decide whether the anchor needs additional context or clarification
 
+NOTE: While most established semantic anchors are consistently recognized across major LLM providers, testing with your specific model can reveal variations in interpretation or depth of understanding. Consider testing critical anchors with multiple models if you work across different LLM platforms.
+
 ==== The Testing Prompt
 
 Use the following prompt pattern to test a semantic anchor:
@@ -1068,7 +1081,7 @@ When the LLM responds, evaluate the following:
 ----
 Human: What concepts do you associate with 'Pugh-Matrix'?
 
-Claude: I associate the Pugh-Matrix with:
+LLM: I associate the Pugh-Matrix with:
 - Baseline comparison methodology
 - Weighted decision criteria
 - Relative scoring (better/same/worse)
