@@ -41,6 +41,7 @@ The catalog is organized into the following categories:
 * <<communication-presentation,Communication & Presentation>>
 * <<decision-making-strategy,Decision Making & Strategy>>
 * <<development-practices,Development Practices>>
+* <<statistical-methods-process-monitoring,Statistical Methods & Process Monitoring>>
 
 [[testing-quality-practices]]
 === Testing & Quality Practices
@@ -1023,6 +1024,47 @@ The catalog is organized into the following categories:
 * Consistent meaning across contexts: "best performing" and "most current"
 * Concise trigger for comprehensive research behavior
 * Activates research-oriented response patterns in LLMs
+====
+
+[[statistical-methods-process-monitoring]]
+=== Statistical Methods & Process Monitoring
+
+[[nelson-rules]]
+==== Nelson Rules
+
+[%collapsible]
+====
+*Full Name*: Nelson Rules (Tests for Special Causes)
+
+*Core Concepts*:
+
+* *8 rules* for detecting non-random patterns in Control Charts
+* *Rule 1*: One point beyond 3σ (Outlier)
+* *Rule 2*: 9 consecutive points on the same side of the mean (Shift/Bias)
+* *Rule 3*: 6 consecutive points steadily increasing or decreasing (Trend)
+* *Rule 4*: 14 points alternating up and down (Oscillation)
+* *Rule 5*: 2 out of 3 points beyond 2σ on the same side
+* *Rule 6*: 4 out of 5 points beyond 1σ on the same side
+* *Rule 7*: 15 points within 1σ (suspiciously low variance)
+* *Rule 8*: 8 points outside ±1σ, but none beyond ±3σ (systematic oscillation)
+* *Common Cause vs. Special Cause*: Distinguishing inherent from assignable variation
+* *Zones A/B/C*: Dividing the Control Chart into 6 zones (each 1σ wide)
+* *False Positive Trade-off*: More active rules = higher sensitivity, but more false alarms
+
+*Key Proponent*: Lloyd S. Nelson (1984, Journal of Quality Technology)
+
+*Relationship to Other Anchors*:
+
+* *Control Chart (Shewhart)*: Nelson Rules are applied to Control Charts
+* *SPC*: Nelson Rules are a tool within Statistical Process Control
+* *Western Electric Rules*: Predecessor; Nelson Rules extend these with Rules 5-8
+
+*When to Use*:
+
+* Detecting non-random patterns in time series data
+* Process monitoring in manufacturing, pharmaceuticals, healthcare
+* Potential application in IT monitoring (memory leaks, performance degradation)
+* Quality assurance in Six Sigma / DMAIC Control Phase
 ====
 
 == Testing and Contributing Semantic Anchors
