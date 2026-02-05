@@ -1040,6 +1040,44 @@ The catalog is organized into the following categories:
 [[statistical-methods-process-monitoring]]
 === Statistical Methods & Process Monitoring
 
+[[spc]]
+==== SPC (Statistical Process Control)
+
+[%collapsible]
+====
+*Full Name*: Statistical Process Control
+
+*Core Concepts*:
+
+* *Process monitoring*: Systematic statistical monitoring of running processes
+* *Common Cause Variation*: Inherent, random fluctuation — stable and predictable
+* *Special Cause Variation*: Assignable cause — unstable, correctable
+* *Control Charts*: Central visual tool (see dedicated anchor)
+* *Detection rules*: Nelson Rules, Western Electric Rules (see dedicated anchors)
+* *Process Capability*: Indices Cp, Cpk (short-term) and Pp, Ppk (long-term)
+* *In-Control*: Process exhibits only Common Cause Variation
+* *Out-of-Control*: Special Cause detected — intervention required
+* *Continuous Improvement*: SPC as a foundation for ongoing process improvement
+* *DMAIC Control Phase*: SPC tools secure improvements within Six Sigma
+
+*Key Proponents*: Walter A. Shewhart (founder), W. Edwards Deming (dissemination), Western Electric Company
+
+*Relationship to Other Anchors*:
+
+* *Control Chart (Shewhart)*: Central tool within SPC
+* *Nelson Rules*: Detection rules for Special Causes on Control Charts
+* *Six Sigma*: Uses SPC particularly in the Control phase
+* *Testing Pyramid*: Conceptual parallel — different levels of quality assurance
+
+*When to Use*:
+
+* Monitoring manufacturing and business processes
+* Quality management per ISO 9001, IATF 16949, Six Sigma
+* Pharmaceutical Continuous Process Verification (CPV)
+* Conceptual foundation for anomaly detection in IT systems
+* When the question is: "Is my process stable, or has something changed?"
+====
+
 [[control-chart-shewhart]]
 ==== Control Chart (Shewhart)
 
@@ -1073,7 +1111,7 @@ The catalog is organized into the following categories:
 *Relationship to Other Anchors*:
 
 * *Nelson Rules*: 8 rules for pattern recognition on Control Charts
-* *SPC*: Control Charts are the central tool of Statistical Process Control
+* *<<spc,SPC>>*: Control Charts are the central tool of Statistical Process Control
 * *Six Sigma*: Control Charts are used in the Control phase of DMAIC
 
 *When to Use*:
@@ -1112,7 +1150,7 @@ The catalog is organized into the following categories:
 *Relationship to Other Anchors*:
 
 * *Control Chart (Shewhart)*: Nelson Rules are applied to Control Charts
-* *SPC*: Nelson Rules are a tool within Statistical Process Control
+* *<<spc,SPC>>*: Nelson Rules are a tool within Statistical Process Control
 * *Western Electric Rules*: Predecessor; Nelson Rules extend these with Rules 5-8
 
 *When to Use*:
