@@ -1077,6 +1077,45 @@ The catalog is organized into the following categories:
 * Activates research-oriented response patterns in LLMs
 ====
 
+[[timtowtdi]]
+==== TIMTOWTDI
+
+[%collapsible]
+====
+*Full Name*: There Is More Than One Way To Do It
+
+*Also known as*: Tim Toady
+
+*Core Concepts*:
+
+* *Multiple valid approaches*: Acknowledges that problems can be solved in different, equally valid ways
+* *Developer freedom*: Trust developers to choose the right approach for their context
+* *Expressiveness*: Languages and tools should support diverse problem-solving styles
+* *Context-dependent decisions*: The "best" solution depends on constraints, team, and situation
+* *No single canonical form*: Resist dogma — flexibility over prescription
+* *Trade-off awareness*: Different approaches have different trade-offs; none is universally superior
+* *Pragmatism over purity*: Practical results matter more than theoretical elegance
+* *Collaborative decision-making*: When working with others, discuss approach rather than assume
+
+*Key Proponent*: Larry Wall (Perl programming language)
+
+*Contrast*:
+
+* Python's Zen: "There should be one-- and preferably only one --obvious way to do it" (opposite philosophy)
+* TIMTOWTDI favors flexibility and expressiveness over enforced uniformity
+
+*When to Use*:
+
+* Choosing between multiple valid architectural or design approaches
+* Code reviews where different styles achieve the same goal
+* Team discussions about tooling, frameworks, or methodologies
+* LLM-assisted development: ask for alternatives rather than accepting the first suggestion
+* Avoiding premature standardization before understanding trade-offs
+* Resisting "one true way" dogma in technology choices
+* Architecture Decision Records (ADRs): documenting why one approach was chosen over other valid alternatives
+* KonsenT-based decisions: finding solutions with no objections rather than forcing one "right" way
+====
+
 [[statistical-methods-process-monitoring]]
 === Statistical Methods & Process Monitoring
 
