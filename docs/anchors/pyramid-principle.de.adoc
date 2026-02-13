@@ -8,25 +8,25 @@
 
 *Kernkonzepte*:
 
-* *Governing Thought*: Single key message at the top of the pyramid
-* *SCQ Framework*: Situation → Complication → Question → Answer structure for setting context
-* *MECE Principle*: Mutually Exclusive, Collectively Exhaustive grouping of ideas
-* *Vertical Logic*: Each level answers "Why?" of the level above it
-* *Horizontal Logic*: Arguments at the same level grouped deductively or inductively
-* *Top-Down Delivery*: Present conclusion first, then supporting arguments
-* *Pyramid Structure*: One central idea supported by groups of three supporting ideas
-* *BLUF*: Bottom Line Up Front - lead with the conclusion
-* *Deductive vs. Inductive Reasoning*: Choose appropriate logic for horizontal grouping
+* *Leitgedanke*: Einzelne Kernbotschaft an der Spitze der Pyramide
+* *SCQ-Framework*: Situation → Komplikation → Frage → Antwort-Struktur zur Kontextgebung
+* *MECE-Prinzip*: Sich gegenseitig ausschließende, gemeinsam erschöpfende Gruppierung von Ideen
+* *Vertikale Logik*: Jede Ebene beantwortet das "Warum?" der darüber liegenden Ebene
+* *Horizontale Logik*: Argumente auf derselben Ebene deduktiv oder induktiv gruppiert
+* *Top-Down-Präsentation*: Schlussfolgerung zuerst präsentieren, dann unterstützende Argumente
+* *Pyramidenstruktur*: Eine zentrale Idee, unterstützt durch Gruppen von drei unterstützenden Ideen
+* *BLUF*: Bottom Line Up Front - mit der Schlussfolgerung beginnen
+* *Deduktives vs. Induktives Denken*: Geeignete Logik für horizontale Gruppierung wählen
 
-*Schlüsselvertreter*: Barbara Minto (McKinsey, "The Minto Pyramid Principle", 1987)
+*Schlüsselvertreterin*: Barbara Minto (McKinsey, "The Minto Pyramid Principle", 1987)
 
 *Wann zu verwenden*:
 
-* Executive presentations and briefings
-* Written reports and proposals
-* Complex arguments requiring clear structure
-* Stakeholder communication where time is limited
-* Business cases and recommendations
-* Consulting deliverables
-* Any situation requiring persuasive, structured communication
+* Executive-Präsentationen und Briefings
+* Schriftliche Berichte und Vorschläge
+* Komplexe Argumente, die klare Struktur erfordern
+* Stakeholder-Kommunikation bei begrenzter Zeit
+* Business Cases und Empfehlungen
+* Consulting-Deliverables
+* Jede Situation, die überzeugende, strukturierte Kommunikation erfordert
 ====
