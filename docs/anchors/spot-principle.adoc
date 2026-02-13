@@ -1,5 +1,6 @@
 = SPOT (Single Point of Truth)
 :categories: uncategorized
+:roles: software-developer, software-architect
 
 [%collapsible]
 ====

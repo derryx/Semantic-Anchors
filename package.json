@@ -7,13 +7,15 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "extract-metadata": "node scripts/extract-metadata.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@asciidoctor/core": "^3.0.4",
     "js-yaml": "^4.1.1"
   }
 }

@@ -1,5 +1,6 @@
 = MECE Principle
 :categories: uncategorized
+:roles: business-analyst, consultant, software-architect, data-scientist
 
 [%collapsible]
 ====

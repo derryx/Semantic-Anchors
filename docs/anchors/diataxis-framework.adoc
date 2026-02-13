@@ -1,5 +1,6 @@
 = Diátaxis Framework
 :categories: uncategorized
+:roles: technical-writer, educator
 
 [%collapsible]
 ====

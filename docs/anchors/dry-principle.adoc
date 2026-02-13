@@ -1,5 +1,6 @@
 = DRY (Don't Repeat Yourself)
 :categories: uncategorized
+:roles: software-developer, software-architect
 
 [%collapsible]
 ====

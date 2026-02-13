@@ -1,0 +1,217 @@
+[
+  {
+    "id": "business-analyst",
+    "name": "Business Analyst / Requirements Engineer",
+    "anchors": [
+      "bluf",
+      "chain-of-thought",
+      "domain-driven-design",
+      "ears-requirements",
+      "impact-mapping",
+      "jobs-to-be-done",
+      "mece",
+      "problem-space-nvc",
+      "pyramid-principle",
+      "ssot-principle",
+      "user-story-mapping"
+    ]
+  },
+  {
+    "id": "consultant",
+    "name": "Consultant / Coach",
+    "anchors": [
+      "bluf",
+      "c4-diagrams",
+      "cynefin-framework",
+      "devils-advocate",
+      "feynman-technique",
+      "impact-mapping",
+      "mece",
+      "mental-model-according-to-naur",
+      "problem-space-nvc",
+      "pyramid-principle",
+      "socratic-method",
+      "solid-principles",
+      "sota",
+      "timtowtdi",
+      "wardley-mapping",
+      "what-qualifies-as-a-semantic-anchor"
+    ]
+  },
+  {
+    "id": "data-scientist",
+    "name": "Data Scientist / Statistician",
+    "anchors": [
+      "chain-of-thought",
+      "control-chart-shewhart",
+      "mece",
+      "nelson-rules",
+      "sota",
+      "spc",
+      "ssot-principle"
+    ]
+  },
+  {
+    "id": "devops-engineer",
+    "name": "DevOps Engineer",
+    "anchors": [
+      "control-chart-shewhart",
+      "conventional-commits",
+      "docs-as-code",
+      "five-whys",
+      "nelson-rules",
+      "semantic-versioning",
+      "spc",
+      "testing-pyramid"
+    ]
+  },
+  {
+    "id": "educator",
+    "name": "Educator / Trainer",
+    "anchors": [
+      "diataxis-framework",
+      "feynman-technique",
+      "mental-model-according-to-naur",
+      "socratic-method",
+      "solid-principles",
+      "timtowtdi",
+      "what-qualifies-as-a-semantic-anchor"
+    ]
+  },
+  {
+    "id": "product-owner",
+    "name": "Product Owner / Product Manager",
+    "anchors": [
+      "cynefin-framework",
+      "impact-mapping",
+      "jobs-to-be-done",
+      "problem-space-nvc",
+      "pugh-matrix",
+      "semantic-versioning",
+      "user-story-mapping",
+      "wardley-mapping"
+    ]
+  },
+  {
+    "id": "qa-engineer",
+    "name": "QA Engineer / Tester",
+    "anchors": [
+      "devils-advocate",
+      "ears-requirements",
+      "five-whys",
+      "mutation-testing",
+      "property-based-testing",
+      "rubber-duck-debugging",
+      "spc",
+      "tdd-chicago-school",
+      "tdd-london-school",
+      "testing-pyramid"
+    ]
+  },
+  {
+    "id": "software-architect",
+    "name": "Software Architect",
+    "anchors": [
+      "adr-according-to-nygard",
+      "arc42",
+      "c4-diagrams",
+      "clean-architecture",
+      "cynefin-framework",
+      "devils-advocate",
+      "domain-driven-design",
+      "dry-principle",
+      "hexagonal-architecture",
+      "madr",
+      "mece",
+      "pugh-matrix",
+      "solid-principles",
+      "spot-principle",
+      "ssot-principle",
+      "tdd-london-school",
+      "timtowtdi",
+      "wardley-mapping"
+    ]
+  },
+  {
+    "id": "software-developer",
+    "name": "Software Developer / Engineer",
+    "anchors": [
+      "adr-according-to-nygard",
+      "bem-methodology",
+      "chain-of-thought",
+      "clean-architecture",
+      "conventional-commits",
+      "docs-as-code",
+      "domain-driven-design",
+      "dry-principle",
+      "feynman-technique",
+      "five-whys",
+      "hexagonal-architecture",
+      "madr",
+      "mental-model-according-to-naur",
+      "mutation-testing",
+      "property-based-testing",
+      "rubber-duck-debugging",
+      "semantic-versioning",
+      "solid-principles",
+      "sota",
+      "spot-principle",
+      "tdd-chicago-school",
+      "tdd-london-school",
+      "testing-pyramid",
+      "timtowtdi",
+      "todotxt-flavoured-markdown"
+    ]
+  },
+  {
+    "id": "team-lead",
+    "name": "Team Lead / Engineering Manager",
+    "anchors": [
+      "adr-according-to-nygard",
+      "arc42",
+      "bluf",
+      "c4-diagrams",
+      "control-chart-shewhart",
+      "cynefin-framework",
+      "devils-advocate",
+      "domain-driven-design",
+      "feynman-technique",
+      "five-whys",
+      "impact-mapping",
+      "madr",
+      "mental-model-according-to-naur",
+      "pugh-matrix",
+      "pyramid-principle",
+      "socratic-method",
+      "spc",
+      "testing-pyramid",
+      "todotxt-flavoured-markdown",
+      "user-story-mapping",
+      "wardley-mapping"
+    ]
+  },
+  {
+    "id": "technical-writer",
+    "name": "Technical Writer / Documentation Specialist",
+    "anchors": [
+      "arc42",
+      "bluf",
+      "c4-diagrams",
+      "diataxis-framework",
+      "docs-as-code",
+      "ears-requirements",
+      "pyramid-principle",
+      "todotxt-flavoured-markdown"
+    ]
+  },
+  {
+    "id": "ux-designer",
+    "name": "UX Designer / Researcher",
+    "anchors": [
+      "bem-methodology",
+      "jobs-to-be-done",
+      "problem-space-nvc",
+      "user-story-mapping"
+    ]
+  }
+]

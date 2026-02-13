@@ -1,0 +1,784 @@
+[
+  {
+    "id": "adr-according-to-nygard",
+    "title": "ADR according to Nygard",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "software-developer",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/adr-according-to-nygard.adoc"
+  },
+  {
+    "id": "arc42",
+    "title": "arc42 Architecture Documentation",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "technical-writer",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [
+      "Gernot Starke",
+      "Peter Hruschka"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/arc42.adoc"
+  },
+  {
+    "id": "bem-methodology",
+    "title": "BEM Methodology",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "ux-designer"
+    ],
+    "related": [],
+    "proponents": [
+      "Yandex development team"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/bem-methodology.adoc"
+  },
+  {
+    "id": "bluf",
+    "title": "BLUF (Bottom Line Up Front)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "business-analyst",
+      "team-lead",
+      "technical-writer",
+      "consultant"
+    ],
+    "related": [],
+    "proponents": [
+      "US Military (Army writing standards)",
+      "adopted broadly in business and government"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/bluf.adoc"
+  },
+  {
+    "id": "c4-diagrams",
+    "title": "C4-Diagrams",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "technical-writer",
+      "team-lead",
+      "consultant"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/c4-diagrams.adoc"
+  },
+  {
+    "id": "chain-of-thought",
+    "title": "Chain of Thought (CoT)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "data-scientist",
+      "business-analyst"
+    ],
+    "related": [],
+    "proponents": [
+      "Wei et al. (Google Research",
+      "2022)",
+      "\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\""
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/chain-of-thought.adoc"
+  },
+  {
+    "id": "clean-architecture",
+    "title": "Clean Architecture",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "software-developer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/clean-architecture.adoc"
+  },
+  {
+    "id": "control-chart-shewhart",
+    "title": "Control Chart (Shewhart)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "data-scientist",
+      "devops-engineer",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/control-chart-shewhart.adoc"
+  },
+  {
+    "id": "conventional-commits",
+    "title": "Conventional Commits",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "devops-engineer"
+    ],
+    "related": [],
+    "proponents": [
+      "Benjamin E. Coe",
+      "James J. Womack",
+      "Steve Mao"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/conventional-commits.adoc"
+  },
+  {
+    "id": "cynefin-framework",
+    "title": "Cynefin Framework",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "team-lead",
+      "consultant",
+      "product-owner",
+      "software-architect"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/cynefin-framework.adoc"
+  },
+  {
+    "id": "devils-advocate",
+    "title": "Devil&#8217;s Advocate",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "team-lead",
+      "consultant",
+      "qa-engineer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/devils-advocate.adoc"
+  },
+  {
+    "id": "diataxis-framework",
+    "title": "Diátaxis Framework",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "technical-writer",
+      "educator"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/diataxis-framework.adoc"
+  },
+  {
+    "id": "docs-as-code",
+    "title": "Docs-as-Code according to Ralf D. Müller",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "technical-writer",
+      "software-developer",
+      "devops-engineer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/docs-as-code.adoc"
+  },
+  {
+    "id": "domain-driven-design",
+    "title": "Domain-Driven Design according to Evans",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "software-developer",
+      "business-analyst",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/domain-driven-design.adoc"
+  },
+  {
+    "id": "dry-principle",
+    "title": "DRY (Don&#8217;t Repeat Yourself)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "software-architect"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/dry-principle.adoc"
+  },
+  {
+    "id": "ears-requirements",
+    "title": "EARS-Requirements",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "business-analyst",
+      "qa-engineer",
+      "technical-writer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/ears-requirements.adoc"
+  },
+  {
+    "id": "feynman-technique",
+    "title": "Feynman Technique",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "educator",
+      "consultant",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/feynman-technique.adoc"
+  },
+  {
+    "id": "five-whys",
+    "title": "Five Whys (Ohno)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "qa-engineer",
+      "devops-engineer",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/five-whys.adoc"
+  },
+  {
+    "id": "hexagonal-architecture",
+    "title": "Hexagonal Architecture (Ports &amp; Adapters)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "software-developer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/hexagonal-architecture.adoc"
+  },
+  {
+    "id": "impact-mapping",
+    "title": "Impact Mapping",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "product-owner",
+      "business-analyst",
+      "team-lead",
+      "consultant"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/impact-mapping.adoc"
+  },
+  {
+    "id": "jobs-to-be-done",
+    "title": "Jobs To Be Done (JTBD)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "product-owner",
+      "ux-designer",
+      "business-analyst"
+    ],
+    "related": [],
+    "proponents": [
+      "Clayton Christensen",
+      "Alan Klement",
+      "Bob Moesta"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/jobs-to-be-done.adoc"
+  },
+  {
+    "id": "madr",
+    "title": "MADR",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "software-developer",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [
+      "Oliver Kopp",
+      "Olaf Zimmermann (and MADR community)"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/madr.adoc"
+  },
+  {
+    "id": "mece",
+    "title": "MECE Principle",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "business-analyst",
+      "consultant",
+      "software-architect",
+      "data-scientist"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/mece.adoc"
+  },
+  {
+    "id": "mental-model-according-to-naur",
+    "title": "Mental Model according to Naur",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "team-lead",
+      "educator",
+      "consultant"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/mental-model-according-to-naur.adoc"
+  },
+  {
+    "id": "mutation-testing",
+    "title": "Mutation Testing",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "qa-engineer"
+    ],
+    "related": [],
+    "proponents": [
+      "Richard Lipton (theoretical foundation",
+      "1971)",
+      "Richard DeMillo",
+      "Timothy Budd"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/mutation-testing.adoc"
+  },
+  {
+    "id": "nelson-rules",
+    "title": "Nelson Rules",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "data-scientist",
+      "devops-engineer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/nelson-rules.adoc"
+  },
+  {
+    "id": "problem-space-nvc",
+    "title": "Problem Space NVC",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "business-analyst",
+      "product-owner",
+      "consultant",
+      "ux-designer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/problem-space-nvc.adoc"
+  },
+  {
+    "id": "property-based-testing",
+    "title": "Property-Based Testing",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "qa-engineer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/property-based-testing.adoc"
+  },
+  {
+    "id": "pugh-matrix",
+    "title": "Pugh-Matrix",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "team-lead",
+      "product-owner"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/pugh-matrix.adoc"
+  },
+  {
+    "id": "pyramid-principle",
+    "title": "Pyramid Principle according to Barbara Minto",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "business-analyst",
+      "consultant",
+      "team-lead",
+      "technical-writer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/pyramid-principle.adoc"
+  },
+  {
+    "id": "rubber-duck-debugging",
+    "title": "Rubber Duck Debugging",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "qa-engineer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/rubber-duck-debugging.adoc"
+  },
+  {
+    "id": "semantic-versioning",
+    "title": "Semantic Versioning (SemVer)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "devops-engineer",
+      "product-owner"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/semantic-versioning.adoc"
+  },
+  {
+    "id": "socratic-method",
+    "title": "Socratic Method",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "educator",
+      "consultant",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/socratic-method.adoc"
+  },
+  {
+    "id": "solid-principles",
+    "title": "SOLID Principles",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "software-architect",
+      "educator",
+      "consultant"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/solid-principles.adoc"
+  },
+  {
+    "id": "sota",
+    "title": "SOTA (State-of-the-Art)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "data-scientist",
+      "consultant"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/sota.adoc"
+  },
+  {
+    "id": "spc",
+    "title": "SPC (Statistical Process Control)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "data-scientist",
+      "devops-engineer",
+      "team-lead",
+      "qa-engineer"
+    ],
+    "related": [],
+    "proponents": [
+      "Walter A. Shewhart (founder)",
+      "W. Edwards Deming (dissemination)",
+      "Western Electric Company"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/spc.adoc"
+  },
+  {
+    "id": "spot-principle",
+    "title": "SPOT (Single Point of Truth)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "software-architect"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/spot-principle.adoc"
+  },
+  {
+    "id": "ssot-principle",
+    "title": "SSOT (Single Source of Truth)",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-architect",
+      "data-scientist",
+      "business-analyst"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/ssot-principle.adoc"
+  },
+  {
+    "id": "tdd-chicago-school",
+    "title": "TDD, Chicago School",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "qa-engineer"
+    ],
+    "related": [],
+    "proponents": [
+      "Kent Beck",
+      "Martin Fowler"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/tdd-chicago-school.adoc"
+  },
+  {
+    "id": "tdd-london-school",
+    "title": "TDD, London School",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "qa-engineer",
+      "software-architect"
+    ],
+    "related": [],
+    "proponents": [
+      "Steve Freeman",
+      "Nat Pryce (\"Growing Object-Oriented Software",
+      "Guided by Tests\")"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/tdd-london-school.adoc"
+  },
+  {
+    "id": "testing-pyramid",
+    "title": "Testing Pyramid",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "qa-engineer",
+      "team-lead",
+      "devops-engineer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/testing-pyramid.adoc"
+  },
+  {
+    "id": "timtowtdi",
+    "title": "TIMTOWTDI",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "software-architect",
+      "consultant",
+      "educator"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/timtowtdi.adoc"
+  },
+  {
+    "id": "todotxt-flavoured-markdown",
+    "title": "todo.txt-flavoured Markdown",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "software-developer",
+      "team-lead",
+      "technical-writer"
+    ],
+    "related": [],
+    "proponents": [
+      "Combines GitHub-flavoured Markdown task lists with Gina Trapani's todo.txt format"
+    ],
+    "tags": [],
+    "filePath": "docs/anchors/todotxt-flavoured-markdown.adoc"
+  },
+  {
+    "id": "user-story-mapping",
+    "title": "User Story Mapping",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "product-owner",
+      "business-analyst",
+      "team-lead",
+      "ux-designer"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/user-story-mapping.adoc"
+  },
+  {
+    "id": "wardley-mapping",
+    "title": "Wardley Mapping",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "product-owner",
+      "software-architect",
+      "consultant",
+      "team-lead"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/wardley-mapping.adoc"
+  },
+  {
+    "id": "what-qualifies-as-a-semantic-anchor",
+    "title": "The Spectrum of Semantic Anchors",
+    "categories": [
+      "uncategorized"
+    ],
+    "roles": [
+      "educator",
+      "consultant"
+    ],
+    "related": [],
+    "proponents": [],
+    "tags": [],
+    "filePath": "docs/anchors/what-qualifies-as-a-semantic-anchor.adoc"
+  }
+]

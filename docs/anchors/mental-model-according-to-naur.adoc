@@ -1,5 +1,6 @@
 = Mental Model according to Naur
 :categories: uncategorized
+:roles: software-developer, team-lead, educator, consultant
 
 [%collapsible]
 ====

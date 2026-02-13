@@ -1,5 +1,6 @@
 = ADR according to Nygard
 :categories: uncategorized
+:roles: software-architect, software-developer, team-lead
 
 [%collapsible]
 ====

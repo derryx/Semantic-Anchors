@@ -1,5 +1,6 @@
 = SSOT (Single Source of Truth)
 :categories: uncategorized
+:roles: software-architect, data-scientist, business-analyst
 
 [%collapsible]
 ====

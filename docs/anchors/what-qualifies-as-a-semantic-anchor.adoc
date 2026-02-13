@@ -1,5 +1,6 @@
 = The Spectrum of Semantic Anchors
 :categories: uncategorized
+:roles: educator, consultant
 
 === What Qualifies as a Semantic Anchor
 
