@@ -1,0 +1,218 @@
+= About Semantic Anchors
+:toc:
+:toc-placement: preamble
+
+== What are Semantic Anchors?
+
+*Semantic anchors* are well-defined terms, methodologies, and frameworks that serve as reference points when communicating with Large Language Models (LLMs). They act as shared vocabulary that triggers specific, contextually rich knowledge domains within an LLM's training data.
+
+Think of them as *shortcuts to rich context* - instead of explaining a complex methodology from scratch, you can invoke a semantic anchor and the LLM will activate its entire knowledge base about that concept.
+
+=== Example
+
+Instead of saying:
+[quote]
+____
+"Write tests before writing code, use mocks to isolate dependencies, and design from the outside in."
+____
+
+You can say:
+[quote]
+____
+"Use *TDD, London School* approach."
+____
+
+The LLM understands this activates:
+
+* Mock-heavy testing methodology
+* Outside-in development approach
+* Interaction-based verification
+* The teachings of Steve Freeman and Nat Pryce
+* Designing through collaboration tests first
+
+== Why Use Semantic Anchors?
+
+=== 🎯 Precision
+Semantic anchors provide *unambiguous communication*. When you reference "SOLID Principles," both you and the LLM understand exactly which five principles you mean.
+
+=== 🧠 Depth
+A single semantic anchor can activate *dozens of related concepts*. "Domain-Driven Design" brings in bounded contexts, ubiquitous language, aggregates, value objects, and much more.
+
+=== ⚡ Efficiency
+Instead of writing lengthy explanations, you can *reference established methodologies* that the LLM already knows deeply.
+
+=== 🔄 Consistency
+Different people using the same semantic anchor will get *similar, predictable results* from the LLM, because the anchor refers to well-documented concepts.
+
+== Quality Criteria
+
+Not every term makes a good semantic anchor. We maintain high quality standards:
+
+=== Precise
+References a *specific, established body of knowledge* with clear boundaries.
+
+✅ "Hexagonal Architecture" (specific architectural pattern)
+
+❌ "Good architecture" (vague, subjective)
+
+=== Rich
+Activates *multiple interconnected concepts*, not just a single instruction.
+
+✅ "Behavior-Driven Development" (scenarios, Gherkin, living documentation, outside-in)
+
+❌ "Write tests" (single instruction, no depth)
+
+=== Consistent
+Different users invoking it get *similar conceptual activation*.
+
+✅ "Test-Driven Development" (widely documented, consistent understanding)
+
+❌ "Modern testing" (different interpretations)
+
+=== Attributable
+Can be *traced to key proponents, publications, or documented standards*.
+
+✅ "arc42" (Gernot Starke, Peter Hruschka)
+
+❌ "Best practices" (no specific source)
+
+== How to Use This Catalog
+
+=== Browse by Category
+
+The catalog is organized into 12 categories:
+
+* Communication & Presentation
+* Design Principles & Patterns
+* Development Workflow
+* Dialogue & Interaction Patterns
+* Documentation Practices
+* Meta (about this catalog itself)
+* Problem-Solving Methodologies
+* Requirements Engineering
+* Software Architecture
+* Statistical Methods & Process Monitoring
+* Strategic Planning & Decision Making
+* Testing & Quality Practices
+
+=== Filter by Role
+
+Select your professional role to see anchors most relevant to you:
+
+* Software Developer / Engineer
+* Software Architect
+* QA Engineer / Tester
+* DevOps Engineer
+* Product Owner / Product Manager
+* Business Analyst / Requirements Engineer
+* Technical Writer / Documentation Specialist
+* UX Designer / Researcher
+* Data Scientist / Statistician
+* Consultant / Coach
+* Team Lead / Engineering Manager
+* Educator / Trainer
+
+=== Search
+
+Use the full-text search to find anchors by:
+
+* Title (highest priority)
+* Proponents and key people
+* Tags and keywords
+* Content and descriptions
+
+== Using Semantic Anchors with LLMs
+
+=== In Prompts
+
+Reference semantic anchors directly in your prompts:
+
+[source]
+----
+"Refactor this code following SOLID Principles."
+
+"Design this API using RESTful constraints as defined by Roy Fielding."
+
+"Write these scenarios in Gherkin format per Behavior-Driven Development."
+----
+
+=== In Context Setup
+
+Set up your LLM conversation with semantic anchors:
+
+[source]
+----
+I'm working on a project where we follow:
+- Test-Driven Development (TDD, Chicago School)
+- Hexagonal Architecture
+- Domain-Driven Design
+- SOLID Principles
+
+Please keep these in mind when suggesting code changes.
+----
+
+=== In Code Reviews
+
+Ask the LLM to review code against specific methodologies:
+
+[source]
+----
+Review this code for violations of:
+- Single Responsibility Principle
+- Dependency Inversion Principle
+- Law of Demeter
+----
+
+=== Testing Recognition
+
+Before relying on a semantic anchor, test if the LLM recognizes it:
+
+[source]
+----
+What concepts do you associate with 'MECE'?
+----
+
+If the LLM provides accurate, detailed information, it's safe to use that anchor.
+
+== Contributing
+
+We welcome proposals for new semantic anchors! See our link:../CONTRIBUTING.adoc[Contributing Guide] for details on:
+
+* How to propose a new anchor
+* Quality criteria and testing methodology
+* Automated validation with GitHub Copilot
+* The review and publication process
+
+Click link:https://github.com/LLM-Coding/Semantic-Anchors/issues/new?template=propose-anchor.yml[Propose New Anchor] to get started!
+
+== About This Project
+
+*Semantic Anchors* is an open-source catalog maintained by the LLM Coding community. The project aims to:
+
+* Document effective communication patterns with LLMs
+* Establish shared vocabulary for AI-assisted development
+* Provide a curated, quality-controlled reference
+* Enable more precise and efficient human-AI collaboration
+
+=== Technology
+
+* *Website*: Vite + Vanilla JavaScript
+* *Styling*: Tailwind CSS
+* *Content*: AsciiDoc
+* *Visualization*: Card Grid with category organization
+* *Hosting*: GitHub Pages
+* *Automation*: GitHub Actions + Copilot
+
+=== License
+
+This project is open source. See the link:https://github.com/LLM-Coding/Semantic-Anchors/blob/main/LICENSE[LICENSE] file for details.
+
+=== Source Code
+
+View the source, report issues, or contribute:
+
+https://github.com/LLM-Coding/Semantic-Anchors
+
+---
+
+Ready to explore? link:#/[Browse the catalog →]

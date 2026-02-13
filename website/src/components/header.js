@@ -6,10 +6,15 @@ export function renderHeader() {
   return `
     <header class="border-b border-[var(--color-border)] bg-[var(--color-bg)] transition-colors duration-300">
       <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        <div class="flex items-center gap-2">
+        <div class="flex items-center gap-6">
           <h1 class="text-xl font-bold text-[var(--color-text)]">
-            <a href="/" class="no-underline text-inherit" data-i18n="app.title">Semantic Anchors</a>
+            <a href="#/" class="no-underline text-inherit hover:text-[var(--color-primary)] transition-colors" data-i18n="app.title">Semantic Anchors</a>
           </h1>
+          <div class="hidden sm:flex items-center gap-4 text-sm">
+            <a href="#/" class="nav-link text-[var(--color-text-secondary)] hover:text-[var(--color-text)] transition-colors" data-route="/">Catalog</a>
+            <a href="#/about" class="nav-link text-[var(--color-text-secondary)] hover:text-[var(--color-text)] transition-colors" data-route="/about">About</a>
+            <a href="#/contributing" class="nav-link text-[var(--color-text-secondary)] hover:text-[var(--color-text)] transition-colors" data-route="/contributing">Contributing</a>
+          </div>
         </div>
         <div class="flex items-center gap-3">
           <button
