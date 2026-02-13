@@ -9,18 +9,18 @@
 
 *Kernkonzepte*:
 
-* *Mock-heavy testing*: Heavy use of test doubles (mocks, stubs) to isolate units
-* *Outside-in development*: Start from the outermost layers (UI, API) and work inward
-* *Interaction-based testing*: Focus on verifying interactions between objects
-* *Behavior verification*: Test how objects collaborate rather than state
-* *Interface discovery*: Use tests to discover and define interfaces
-* *Walking skeleton*: Build end-to-end functionality early, then fill in details
+* *Mock-heavy Testing*: Intensive Nutzung von Test Doubles (Mocks, Stubs) zur Isolation von Units
+* *Outside-In-Entwicklung*: Beginnen von den äußersten Schichten (UI, API) und nach innen arbeiten
+* *Interaktionsbasiertes Testen*: Fokus auf Verifikation von Interaktionen zwischen Objekten
+* *Verhaltensverifikation*: Testen, wie Objekte zusammenarbeiten, statt Zustand
+* *Interface Discovery*: Tests nutzen, um Interfaces zu entdecken und zu definieren
+* *Walking Skeleton*: End-to-End-Funktionalität früh aufbauen, dann Details ausfüllen
 
 *Schlüsselvertreter*: Steve Freeman, Nat Pryce ("Growing Object-Oriented Software, Guided by Tests")
 
 *Wann zu verwenden*:
 
-* Complex systems with many collaborating objects
-* When designing APIs and interfaces
-* Distributed systems where integration is costly
+* Komplexe Systeme mit vielen kollaborierenden Objekten
+* Beim Design von APIs und Schnittstellen
+* Verteilte Systeme, wo Integration kostspielig ist
 ====

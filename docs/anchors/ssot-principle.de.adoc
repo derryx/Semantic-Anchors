@@ -8,33 +8,33 @@
 
 *Kernkonzepte*:
 
-* *Conceptual principle*: Focuses on establishing trust and authority for data
-* *Authoritative source*: One canonical, trusted location for each piece of data
-* *Data integrity*: All consumers reference the same trusted source
-* *Version control*: Single source ensures consistent versioning
-* *Derived data*: Other representations are derived from the single source
-* *Trust and reliability*: The source is the definitive version when conflicts arise
-* *System of record*: The primary data store for critical business information
-* *Organizational practice*: Applied at the architecture and business process level
+* *Konzeptionelles Prinzip*: Fokussiert auf die Etablierung von Vertrauen und Autorität für Daten
+* *Autoritative Quelle*: Eine kanonische, vertrauenswürdige Stelle für jedes Datenstück
+* *Datenintegrität*: Alle Konsumenten referenzieren dieselbe vertrauenswürdige Quelle
+* *Versionskontrolle*: Einzelne Quelle stellt konsistente Versionierung sicher
+* *Abgeleitete Daten*: Andere Repräsentationen werden von der einzelnen Quelle abgeleitet
+* *Vertrauen und Zuverlässigkeit*: Die Quelle ist die definitive Version bei Konflikten
+* *System of Record*: Der primäre Datenspeicher für kritische Geschäftsinformationen
+* *Organisationspraxis*: Angewendet auf Architektur- und Geschäftsprozessebene
 
-*Key Application Areas*:
+*Hauptanwendungsbereiche*:
 
-* Version control systems (Git as SSOT for code)
-* Database design and data warehousing
-* Documentation and knowledge management
-* Configuration management
-* Master data management (MDM)
+* Versionskontrollsysteme (Git als SSOT für Code)
+* Datenbankdesign und Data Warehousing
+* Dokumentation und Wissensmanagement
+* Konfigurationsmanagement
+* Master Data Management (MDM)
 
 *Wann zu verwenden*:
 
-* Designing data architecture for enterprise systems
-* Establishing documentation standards and knowledge bases
-* Building data pipelines and ETL processes
-* Implementing microservices with clear data ownership
-* Creating audit trails and ensuring compliance
-* Resolving conflicts between multiple data sources
+* Entwurf von Datenarchitekturen für Unternehmenssysteme
+* Etablierung von Dokumentationsstandards und Wissensbasen
+* Aufbau von Datenpipelines und ETL-Prozessen
+* Implementierung von Microservices mit klarer Datenverantwortlichkeit
+* Erstellung von Audit-Trails und Sicherstellung von Compliance
+* Auflösung von Konflikten zwischen mehreren Datenquellen
 
-*Difference from SPOT*: SSOT emphasizes the authoritative, trusted nature of a data source and is used at the architecture/organizational level, while SPOT focuses on the implementation pattern
+*Unterschied zu SPOT*: SSOT betont die autoritative, vertrauenswürdige Natur einer Datenquelle und wird auf Architektur-/Organisationsebene verwendet, während SPOT sich auf das Implementierungsmuster fokussiert
 
-*Verwandte Konzepte*: DRY, SPOT, Event sourcing, Data lakes, Master data management
+*Verwandte Konzepte*: DRY, SPOT, Event Sourcing, Data Lakes, Master Data Management
 ====
