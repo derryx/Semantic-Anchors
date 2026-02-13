@@ -20,6 +20,24 @@ const CATEGORY_COLORS = {
 }
 
 /**
+ * Category icons for better recognition
+ */
+const CATEGORY_ICONS = {
+  'communication-presentation': '💬',
+  'design-principles': '🎯',
+  'development-workflow': '⚙️',
+  'dialogue-interaction': '🤝',
+  'documentation': '📚',
+  'meta': '🔍',
+  'problem-solving': '💡',
+  'requirements-engineering': '📋',
+  'software-architecture': '🏗️',
+  'statistical-methods': '📊',
+  'strategic-planning': '🎯',
+  'testing-quality': '🧪'
+}
+
+/**
  * Render the complete card grid
  */
 export function renderCardGrid(categories, anchors) {
@@ -43,11 +61,12 @@ function renderCategorySection(category, allAnchors) {
   if (categoryAnchors.length === 0) return ''
 
   const color = CATEGORY_COLORS[category.id] || '#5470c6'
+  const icon = CATEGORY_ICONS[category.id] || '📌'
 
   return `
     <section class="category-section" data-category="${category.id}">
       <h2 class="category-heading">
-        <span class="category-icon" style="background-color: ${color}"></span>
+        <span class="category-icon" style="background-color: ${color}">${icon}</span>
         <span data-i18n="categories.${category.id}">${category.name}</span>
       </h2>
 

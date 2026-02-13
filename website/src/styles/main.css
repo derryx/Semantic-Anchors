@@ -59,8 +59,10 @@ body {
 }
 
 .category-icon {
-  @apply w-8 h-8 rounded-lg flex-shrink-0;
+  @apply w-10 h-10 rounded-lg flex-shrink-0;
   @apply shadow-md;
+  @apply flex items-center justify-center;
+  @apply text-2xl;
 }
 
 .anchor-cards-grid {
