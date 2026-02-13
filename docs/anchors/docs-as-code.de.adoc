@@ -1,0 +1,37 @@
+= Docs-as-Code according to Ralf D. Müller
+:categories: documentation
+:roles: technical-writer, software-developer, devops-engineer
+
+[%collapsible]
+====
+*Vollständiger Name*: Docs-as-Code-Ansatz nach Ralf D. Müller
+
+*Kernkonzepte*:
+
+* *Plain-Text-Formate*: AsciiDoc, Markdown
+* *Versionskontrolle*: Dokumentation in Git zusammen mit Code
+* *Automatisierte Toolchains*: Build-Pipelines für Dokumentation
+* *Single Source of Truth*: Mehrere Ausgabeformate aus einer Quelle generieren
+* *Diagramme als Code*: PlantUML, Mermaid, Graphviz, Kroki
+* *Kontinuierliche Dokumentation*: Mit jedem Commit aktualisiert
+* *Entwicklerfreundlich*: Dieselben Tools und Workflows wie für Code verwenden
+* *Review-Prozess*: Pull Requests für Dokumentationsänderungen
+* *Modulare Dokumentation*: Includes und Komposition
+
+*Schlüsselvertreter*: Ralf D. Müller (docToolchain-Ersteller)
+
+*Technischer Stack*:
+
+* AsciiDoc/Asciidoctor
+* docToolchain
+* Gradle-basierte Automatisierung
+* Kroki für Diagramm-Rendering
+* Arc42-Template-Integration
+
+*Wann zu verwenden*:
+
+* Technische Dokumentation für Softwareprojekte
+* Wenn Dokumentation mit Code synchron bleiben muss
+* Verteilte Teams, die an Dokumentation zusammenarbeiten
+* Projekte, die mehrere Ausgabeformate erfordern (HTML, PDF, etc.)
+====

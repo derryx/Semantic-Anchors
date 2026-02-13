@@ -1,0 +1,29 @@
+= User Story Mapping
+:categories: requirements-engineering
+:roles: product-owner, business-analyst, team-lead, ux-designer
+
+[%collapsible]
+====
+*Vollständiger Name*: User Story Mapping according to Jeff Patton
+
+*Kernkonzepte*:
+
+* *Narrative flow*: Horizontal arrangement of user activities
+* *User activities*: High-level tasks users perform
+* *User tasks*: Steps within activities
+* *Walking skeleton*: Minimal end-to-end functionality first
+* *Release planning*: Horizontal slices for releases
+* *Prioritization by value*: Vertical ordering by importance
+* *Shared understanding*: Collaborative mapping builds team alignment
+* *Big picture view*: See the whole journey, not just backlog items
+* *Opportunity for conversation*: Stories as placeholders for discussion
+
+*Schlüsselvertreter*: Jeff Patton ("User Story Mapping", 2014)
+
+*Wann zu verwenden*:
+
+* Planning new products or major features
+* When backlog feels overwhelming or fragmented
+* Release planning for incremental delivery
+* Onboarding team members to product vision
+====

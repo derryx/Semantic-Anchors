@@ -1,4 +1,5 @@
 import Asciidoctor from '@asciidoctor/core'
+import { i18n } from '../i18n.js'
 
 const asciidoctor = Asciidoctor()
 
@@ -31,7 +32,27 @@ export async function loadDocContent(docPath) {
   if (!contentEl) return
 
   try {
-    const response = await fetch(`${import.meta.env.BASE_URL}${docPath}`)
+    // Try language-specific file first (e.g., about.de.adoc for German)
+    const currentLang = i18n.currentLang()
+    let finalPath = docPath
+    let response
+
+    if (currentLang !== 'en') {
+      // Insert language suffix before .adoc extension
+      const langPath = docPath.replace(/\.adoc$/, `.${currentLang}.adoc`)
+      response = await fetch(`${import.meta.env.BASE_URL}${langPath}`)
+
+      // If language-specific file not found, fallback to English
+      if (!response.ok) {
+        response = await fetch(`${import.meta.env.BASE_URL}${docPath}`)
+        finalPath = docPath
+      } else {
+        finalPath = langPath
+      }
+    } else {
+      response = await fetch(`${import.meta.env.BASE_URL}${docPath}`)
+    }
+
     if (!response.ok) {
       throw new Error(`Failed to load: ${response.status}`)
     }

@@ -1,0 +1,40 @@
+= BEM Methodology
+:categories: development-workflow
+:roles: software-developer, ux-designer
+:proponents: Yandex Entwicklungsteam
+
+[%collapsible]
+====
+*Vollständiger Name*: Block Element Modifier (BEM) (S)CSS-Methodologie
+
+*Kernkonzepte*:
+
+* *Motivation*: CSS-Spezifitätskriege, Namenskonflikte und Stylesheet-Wartbarkeitsprobleme in großen Codebasen lösen
+* *Block*: Eigenständige Komponente, die für sich allein sinnvoll ist (z.B. `menu`, `button`, `header`)
+* *Element*: Teil eines Blocks ohne eigenständige Bedeutung (z.B. `menu__item`, `button__icon`)
+* *Modifier*: Kennzeichen auf Blöcken oder Elementen, das Aussehen oder Verhalten ändert (z.B. `button--disabled`, `menu__item--active`)
+* *Namenskonvention*: `block__element--modifier` Struktur
+* *Unabhängigkeit*: Blöcke sind eigenständig und wiederverwendbar
+* *Kein Cascading*: Tiefe CSS-Selektoren vermeiden, flache Struktur verwenden
+* *Explizite Beziehungen*: Klare Eltern-Kind-Beziehungen durch Benennung
+* *Wiederverwendbarkeit*: Komponenten können überall im Projekt verschoben werden
+* *Mix*: Kombination mehrerer BEM-Entitäten auf einem einzigen DOM-Knoten
+* *Dateistruktur*: Oft gepaart mit komponentenbasierter Dateiorganisation
+
+*Benennungsbeispiele*:
+
+* Block: `.search-form`
+* Element: `.search-form__input`, `.search-form__button`
+* Modifier: `.search-form--compact`, `.search-form__button--disabled`
+
+*Schlüsselvertreter*: Yandex Entwicklungsteam
+
+*Wann zu verwenden*:
+
+* Großangelegte Webanwendungen mit vielen Komponenten
+* Teamprojekte, die konsistente (S)CSS-Namenskonventionen erfordern
+* Wenn (S)CSS-Wartbarkeit und Skalierbarkeit Prioritäten sind
+* Projekte, bei denen Entwickler die (S)CSS-Struktur schnell verstehen müssen
+* Komponentenbasierte Architekturen (React, Vue, Angular)
+
+====

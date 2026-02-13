@@ -1,0 +1,29 @@
+= Wardley Mapping
+:categories: strategic-planning
+:roles: product-owner, software-architect, consultant, team-lead
+
+[%collapsible]
+====
+*Kernkonzepte*:
+
+* *Value chain*: Map components from user needs down
+* *Evolution axis*: Genesis → Custom → Product → Commodity
+* *Movement*: Components naturally evolve over time
+* *Situational awareness*: Understanding the landscape before deciding
+* *Gameplay patterns*: Common strategic moves
+* *Climatic patterns*: Forces that affect all players
+* *Doctrine*: Universal principles of good strategy
+* *Inertia*: Resistance to change in organizations
+* *Strategic planning*: Visual approach to strategy
+* *Build-Buy-Partner decisions*: Based on evolution stage
+
+*Schlüsselvertreter*: Simon Wardley
+
+*Wann zu verwenden*:
+
+* Strategic technology planning
+* Build vs. buy decisions
+* Understanding competitive landscape
+* Communicating strategy visually
+* Identifying opportunities for disruption
+====

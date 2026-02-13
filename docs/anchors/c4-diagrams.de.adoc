@@ -1,0 +1,29 @@
+= C4-Diagrams
+:categories: software-architecture
+:roles: software-architect, technical-writer, team-lead, consultant
+
+[%collapsible]
+====
+*Vollständiger Name*: C4-Modell für Software-Architektur-Diagramme
+
+*Kernkonzepte*:
+
+* *Vier Abstraktionsebenen*:
+** *Ebene 1 - Kontext*: System in seiner Umgebung (Benutzer, externe Systeme)
+** *Ebene 2 - Container*: Anwendungen und Datenspeicher, die das System bilden
+** *Ebene 3 - Komponente*: Komponenten innerhalb von Containern
+** *Ebene 4 - Code*: Klassendiagramme, Entity-Beziehungen (optional)
+* *Hinein-/Herauszoomen*: Progressive Detailoffenlegung
+* *Einfache Notation*: Kästen und Pfeile, minimaler Notationsaufwand
+* *Publikumsgerecht*: Verschiedene Diagramme für verschiedene Stakeholder
+* *Ergänzende Diagramme*: Deployment, dynamische Ansichten, etc.
+
+*Schlüsselvertreter*: Simon Brown
+
+*Wann zu verwenden*:
+
+* Architekturkommunikation an verschiedene Stakeholder
+* Onboarding neuer Teammitglieder
+* Architekturdokumentation und -review
+* Ersetzen oder Ergänzen von UML
+====

@@ -1,0 +1,29 @@
+= Hexagonal Architecture (Ports & Adapters)
+:categories: software-architecture
+:roles: software-architect, software-developer
+
+[%collapsible]
+====
+*Auch bekannt als*: Ports and Adapters, Onion Architecture (Variante)
+
+*Kernkonzepte*:
+
+* *Hexagonale Struktur*: Kerndomäne im Zentrum, isoliert von externen Belangen
+* *Ports*: Schnittstellen, die definieren, wie die Anwendung kommuniziert
+* *Adapter*: Implementierungen, die mit externen Systemen verbinden
+* *Dependency Inversion*: Abhängigkeiten zeigen nach innen zur Domäne
+* *Technologieunabhängigkeit*: Kernlogik hängt nicht von Frameworks oder Infrastruktur ab
+* *Primäre/Treibende Adapter*: Benutzeroberflächen, APIs (eingehend)
+* *Sekundäre/Getriebene Adapter*: Datenbanken, Message Queues (ausgehend)
+* *Testbarkeit*: Einfaches Testen der Kernlogik isoliert
+* *Symmetrie*: Alle externen Interaktionen werden einheitlich behandelt
+
+*Schlüsselvertreter*: Alistair Cockburn (2005)
+
+*Wann zu verwenden*:
+
+* Anwendungen, die hohe Testbarkeit erfordern
+* Systeme, die mehrere Schnittstellen unterstützen müssen (Web, CLI, API)
+* Wenn Sie Infrastrukturentscheidungen aufschieben möchten
+* Microservices mit klaren Domänengrenzen
+====

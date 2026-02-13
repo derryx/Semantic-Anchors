@@ -1,0 +1,218 @@
+= Über Semantic Anchors
+:toc:
+:toc-placement: preamble
+
+== Was sind Semantic Anchors?
+
+*Semantic Anchors* (semantische Anker) sind klar definierte Begriffe, Methodologien und Frameworks, die als Referenzpunkte bei der Kommunikation mit Large Language Models (LLMs) dienen. Sie fungieren als gemeinsames Vokabular, das spezifische, kontextreiche Wissensbereiche im Trainingsdatensatz eines LLMs aktiviert.
+
+Stellen Sie sich diese als *Abkürzungen zu reichhaltigem Kontext* vor – anstatt eine komplexe Methodologie von Grund auf zu erklären, können Sie einen semantischen Anker verwenden und das LLM wird seine gesamte Wissensbasis über dieses Konzept aktivieren.
+
+=== Beispiel
+
+Anstatt zu sagen:
+[quote]
+____
+"Schreibe Tests vor dem Code, verwende Mocks zur Isolierung von Abhängigkeiten und entwerfe von außen nach innen."
+____
+
+Können Sie sagen:
+[quote]
+____
+"Verwende den *TDD, London School* Ansatz."
+____
+
+Das LLM versteht, dass dies folgendes aktiviert:
+
+* Mock-intensive Testmethodologie
+* Outside-in Entwicklungsansatz
+* Interaktionsbasierte Verifikation
+* Die Lehren von Steve Freeman und Nat Pryce
+* Entwurf durch Kollaborationstests zuerst
+
+== Warum Semantic Anchors verwenden?
+
+=== 🎯 Präzision
+Semantic Anchors ermöglichen *eindeutige Kommunikation*. Wenn Sie "SOLID Principles" referenzieren, verstehen sowohl Sie als auch das LLM exakt, welche fünf Prinzipien gemeint sind.
+
+=== 🧠 Tiefe
+Ein einzelner semantischer Anker kann *Dutzende miteinander verbundener Konzepte* aktivieren. "Domain-Driven Design" bringt Bounded Contexts, Ubiquitous Language, Aggregates, Value Objects und vieles mehr mit sich.
+
+=== ⚡ Effizienz
+Anstatt lange Erklärungen zu schreiben, können Sie *etablierte Methodologien referenzieren*, die das LLM bereits umfassend kennt.
+
+=== 🔄 Konsistenz
+Verschiedene Personen, die denselben semantischen Anker verwenden, erhalten *ähnliche, vorhersagbare Ergebnisse* vom LLM, weil der Anker auf gut dokumentierte Konzepte verweist.
+
+== Qualitätskriterien
+
+Nicht jeder Begriff eignet sich als semantischer Anker. Wir pflegen hohe Qualitätsstandards:
+
+=== Präzise
+Referenziert einen *spezifischen, etablierten Wissensbereich* mit klaren Grenzen.
+
+✅ "Hexagonal Architecture" (spezifisches Architekturmuster)
+
+❌ "Gute Architektur" (vage, subjektiv)
+
+=== Reichhaltig
+Aktiviert *mehrere miteinander verbundene Konzepte*, nicht nur eine einzelne Anweisung.
+
+✅ "Behavior-Driven Development" (Szenarien, Gherkin, Living Documentation, Outside-in)
+
+❌ "Tests schreiben" (einzelne Anweisung, keine Tiefe)
+
+=== Konsistent
+Verschiedene Benutzer erhalten *ähnliche konzeptionelle Aktivierung*.
+
+✅ "Test-Driven Development" (weithin dokumentiert, konsistentes Verständnis)
+
+❌ "Modernes Testen" (verschiedene Interpretationen)
+
+=== Zuordenbar
+Kann *zu Schlüsselvertretern, Publikationen oder dokumentierten Standards zurückverfolgt* werden.
+
+✅ "arc42" (Gernot Starke, Peter Hruschka)
+
+❌ "Best Practices" (keine spezifische Quelle)
+
+== Wie man diesen Katalog verwendet
+
+=== Nach Kategorie browsen
+
+Der Katalog ist in 12 Kategorien organisiert:
+
+* Kommunikation & Präsentation
+* Design-Prinzipien & Muster
+* Entwicklungs-Workflow
+* Dialog & Interaktionsmuster
+* Dokumentationspraktiken
+* Meta (über diesen Katalog selbst)
+* Problemlösungsmethoden
+* Requirements Engineering
+* Software-Architektur
+* Statistische Methoden & Prozessüberwachung
+* Strategische Planung & Entscheidungsfindung
+* Testing & Qualitätssicherung
+
+=== Nach Rolle filtern
+
+Wählen Sie Ihre berufliche Rolle aus, um die für Sie relevantesten Anker zu sehen:
+
+* Software-Entwickler / Engineer
+* Software-Architekt
+* QA Engineer / Tester
+* DevOps Engineer
+* Product Owner / Product Manager
+* Business Analyst / Requirements Engineer
+* Technical Writer / Dokumentationsspezialist
+* UX Designer / Researcher
+* Data Scientist / Statistiker
+* Consultant / Coach
+* Team Lead / Engineering Manager
+* Educator / Trainer
+
+=== Suche
+
+Verwenden Sie die Volltextsuche, um Anker zu finden nach:
+
+* Titel (höchste Priorität)
+* Vertreter und Schlüsselpersonen
+* Tags und Schlüsselwörter
+* Inhalt und Beschreibungen
+
+== Semantic Anchors mit LLMs verwenden
+
+=== In Prompts
+
+Referenzieren Sie semantische Anker direkt in Ihren Prompts:
+
+[source]
+----
+"Refaktoriere diesen Code nach den SOLID Principles."
+
+"Entwerfe diese API nach RESTful Constraints wie von Roy Fielding definiert."
+
+"Schreibe diese Szenarien im Gherkin-Format gemäß Behavior-Driven Development."
+----
+
+=== In der Kontexteinrichtung
+
+Richten Sie Ihre LLM-Konversation mit semantischen Ankern ein:
+
+[source]
+----
+Ich arbeite an einem Projekt, bei dem wir Folgendes befolgen:
+- Test-Driven Development (TDD, Chicago School)
+- Hexagonal Architecture
+- Domain-Driven Design
+- SOLID Principles
+
+Bitte behalte dies im Hinterkopf, wenn du Codeänderungen vorschlägst.
+----
+
+=== Bei Code-Reviews
+
+Bitten Sie das LLM, Code gegen spezifische Methodologien zu überprüfen:
+
+[source]
+----
+Überprüfe diesen Code auf Verstöße gegen:
+- Single Responsibility Principle
+- Dependency Inversion Principle
+- Law of Demeter
+----
+
+=== Erkennung testen
+
+Bevor Sie sich auf einen semantischen Anker verlassen, testen Sie, ob das LLM ihn erkennt:
+
+[source]
+----
+Welche Konzepte verbindest du mit 'MECE'?
+----
+
+Wenn das LLM genaue, detaillierte Informationen liefert, ist es sicher, diesen Anker zu verwenden.
+
+== Mitwirken
+
+Wir begrüßen Vorschläge für neue semantische Anker! Siehe unseren link:../CONTRIBUTING.de.adoc[Contributing Guide] für Details zu:
+
+* Wie man einen neuen Anker vorschlägt
+* Qualitätskriterien und Testmethodologie
+* Automatisierte Validierung mit GitHub Copilot
+* Der Review- und Veröffentlichungsprozess
+
+Klicken Sie auf link:https://github.com/LLM-Coding/Semantic-Anchors/issues/new?template=propose-anchor.yml[Neuen Anker vorschlagen], um loszulegen!
+
+== Über dieses Projekt
+
+*Semantic Anchors* ist ein Open-Source-Katalog, der von der LLM Coding Community gepflegt wird. Das Projekt zielt darauf ab:
+
+* Effektive Kommunikationsmuster mit LLMs zu dokumentieren
+* Gemeinsames Vokabular für KI-gestützte Entwicklung zu etablieren
+* Eine kuratierte, qualitätskontrollierte Referenz bereitzustellen
+* Präzisere und effizientere Mensch-KI-Zusammenarbeit zu ermöglichen
+
+=== Technologie
+
+* *Website*: Vite + Vanilla JavaScript
+* *Styling*: Tailwind CSS
+* *Inhalt*: AsciiDoc
+* *Visualisierung*: Card Grid mit Kategorienorganisation
+* *Hosting*: GitHub Pages
+* *Automatisierung*: GitHub Actions + Copilot
+
+=== Lizenz
+
+Dieses Projekt ist Open Source. Siehe die link:https://github.com/LLM-Coding/Semantic-Anchors/blob/main/LICENSE[LICENSE]-Datei für Details.
+
+=== Quellcode
+
+Sehen Sie sich den Quellcode an, melden Sie Probleme oder tragen Sie bei:
+
+https://github.com/LLM-Coding/Semantic-Anchors
+
+---
+
+Bereit zum Erkunden? link:#/[Katalog durchsuchen →]

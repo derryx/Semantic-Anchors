@@ -1,4 +1,5 @@
 import Asciidoctor from '@asciidoctor/core'
+import { i18n } from '../i18n.js'
 
 const asciidoctor = Asciidoctor()
 
@@ -74,8 +75,21 @@ export async function loadAnchorContent(anchorId) {
   const contentEl = modal.querySelector('#modal-content')
 
   try {
-    // Fetch the AsciiDoc file (from public/docs/anchors, copied to dist/docs/anchors during build)
-    const response = await fetch(`${import.meta.env.BASE_URL}docs/anchors/${anchorId}.adoc`)
+    // Try language-specific file first (e.g., tdd-london-school.de.adoc for German)
+    const currentLang = i18n.currentLang()
+    let response
+
+    if (currentLang !== 'en') {
+      // Try fetching language-specific anchor file
+      response = await fetch(`${import.meta.env.BASE_URL}docs/anchors/${anchorId}.${currentLang}.adoc`)
+
+      // If language-specific file not found, fallback to English
+      if (!response.ok) {
+        response = await fetch(`${import.meta.env.BASE_URL}docs/anchors/${anchorId}.adoc`)
+      }
+    } else {
+      response = await fetch(`${import.meta.env.BASE_URL}docs/anchors/${anchorId}.adoc`)
+    }
 
     if (!response.ok) {
       throw new Error(`Failed to load anchor: ${response.status}`)

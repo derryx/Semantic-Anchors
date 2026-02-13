@@ -1,0 +1,30 @@
+= Domain-Driven Design according to Evans
+:categories: software-architecture
+:roles: software-architect, software-developer, business-analyst, team-lead
+
+[%collapsible]
+====
+*Vollständiger Name*: Domain-Driven Design nach Eric Evans
+
+*Kernkonzepte*:
+
+* *Ubiquitous Language*: Gemeinsames Vokabular zwischen Entwicklern und Domänenexperten
+* *Bounded Context*: Explizite Grenzen, innerhalb derer ein Modell definiert und anwendbar ist
+* *Aggregates*: Gruppe von Domänenobjekten, die als Einheit behandelt werden
+* *Entities*: Objekte, die durch Identität definiert sind, nicht durch Attribute
+* *Value Objects*: Unveränderliche Objekte, die durch ihre Attribute definiert sind
+* *Repositories*: Abstraktion für Objektpersistenz und -abruf
+* *Domain Events*: Bedeutende Vorkommnisse in der Domäne
+* *Strategisches Design*: Context Mapping, Anti-Corruption Layers
+* *Taktisches Design*: Bausteine (Entities, Value Objects, Services)
+* *Model-Driven Design*: Code, der das Domänenmodell ausdrückt
+
+*Schlüsselvertreter*: Eric Evans ("Domain-Driven Design: Tackling Complexity in the Heart of Software", 2003)
+
+*Wann zu verwenden*:
+
+* Komplexe Geschäftsdomänen mit komplizierten Regeln
+* Langlebige Systeme, die tiefes Domänenverständnis erfordern
+* Wenn Geschäfts- und technische Teams eng zusammenarbeiten müssen
+* Systeme, bei denen die Domänenlogik der Kernwert ist
+====

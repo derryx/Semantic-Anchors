@@ -1,0 +1,48 @@
+= Devil's Advocate
+:categories: problem-solving
+:roles: software-architect, team-lead, consultant, qa-engineer
+
+[%collapsible]
+====
+*Vollständiger Name*: Advocatus Diaboli (Anwalt des Teufels)
+
+*Kernkonzepte*:
+
+* *Systematische Gegenargumentation*: Gegensätzliche Standpunkte präsentieren, auch wenn nicht persönlich vertreten
+* *Annahmen hinterfragen*: Prämissen in Frage stellen und versteckte Annahmen aufdecken
+* *Ideen unter Stress testen*: Schwächen identifizieren, bevor sie zu Problemen werden
+* *Steelmanning*: Die *stärkste* Version des gegensätzlichen Arguments präsentieren, keinen Strohmann
+* *Intellektuelle Ehrlichkeit*: Ideenbewertung von Ego oder politischen Bedenken trennen
+* *Pre-Mortem-Denken*: Fehlszenarien vorstellen, um sie zu verhindern
+* *Dialektisches Denken*: These + Antithese → Synthese
+* *Risikoidentifikation*: Potenzielle Probleme proaktiv aufdecken
+
+*Schlüsselursprung*: Katholische Kirche Kanonisierungsprozess (Promotor-Fidei-Rolle, formalisiert 1587), säkularisiert in kritischem Denken und Entscheidungsfindung
+
+*Historischer Kontext*: 400+ Jahre als formalisierte Praxis in der Kirche, weithin übernommen in Recht, Philosophie, Geschäftsstrategie und Red Teaming
+
+*Wann zu verwenden*:
+
+* Kritische Design- oder Architekturentscheidungen, bei denen Fehler kostspielig sind
+* Sicherheits-Bedrohungsmodellierung (Red Teaming)
+* Bewertung von Geschäftsstrategien oder Vorschlägen
+* Pre-Mortems vor Start bedeutender Initiativen
+* Code-Review, bei dem Sie Annahmen hinterfragen möchten
+* Risikobewertung und Notfallplanung
+* Jede hochkritische Entscheidung, bei der Fehler teuer sind
+
+*Verwandte Konzepte*:
+
+* Red Teaming (Sicherheitskontext)
+* Pre-Mortem-Analyse
+* Dialektisches Denken
+* Kritisches Denken Frameworks
+* Steelmanning (vs. Strawmanning)
+
+*Beispiel-Prompt-Muster*:
+
+----
+Ich schlage vor [Idee/Design/Entscheidung].
+Spiele den Advocatus Diaboli: Was sind die stärksten Argumente gegen diesen Ansatz?
+----
+====

@@ -1,0 +1,39 @@
+= SPC (Statistical Process Control)
+:categories: statistical-methods
+:roles: data-scientist, devops-engineer, team-lead, qa-engineer
+:proponents: Walter A. Shewhart (founder), W. Edwards Deming (dissemination), Western Electric Company
+
+[%collapsible]
+====
+*Vollständiger Name*: Statistical Process Control
+
+*Kernkonzepte*:
+
+* *Process monitoring*: Systematic statistical monitoring of running processes
+* *Common Cause Variation*: Inherent, random fluctuation — stable and predictable
+* *Special Cause Variation*: Assignable cause — unstable, correctable
+* *Control Charts*: Central visual tool (see dedicated anchor)
+* *Detection rules*: Nelson Rules, Western Electric Rules (see dedicated anchors)
+* *Process Capability*: Indices Cp, Cpk (short-term) and Pp, Ppk (long-term)
+* *In-Control*: Process exhibits only Common Cause Variation
+* *Out-of-Control*: Special Cause detected — intervention required
+* *Continuous Improvement*: SPC as a foundation for ongoing process improvement
+* *DMAIC Control Phase*: SPC tools secure improvements within Six Sigma
+
+*Schlüsselvertreter*: Walter A. Shewhart (founder), W. Edwards Deming (dissemination), Western Electric Company
+
+*Relationship to Other Anchors*:
+
+* *Control Chart (Shewhart)*: Central tool within SPC
+* *Nelson Rules*: Detection rules for Special Causes on Control Charts
+* *Six Sigma*: Uses SPC particularly in the Control phase
+* *Testing Pyramid*: Conceptual parallel — different levels of quality assurance
+
+*Wann zu verwenden*:
+
+* Monitoring manufacturing and business processes
+* Quality management per ISO 9001, IATF 16949, Six Sigma
+* Pharmaceutical Continuous Process Verification (CPV)
+* Conceptual foundation for anomaly detection in IT systems
+* When the question is: "Is my process stable, or has something changed?"
+====

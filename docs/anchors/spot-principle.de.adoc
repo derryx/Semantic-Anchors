@@ -1,0 +1,30 @@
+= SPOT (Single Point of Truth)
+:categories: design-principles
+:roles: software-developer, software-architect
+
+[%collapsible]
+====
+*Vollständiger Name*: Single Point of Truth
+
+*Kernkonzepte*:
+
+* *Implementation pattern*: Focuses on where and how data/logic is stored and accessed
+* *Centralized location*: Each piece of information resides in exactly one place
+* *Reference relationships*: Other locations reference the single point rather than duplicate it
+* *Data consistency*: Eliminates synchronization issues and conflicting data
+* *Update propagation*: Changes at the single point automatically affect all references
+* *Clear ownership*: Explicit responsibility for maintaining each piece of truth
+* *Code-level practice*: Applied at the code and system design level
+
+*Wann zu verwenden*:
+
+* Implementing functions and utilities to avoid code duplication
+* Database schema design to eliminate redundant data
+* Configuration management across distributed systems
+* State management in applications
+* API design where data flows from a single endpoint
+
+*Difference from SSOT*: SPOT emphasizes the implementation detail of where data lives, while SSOT emphasizes the authoritative, trusted nature of that data source
+
+*Verwandte Konzepte*: DRY, SSOT, Normalized databases, Master data management
+====

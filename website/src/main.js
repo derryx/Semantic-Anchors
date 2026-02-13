@@ -212,6 +212,39 @@ function bindLanguageToggle() {
     applyTranslations()
     updateThemeIcon()
   })
+
+  // Listen for language changes to reload content
+  document.addEventListener('langchange', handleLanguageChange)
+}
+
+function handleLanguageChange() {
+  const currentRoute = window.location.hash.slice(1) || '/'
+
+  // Reload documentation pages
+  if (currentRoute === '/about') {
+    loadDocContent('docs/about.adoc')
+  } else if (currentRoute === '/contributing') {
+    loadDocContent('CONTRIBUTING.adoc')
+  } else if (currentRoute === '/') {
+    // Re-render card grid with updated translations
+    if (appData) {
+      const container = document.getElementById('main-content')
+      if (container) {
+        container.innerHTML = renderCardGrid(appData.categories, appData.anchors)
+        initCardGrid()
+      }
+    }
+  }
+
+  // Reload anchor modal content if it's open
+  const modal = document.getElementById('anchor-modal')
+  if (modal && !modal.classList.contains('hidden')) {
+    // Get the current anchor ID from the modal title or content
+    // For now, we'll close the modal as we don't have a way to track the current anchor ID
+    // TODO: Track current anchor ID for reload on language change
+    const closeEvent = new Event('click')
+    modal.querySelector('#modal-close')?.dispatchEvent(closeEvent)
+  }
 }
 
 document.addEventListener('DOMContentLoaded', initApp)

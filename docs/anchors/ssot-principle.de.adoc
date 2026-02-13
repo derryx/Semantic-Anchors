@@ -1,0 +1,40 @@
+= SSOT (Single Source of Truth)
+:categories: design-principles
+:roles: software-architect, data-scientist, business-analyst
+
+[%collapsible]
+====
+*Vollständiger Name*: Single Source of Truth
+
+*Kernkonzepte*:
+
+* *Conceptual principle*: Focuses on establishing trust and authority for data
+* *Authoritative source*: One canonical, trusted location for each piece of data
+* *Data integrity*: All consumers reference the same trusted source
+* *Version control*: Single source ensures consistent versioning
+* *Derived data*: Other representations are derived from the single source
+* *Trust and reliability*: The source is the definitive version when conflicts arise
+* *System of record*: The primary data store for critical business information
+* *Organizational practice*: Applied at the architecture and business process level
+
+*Key Application Areas*:
+
+* Version control systems (Git as SSOT for code)
+* Database design and data warehousing
+* Documentation and knowledge management
+* Configuration management
+* Master data management (MDM)
+
+*Wann zu verwenden*:
+
+* Designing data architecture for enterprise systems
+* Establishing documentation standards and knowledge bases
+* Building data pipelines and ETL processes
+* Implementing microservices with clear data ownership
+* Creating audit trails and ensuring compliance
+* Resolving conflicts between multiple data sources
+
+*Difference from SPOT*: SSOT emphasizes the authoritative, trusted nature of a data source and is used at the architecture/organizational level, while SPOT focuses on the implementation pattern
+
+*Verwandte Konzepte*: DRY, SPOT, Event sourcing, Data lakes, Master data management
+====

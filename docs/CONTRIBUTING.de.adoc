@@ -1,0 +1,207 @@
+= Beitragen zu Semantic Anchors
+:toc:
+:toc-placement: preamble
+
+Vielen Dank für Ihr Interesse, zum Semantic Anchors Katalog beizutragen! Dieser Leitfaden erklärt, wie Sie neue semantische Anker vorschlagen und was einen guten semantischen Anker ausmacht.
+
+== Was sind Semantic Anchors?
+
+Semantic Anchors (semantische Anker) sind klar definierte Begriffe, Methodologien und Frameworks, die als Referenzpunkte bei der Kommunikation mit Large Language Models (LLMs) dienen. Sie fungieren als gemeinsames Vokabular, das spezifische, kontextreiche Wissensbereiche im Trainingsdatensatz eines LLMs aktiviert.
+
+*Beispiel:* Wenn Sie einem LLM "TDD, London School" erwähnen, aktiviert es Wissen über Mock-intensive Tests, Outside-in-Entwicklung und die Arbeit von Steve Freeman und Nat Pryce - viel reichhaltiger als einfach zu sagen "verwende Mocks beim Testen."
+
+== Qualitätskriterien
+
+Bevor Sie einen neuen semantischen Anker vorschlagen, stellen Sie sicher, dass er diese vier Kriterien erfüllt:
+
+[%collapsible]
+====
+=== ✓ Präzise
+Der Anker referenziert einen *spezifischen, etablierten Wissensbereich* mit klaren Grenzen.
+
+*Gut:* "SOLID Principles" - fünf spezifische Design-Prinzipien (SRP, OCP, LSP, ISP, DIP)
+
+*Schlecht:* "Gutes Design" - vage und subjektiv
+
+=== ✓ Reichhaltig
+Der Anker aktiviert *mehrere miteinander verbundene Konzepte*, nicht nur eine einzelne Anweisung.
+
+*Gut:* "Domain-Driven Design" - aktiviert Bounded Contexts, Ubiquitous Language, Aggregates, Value Objects, Entities, Repositories, etc.
+
+*Schlecht:* "Verwende aussagekräftige Namen" - einzelne Anweisung ohne konzeptionelle Tiefe
+
+=== ✓ Konsistent
+Verschiedene Benutzer, die den Anker verwenden, sollten *ähnliche konzeptionelle Aktivierung* vom LLM erhalten.
+
+*Gut:* "Test-Driven Development" - weithin dokumentierte Methodologie mit konsistentem Verständnis
+
+*Schlecht:* "Modernes Testen" - unterschiedliche Interpretationen durch verschiedene Personen
+
+=== ✓ Zuordenbar
+Der Anker kann *zu Schlüsselvertretern, Publikationen oder dokumentierten Standards zurückverfolgt* werden.
+
+*Gut:* "Hexagonal Architecture" (Alistair Cockburn, 2005)
+
+*Schlecht:* "Best Practices" - keine spezifische Quelle oder Autorität
+====
+
+== Testen Ihres semantischen Ankers
+
+Bevor Sie einen Vorschlag machen, testen Sie den Anker mit diesem Prompt in einem LLM:
+
+[source]
+----
+Welche Konzepte verbindest du mit '<Name Ihres semantischen Ankers>'?
+----
+
+Bewerten Sie die Antwort:
+
+* *Erkennung:* Erkennt das LLM den Begriff?
+* *Genauigkeit:* Ist die Erklärung korrekt?
+* *Tiefe:* Deckt es mehrere verwandte Konzepte ab?
+* *Spezifität:* Ist der Umfang gut definiert?
+
+== Wie man einen neuen Anker vorschlägt
+
+Wir verwenden einen *automatisierten Workflow mit GitHub Copilot* zur Validierung und Anreicherung von Vorschlägen:
+
+=== Schritt 1: Issue erstellen
+
+Klicken Sie auf die btn:[Neuen Anker vorschlagen] Schaltfläche auf der https://raifdmueller.github.io/Semantic-Anchors/[Website] oder erstellen Sie ein Issue mit unserer https://github.com/LLM-Coding/Semantic-Anchors/issues/new?template=propose-anchor.yml[Vorlagsvorlage].
+
+*Alles, was Sie angeben müssen:*
+
+* Der Begriff oder Konzeptname
+* (Optional) Warum Sie denken, dass es wertvoll wäre
+
+=== Schritt 2: Copilot-Validierung
+
+GitHub Copilot führt automatisch folgendes aus:
+
+. Testet den Anker gegen die vier Qualitätskriterien
+. Akzeptiert oder lehnt den Vorschlag ab
+. Bei Ablehnung: Erklärt, warum die Kriterien nicht erfüllt werden
+. Bei Akzeptierung: Reichert das Issue mit detaillierten Informationen an
+
+=== Schritt 3: Copilot erstellt den Anker
+
+Sobald akzeptiert und angereichert, wird Copilot beauftragt:
+
+. Die AsciiDoc-Datei in `docs/anchors/` zu erstellen
+. Alle erforderlichen Metadaten hinzuzufügen (Kategorien, Rollen, Vertreter, Tags)
+. Einen Pull Request einzureichen
+. Maintainer überprüfen und mergen
+
+=== Schritt 4: Veröffentlicht
+
+Nach dem Merge erscheint der neue Anker innerhalb von Minuten durch automatisches Deployment auf der Website!
+
+== Format der Anker-Datei
+
+Jeder Anker wird als AsciiDoc-Datei mit Metadaten-Attributen gespeichert:
+
+[source,asciidoc]
+----
+= TDD, London School
+:categories: testing-quality
+:roles: software-developer, qa-engineer, architect
+:related: tdd-chicago-school, hexagonal-architecture
+:proponents: Steve Freeman, Nat Pryce
+:tags: testing, tdd, mocking, outside-in
+
+[%collapsible]
+====
+*Vollständiger Name*: Test-Driven Development, London School
+
+*Auch bekannt als*: Mockist TDD, Outside-In TDD
+
+*Kernkonzepte*:
+* Mock-intensive Tests
+* Outside-in-Entwicklung
+* Interaktionsbasiertes Testen
+
+*Schlüsselvertreter*: Steve Freeman, Nat Pryce ("Growing Object-Oriented Software, Guided by Tests")
+
+*Wann zu verwenden*:
+* Komplexe Systeme mit vielen zusammenarbeitenden Objekten
+* Beim Entwerfen von APIs und Schnittstellen
+* Verteilte Systeme, wo Integration kostspielig ist
+====
+----
+
+*Erforderliche Metadaten:*
+
+* `:categories:` - Eine oder mehrere Kategorie-IDs (siehe Website für Liste)
+* `:roles:` - Eine oder mehrere berufliche Rollen, die diesen Anker verwenden
+* `:proponents:` - Schlüsselpersonen, Publikationen oder Standards
+* `:tags:` - Schlüsselwörter für die Suche (optional, aber empfohlen)
+* `:related:` - Verwandte Anker-IDs (optional)
+
+== Gegenbeispiele
+
+Dies sind *KEINE* semantischen Anker:
+
+[horizontal]
+"TLDR":: Unterspezifizierte Anweisung, keine definierte Struktur
+"ELI5":: Vages Zielniveau, kein pädagogisches Framework
+"Halte es kurz":: Reine Anweisung, keine konzeptionelle Tiefe
+"Best Practices":: Kein spezifischer Wissensbereich, nicht zuordenbar
+"Moderner Ansatz":: Zu vage, nicht konsistent über Benutzer hinweg
+
+== Kategorien
+
+Anker sind in 12 MECE (Mutually Exclusive, Collectively Exhaustive) Kategorien organisiert:
+
+. Kommunikation & Präsentation
+. Design-Prinzipien & Muster
+. Entwicklungs-Workflow
+. Dialog & Interaktionsmuster
+. Dokumentationspraktiken
+. Meta (Repository- und Katalogkonzepte)
+. Problemlösungsmethoden
+. Requirements Engineering
+. Software-Architektur
+. Statistische Methoden & Prozessüberwachung
+. Strategische Planung & Entscheidungsfindung
+. Testing & Qualitätssicherung
+
+Siehe die Website für vollständige Kategorienbeschreibungen.
+
+== Berufliche Rollen
+
+Anker sind mit beruflichen Rollen getaggt, um relevante Inhalte zu filtern:
+
+. Software-Entwickler / Engineer
+. Software-Architekt
+. QA Engineer / Tester
+. DevOps Engineer
+. Product Owner / Product Manager
+. Business Analyst / Requirements Engineer
+. Technical Writer / Dokumentationsspezialist
+. UX Designer / Researcher
+. Data Scientist / Statistiker
+. Consultant / Coach
+. Team Lead / Engineering Manager
+. Educator / Trainer
+
+== Verhaltenskodex
+
+* Seien Sie respektvoll und konstruktiv in Diskussionen
+* Schlagen Sie Anker in gutem Glauben vor
+* Respektieren Sie Maintainer-Entscheidungen zu Qualitätskriterien
+* Fokussieren Sie auf etablierte, dokumentierte Methodologien
+* Geben Sie den ursprünglichen Vertretern Anerkennung
+
+== Fragen?
+
+* Durchsuchen Sie existierende Anker auf der https://raifdmueller.github.io/Semantic-Anchors/[Website]
+* Prüfen Sie die https://github.com/LLM-Coding/Semantic-Anchors/blob/main/README.adoc[README] für eine Projektübersicht
+* Öffnen Sie ein https://github.com/LLM-Coding/Semantic-Anchors/issues[GitHub Issue] für Fragen
+
+== Lizenz
+
+Durch Beiträge stimmen Sie zu, dass Ihre Beiträge unter derselben Lizenz wie dieses Projekt lizenziert werden (siehe LICENSE-Datei).
+
+---
+
+*Bereit vorzuschlagen?* Klicken Sie hier: https://github.com/LLM-Coding/Semantic-Anchors/issues/new?template=propose-anchor.yml[Neuen semantischen Anker vorschlagen]

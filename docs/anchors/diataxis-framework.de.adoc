@@ -1,0 +1,33 @@
+= Diátaxis Framework
+:categories: documentation
+:roles: technical-writer, educator
+
+[%collapsible]
+====
+*Vollständiger Name*: Diátaxis Dokumentations-Framework nach Daniele Procida
+
+*Kernkonzepte*:
+
+* *Vier Dokumentationstypen*:
+** *Tutorials*: Lernorientiert, Lektionen für Anfänger
+** *How-to-Guides*: Aufgabenorientiert, Anleitungen für spezifische Ziele
+** *Referenz*: Informationsorientiert, technische Beschreibungen
+** *Erklärung*: Verständnisorientiert, konzeptionelle Diskussionen
+* *Zwei Dimensionen*:
+** Praktisch vs. Theoretisch
+** Aneignung (Lernen) vs. Anwendung (Arbeiten)
+* *Separation of Concerns*: Jeder Typ dient einem eigenen Zweck
+* *Nutzerbedürfnisse*: Verschiedene Nutzer benötigen verschiedene Dokumentation zu verschiedenen Zeiten
+* *Qualitätskriterien*: Jeder Typ hat spezifische Qualitätsindikatoren
+* *Systematischer Ansatz*: Framework zur Organisation jeglicher Dokumentation
+
+*Schlüsselvertreter*: Daniele Procida
+
+*Wann zu verwenden*:
+
+* Organisation technischer Dokumentation
+* Verbesserung bestehender Dokumentation
+* Planung von Dokumentationsstruktur
+* Bewertung von Dokumentationsqualität
+* Ergänzung von Docs-as-Code-Ansätzen
+====

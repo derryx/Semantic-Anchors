@@ -1,0 +1,39 @@
+= Mental Model according to Naur
+:categories: development-workflow
+:roles: software-developer, team-lead, educator, consultant
+
+[%collapsible]
+====
+*Vollständiger Name*: Programming as Theory Building (Mental Model) according to Peter Naur
+
+*Kernkonzepte*:
+
+* *Theory building*: Programming is creating a mental model, not just writing code
+* *Theory of the program*: Deep understanding of why the program works and how it relates to the problem domain
+* *Knowledge in people*: The real program exists in developers' minds, not in the code
+* *Theory decay*: When original developers leave, the theory is lost
+* *Documentation limitations*: Written documentation cannot fully capture the theory
+* *Maintenance as theory*: Effective maintenance requires possessing the theory
+* *Communication is key*: Theory must be shared through collaboration and conversation
+* *Ramp-up time*: New team members need time to build the theory
+* *Code as artifact*: Code is merely a representation of the underlying theory
+
+*Schlüsselvertreter*: Peter Naur (Turing Award winner, 1978)
+
+*Original Work*: "Programming as Theory Building" (1985)
+
+*Application in Software Development*:
+
+* Understanding why knowledge transfer is challenging
+* Emphasizing pair programming and mob programming
+* Justifying time for onboarding and code walkthroughs
+* Explaining technical debt accumulation when teams change
+* Supporting documentation practices that capture "why" not just "what"
+* Advocating for team stability and continuity
+
+*Contrast with Other Views*:
+
+* Programming as text production → Focus on code output
+* Programming as problem solving → Focus on algorithms
+* Programming as theory building → Focus on understanding
+====

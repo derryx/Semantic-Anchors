@@ -1,0 +1,45 @@
+= Control Chart (Shewhart)
+:categories: statistical-methods
+:roles: data-scientist, devops-engineer, team-lead
+
+[%collapsible]
+====
+*Vollständiger Name*: Shewhart-Regelkarte
+
+*Auch bekannt als*: Prozesskontrollkarte, SPC-Karte
+
+*Kernkonzepte*:
+
+* *Zeitreihendiagramm*: Messwert über Zeit aufgetragen
+* *Mittellinie (CL)*: Prozessmittelwert
+* *Obere/Untere Kontrollgrenze (UCL/LCL)*: Typischerweise bei ±3σ vom Mittelwert
+* *Zonen A/B/C*: Aufteilung in 6 Bereiche (jeweils 1σ breit) zur Mustererkennung
+* *Variation durch natürliche Ursachen*: Inhärente, zufällige Schwankung eines stabilen Prozesses
+* *Variation durch besondere Ursachen*: Zuordenbare, korrigierbare Abweichung
+* *Kartentypen*:
+** X-bar-Karte: Untergruppenmittelwerte
+** R-Karte: Untergruppenbereiche
+** I-MR-Karte: Einzelwerte und gleitender Bereich
+** p-Karte: Defektanteile
+** c-Karte: Defektanzahlen pro Einheit
+* *Unter Kontrolle vs. Außer Kontrolle*: Kernentscheidung basierend auf Regeln (Nelson, Western Electric)
+* *Normalverteilungsannahme*: Kontrollgrenzen basieren auf normalverteilten Daten
+
+*Schlüsselvertreter*: Walter A. Shewhart (1920er, Bell Labs / Western Electric)
+
+*Schlüsselwerk*: "Economic Control of Quality of Manufactured Product" (1931)
+
+*Beziehung zu anderen Ankern*:
+
+* *Nelson Rules*: 8 Regeln zur Mustererkennung auf Regelkarten
+* *<<spc,SPC>>*: Regelkarten sind das zentrale Werkzeug der statistischen Prozesskontrolle
+* *Six Sigma*: Regelkarten werden in der Kontrollphase von DMAIC verwendet
+
+*Wann zu verwenden*:
+
+* Prozessüberwachung in Fertigung und Produktion
+* Qualitätssicherung mit statistischen Methoden
+* Erkennung von Prozessverschiebungen und -trends
+* Grundlage für regelbasierte Anomalieerkennung in Zeitreihen
+* Konzeptionelle Basis — auch wenn in IT-Monitoring andere Terminologie verwendet wird
+====

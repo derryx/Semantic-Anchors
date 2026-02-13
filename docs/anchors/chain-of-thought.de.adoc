@@ -1,0 +1,50 @@
+= Chain of Thought (CoT)
+:categories: problem-solving
+:roles: software-developer, data-scientist, business-analyst
+:proponents: Wei et al. (Google Research, 2022), "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+
+[%collapsible]
+====
+*Vollständiger Name*: Chain of Thought Prompting (Gedankenketten-Prompting)
+
+*Kernkonzepte*:
+
+* *Schrittweises Denken*: Zwischenschritte des Denkprozesses explizit zeigen, bevor eine Schlussfolgerung erreicht wird
+* *Transparente Argumentation*: Den Denkprozess sichtbar machen, nicht nur die endgültige Antwort
+* *Zwischenrepräsentationen*: Komplexe Probleme in kleinere, handhabbare Schritte zerlegen
+* *Fehlerreduzierung*: Offengelegtes Denken ermöglicht Erkennung logischer Fehler im Prozess
+* *Zerlegung komplexer Aufgaben*: Mehrstufige Probleme bewältigen, die nicht in einem Schritt gelöst werden können
+* *Zero-Shot CoT*: Einfacher Prompt wie "Lass uns Schritt für Schritt denken" löst CoT-Verhalten aus
+* *Few-Shot CoT*: Beispiele mit Argumentationsketten bereitstellen, um das Modell zu leiten
+* *Selbstkonsistenz*: Mehrere Argumentationspfade generieren und konsistenteste Antwort wählen
+
+*Schlüsselvertreter*: Wei et al. (Google Research, 2022), "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+
+*Historischer Kontext*: Durchbruch in der LLM-Prompting-Forschung, deutlich verbesserte Leistung bei Argumentationsaufgaben (Mathematik, Logik, gesunder Menschenverstand)
+
+*Wann zu verwenden*:
+
+* Komplexe Argumentationsprobleme (mehrstufige Mathematik, Logikrätsel)
+* Wenn Sie den Argumentationsprozess verifizieren müssen, nicht nur die Antwort
+* Debugging fehlerhafter LLM-Ausgaben durch Sehen, wo die Argumentation schiefging
+* Lehren oder Erklären komplexer Themen, bei denen Schritte wichtig sind
+* Probleme, die Planung oder Strategie erfordern
+* Jede Aufgabe, bei der Zwischenschritte Wert bieten
+
+*Verwandte Forschung*:
+
+* Tree of Thoughts (ToT): Erweiterung, die Verzweigung und Backtracking erlaubt
+* Self-Consistency: Mehrere Argumentationspfade samplen
+* Least-to-Most Prompting: Von einfach zu komplex aufbauen
+
+*Beispiel-Prompt-Muster*:
+
+----
+Problem: [Komplexe Frage]
+Lass uns das Schritt für Schritt lösen:
+1. [Erster Schritt]
+2. [Zweiter Schritt]
+...
+Daher: [Schlussfolgerung]
+----
+====

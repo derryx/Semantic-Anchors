@@ -1,0 +1,31 @@
+= Conventional Commits
+:categories: development-workflow
+:roles: software-developer, devops-engineer
+:proponents: Benjamin E. Coe, James J. Womack, Steve Mao
+
+[%collapsible]
+====
+*Kernkonzepte*:
+* Eine Spezifikation zum Hinzufügen von menschen- und maschinenlesbarer Bedeutung zu Commit-Nachrichten
+* Bestimmung eines semantischen Versions-Bumps (basierend auf den Arten von gelandeten Commits)
+* Kommunikation der Art von Änderungen an Teamkollegen, die Öffentlichkeit und andere Stakeholder
+* *Schema*: <type>[!][(optional scope)]: <description> + optionaler Body/Footer
+* *Häufige Typen*:
+** *feat:* - neue Funktion in die Codebase einführen (-> Semver Minor)
+** *fix:* - einen Bug in Ihrer Codebase beheben (-> SemVer Patch)
+** *docs:* - Dokumentationsverbesserungen an der Codebase
+** *chore:* - Codebase/Repository-Wartungsänderungen
+** *style:* - Formatierungsänderungen, die die Bedeutung des Codes nicht beeinflussen
+** *refactor:* - Implementierungsänderungen, die die Bedeutung des Codes nicht beeinflussen
+** *!* - BREAKING CHANGE (-> SemVer Major)
+* *BREAKING CHANGE:* führt eine Breaking API-Änderung ein
+
+*Schlüsselvertreter*: Benjamin E. Coe, James J. Womack, Steve Mao
+
+*Wann zu verwenden*:
+
+* Everything-as-Code-Paradigma angestrebt
+* Team-/Community-Kommunikation
+* Repository-Qualitätsverbesserungen
+
+====

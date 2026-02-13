@@ -1,0 +1,25 @@
+= SOLID Principles
+:categories: design-principles
+:roles: software-developer, software-architect, educator, consultant
+
+[%collapsible]
+====
+*Vollständiger Name*: SOLID Object-Oriented Design Principles
+
+*Kernkonzepte*:
+
+* *Single Responsibility Principle (SRP)*: Each class should have one responsibility
+* *Open/Closed Principle (OCP)*: Entities should be open for extension, closed for modification
+* *Liskov Substitution Principle (LSP)*: Subtypes must be substitutable for their base types
+* *Interface Segregation Principle (ISP)*: Clients should not be forced to depend on interfaces they do not use
+* *Dependency Inversion Principle (DIP)*: Depend on abstractions, not concrete implementations
+
+*Schlüsselvertreter*: Robert C. Martin ("Uncle Bob")
+
+*Wann zu verwenden*:
+
+* Designing maintainable and scalable object-oriented systems
+* Refactoring legacy code to improve structure
+* Building systems where flexibility and testability are important
+* Teaching or enforcing good software design practices
+====

@@ -1,0 +1,31 @@
+= Cynefin Framework
+:categories: strategic-planning
+:roles: team-lead, consultant, product-owner, software-architect
+
+[%collapsible]
+====
+*Vollständiger Name*: Cynefin Framework nach Dave Snowden
+
+*Kernkonzepte*:
+
+* *Fünf Domänen*:
+** *Klar* (früher "Einfach"): Best Practices gelten, wahrnehmen-kategorisieren-reagieren
+** *Kompliziert*: Gute Praktiken existieren, wahrnehmen-analysieren-reagieren
+** *Komplex*: Emergente Praktiken, untersuchen-wahrnehmen-reagieren
+** *Chaotisch*: Neuartige Praktiken erforderlich, handeln-wahrnehmen-reagieren
+** *Verwirrt* (Mitte): Nicht wissen, in welcher Domäne man sich befindet
+* *Domänenübergänge*: Wie Situationen sich zwischen Domänen bewegen
+* *Sichere-zum-Scheitern-Sonden*: Experimente in komplexer Domäne
+* *Selbstzufriedenheitsrisiko*: Übergang von klar zu chaotisch
+* *Entscheidungskontext*: Verschiedene Domänen erfordern verschiedene Ansätze
+* *Facilitierungs-Tool*: Hilft Teams, Herausforderungen zu diskutieren und zu kategorisieren
+
+*Schlüsselvertreter*: Dave Snowden (1999)
+
+*Wann zu verwenden*:
+
+* Verstehen, mit welcher Art von Problem man konfrontiert ist
+* Auswahl geeigneter Entscheidungsansätze
+* Facilitierung von Teamdiskussionen über Komplexität
+* Strategische Planung in unsicheren Umgebungen
+====

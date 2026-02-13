@@ -1,0 +1,30 @@
+= Semantic Versioning (SemVer)
+:categories: development-workflow
+:roles: software-developer, devops-engineer, product-owner
+
+[%collapsible]
+====
+*Vollständiger Name*: Semantic Versioning Specification
+
+*Kernkonzepte*:
+
+* *Version format*: MAJOR.MINOR.PATCH (e.g., 2.4.7)
+** *MAJOR*: Incompatible API changes (breaking changes)
+** *MINOR*: Backward-compatible functionality additions
+** *PATCH*: Backward-compatible bug fixes
+** *Pre-release versions*: Append hyphen and identifiers (e.g., 1.0.0-alpha.1)
+* *Build metadata*: Append plus sign and identifiers (e.g., 1.0.0+20241111)
+* *Version precedence*: Clear rules for version comparison
+* *Initial development*: 0.y.z for initial development (API unstable)
+* *Public API declaration*: Once public API declared, version dependencies matter
+
+*Schlüsselvertreter*: Tom Preston-Werner
+
+*Wann zu verwenden*:
+
+* Libraries and APIs consumed by other software
+* Software with defined public interfaces
+* Projects requiring dependency management
+* Communication of change impact to users/consumers
+
+====

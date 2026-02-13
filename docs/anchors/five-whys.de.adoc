@@ -1,0 +1,40 @@
+= Five Whys (Ohno)
+:categories: problem-solving
+:roles: software-developer, qa-engineer, devops-engineer, team-lead
+
+[%collapsible]
+====
+*Vollständiger Name*: Five Whys Ursachenanalyse (Fünf-Warums)
+
+*Kernkonzepte*:
+
+* *Iterative Kausalanalyse*: "Warum?" wiederholt fragen (typischerweise ~5 Mal), um zu Grundursachen vorzudringen
+* *Grundursache vs. Symptom*: Zwischen Oberflächensymptomen und zugrunde liegenden Ursachen unterscheiden
+* *Kausalkette*: Jede Antwort wird zum Subjekt der nächsten "Warum?"-Frage
+* *Handlungsfähige Grundursache*: Fortfahren, bis Sie eine Ursache erreichen, auf die gehandelt werden kann
+* *Einfachheit*: Keine komplexen Werkzeuge oder statistische Analyse erforderlich
+* *Teambasierte Untersuchung*: Kollaborative Erkundung kausaler Beziehungen
+* *Schuldzuweisung vermeiden*: Fokus auf Prozessfehler, nicht individuelle Schuld
+* *Gegenmaßnahmen-Identifikation*: Sobald Grundursache gefunden, Interventionen entwerfen
+
+*Schlüsselvertreter*: Taiichi Ohno (Toyota-Produktionssystem, 1950er)
+
+*Historischer Kontext*: Kernwerkzeug in Lean Manufacturing und Toyota Production System (TPS), grundlegend für kontinuierliche Verbesserung (Kaizen)
+
+*Wann zu verwenden*:
+
+* Incident Post-Mortems in Software/DevOps
+* Debugging, wenn Oberflächenfixes das Problem nicht lösen
+* Prozessverbesserungsinitiativen
+* Verstehen wiederkehrender Probleme
+* Qualitätsfehleranalyse
+* Jede Situation, wo Symptome klar sind, aber Ursachen nicht
+
+*Verwandte Konzepte*:
+
+* Kaizen (kontinuierliche Verbesserung)
+* Root Cause Analysis (RCA)
+* Fishbone Diagram (Ishikawa) – ergänzendes Werkzeug
+* A3 Problem Solving (Toyota)
+* DevOps Post-Mortem-Kultur
+====

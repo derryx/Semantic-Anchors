@@ -1,0 +1,27 @@
+= Problem Space NVC
+:categories: requirements-engineering
+:roles: business-analyst, product-owner, consultant, ux-designer
+
+[%collapsible]
+====
+*Vollständiger Name*: Problem Space in Nonviolent Communication
+
+*Kernkonzepte*:
+
+* *Observations*: Concrete, objective facts without evaluation
+* *Feelings*: Emotions arising from observations
+* *Needs*: Universal human needs underlying feelings
+* *Requests*: Specific, actionable requests (not demands)
+* *Empathic connection*: Understanding before problem-solving
+* *Separating observation from interpretation*: Avoiding judgment
+* *Needs-based conflict resolution*: Finding solutions that meet everyone's needs
+
+*Schlüsselvertreter*: Marshall Rosenberg
+
+*Application in Software Development*:
+
+* Requirements elicitation that uncovers real user needs
+* Stakeholder communication and conflict resolution
+* User story formulation focused on needs
+* Retrospectives and team communication
+====
