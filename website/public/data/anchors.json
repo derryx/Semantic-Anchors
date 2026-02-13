@@ -321,6 +321,36 @@
     "filePath": "docs/anchors/hexagonal-architecture.adoc"
   },
   {
+    "id": "iec-61508-sil-levels",
+    "title": "IEC 61508 SIL Levels",
+    "categories": [
+      "testing-quality"
+    ],
+    "roles": [
+      "software-developer",
+      "software-architect",
+      "qa-engineer",
+      "devops-engineer",
+      "consultant"
+    ],
+    "related": [
+      "testing-pyramid",
+      "mutation-testing"
+    ],
+    "proponents": [
+      "International Electrotechnical Commission (IEC)"
+    ],
+    "tags": [
+      "safety",
+      "functional-safety",
+      "SIL",
+      "standards",
+      "certification",
+      "risk-assessment"
+    ],
+    "filePath": "docs/anchors/iec-61508-sil-levels.adoc"
+  },
+  {
     "id": "impact-mapping",
     "title": "Impact Mapping",
     "categories": [
