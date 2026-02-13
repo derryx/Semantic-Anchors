@@ -25,7 +25,7 @@ export function renderMain() {
             </a>
             <span class="text-gray-300 dark:text-gray-600">|</span>
             <a
-              href="https://github.com/LLM-Coding/Semantic-Anchors/blob/main/CONTRIBUTING.md"
+              href="https://github.com/LLM-Coding/Semantic-Anchors/issues/new?template=propose-anchor.yml"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center gap-1 text-blue-600 dark:text-blue-400 hover:underline"
@@ -33,7 +33,7 @@ export function renderMain() {
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
               </svg>
-              Add New Anchor
+              Propose New Anchor
             </a>
           </div>
         </section>

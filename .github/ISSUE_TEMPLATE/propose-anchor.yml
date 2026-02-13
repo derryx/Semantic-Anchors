@@ -1,0 +1,47 @@
+name: Propose New Semantic Anchor
+description: Suggest a new semantic anchor for the catalog
+title: "[Anchor Proposal]: "
+labels: ["new-anchor", "needs-validation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## How This Works
+
+        Thank you for proposing a new semantic anchor! Here's the workflow:
+
+        1. **You provide a term or concept** that you believe would make a good semantic anchor
+        2. **GitHub Copilot validates** whether it meets the quality criteria (precise, rich, consistent, attributable)
+        3. **If accepted**: Copilot enriches this issue with detailed information (proponents, categories, related concepts)
+        4. **If rejected**: Copilot explains why it doesn't meet the criteria
+        5. **After enrichment**: Copilot is assigned to create the anchor file and submit a PR
+
+        **Just provide the term below - Copilot handles the rest!**
+
+  - type: input
+    id: term
+    attributes:
+      label: Proposed Term
+      description: The semantic anchor term or concept you want to propose
+      placeholder: e.g., "SOLID Principles", "Behavior-Driven Development", "Domain-Driven Design"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (Optional)
+      description: Why do you think this would be a useful semantic anchor? Any additional context?
+      placeholder: Briefly explain why this term would be valuable for LLM communication
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched existing anchors and this term is not already included
+          required: true
+        - label: This term refers to a well-established concept (not something I invented)
+          required: true
