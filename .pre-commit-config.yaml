@@ -1,0 +1,30 @@
+# Pre-commit hooks for Semantic Anchors
+# Install: pip install pre-commit
+# Setup: pre-commit install
+# Run manually: pre-commit run --all-files
+
+repos:
+  # AsciiDoc Linter
+  - repo: local
+    hooks:
+      - id: asciidoc-linter
+        name: AsciiDoc Linter
+        entry: asciidoc-linter
+        language: system
+        files: \.adoc$
+        pass_filenames: true
+        args: [--format, console]
+        stages: [commit]
+
+  # Trailing whitespace
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: \.(adoc|md)$
+      - id: end-of-file-fixer
+        exclude: \.(adoc|md)$
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: [--maxkb=1000]

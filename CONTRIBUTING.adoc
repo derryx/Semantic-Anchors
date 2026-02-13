@@ -61,6 +61,47 @@ Evaluate the response:
 * *Depth:* Does it cover multiple related concepts?
 * *Specificity:* Is the scope well-defined?
 
+== Developer Setup
+
+=== Prerequisites
+
+* Git
+* Python 3.12+ (for pre-commit hooks)
+* Node.js 20+ (for website development, optional)
+
+=== Installing Pre-Commit Hooks
+
+**Required for all contributors!**
+
+Run the installation script:
+
+[source,bash]
+----
+./pre-commit-install.sh
+----
+
+This installs:
+
+* **AsciiDoc Linter** - validates anchor file syntax automatically
+* **pre-commit framework** - runs checks before each commit
+* **Standard hooks** - trailing whitespace, YAML/JSON validation
+
+=== Manual Hook Execution
+
+Run all hooks on all files:
+
+[source,bash]
+----
+pre-commit run --all-files
+----
+
+Run specific hook:
+
+[source,bash]
+----
+pre-commit run asciidoc-linter --all-files
+----
+
 == How to Propose a New Anchor
 
 We use an *automated workflow with GitHub Copilot* to validate and enrich proposals:
