@@ -1,0 +1,14 @@
+{
+  "name": "semantic-anchors-scripts",
+  "version": "1.0.0",
+  "description": "Build scripts for Semantic Anchors project",
+  "type": "module",
+  "scripts": {
+    "extract-metadata": "node extract-metadata.js",
+    "split-readme": "node split-readme.js"
+  },
+  "dependencies": {
+    "@asciidoctor/core": "^3.0.4",
+    "glob": "^8.1.0"
+  }
+}
