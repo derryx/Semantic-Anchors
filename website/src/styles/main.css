@@ -153,6 +153,22 @@ body {
   .anchor-card-title {
     @apply text-base;
   }
+
+  /* Make buttons more touch-friendly on mobile */
+  .anchor-edit-btn,
+  .anchor-copy-link-btn {
+    @apply p-2;
+  }
+
+  .anchor-edit-btn svg,
+  .anchor-copy-link-btn svg {
+    @apply w-5 h-5;
+  }
+
+  /* Increase gap between buttons for easier tapping */
+  .anchor-card-header .flex {
+    @apply gap-2;
+  }
 }
 
 /* Asciidoctor Dark Mode Overrides */
