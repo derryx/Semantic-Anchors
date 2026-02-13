@@ -14,10 +14,10 @@
 *Core Concepts*:
 
 * *Four Safety Integrity Levels*:
-** *SIL 1* (lowest): PFD 10^-2^ to 10^-1^ (tolerable risk reduction)
-** *SIL 2*: PFD 10^-3^ to 10^-2^ (moderate risk reduction)
-** *SIL 3*: PFD 10^-4^ to 10^-3^ (substantial risk reduction)
-** *SIL 4* (highest): PFD 10^-5^ to 10^-4^ (maximum risk reduction)
+** *SIL 1* (lowest): 10^-2^ ≤ PFD < 10^-1^ (tolerable risk reduction)
+** *SIL 2*: 10^-3^ ≤ PFD < 10^-2^ (moderate risk reduction)
+** *SIL 3*: 10^-4^ ≤ PFD < 10^-3^ (substantial risk reduction)
+** *SIL 4* (highest): 10^-5^ ≤ PFD < 10^-4^ (maximum risk reduction)
 * *Risk-based classification*: SIL level determined by hazard analysis and risk assessment
 * *Safety lifecycle*: Systematic approach from concept to decommissioning
 * *Hardware requirements*: Architectural constraints and systematic capability
