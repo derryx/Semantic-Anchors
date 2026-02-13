@@ -14,6 +14,7 @@
   "main.documentation": "Documentation",
   "search.placeholder": "Search anchors...",
   "filter.allRoles": "All Roles",
+  "filter.anchors": "anchors",
   "footer.tagline": "Semantic Anchors &mdash; Shared vocabulary for LLM communication",
   "footer.github": "GitHub",
   "footer.leaveStar": "Like Semantic Anchors? Leave a star!",
@@ -30,9 +31,12 @@
   "categories.strategic-planning": "Strategic Planning & Decision Making",
   "categories.testing-quality": "Testing & Quality Practices",
   "card.edit": "Edit on GitHub",
+  "card.copyLink": "Copy link to this anchor",
+  "card.linkCopied": "Link copied!",
   "card.roles": "role",
   "card.rolesPlural": "roles",
   "card.tags": "tags",
   "card.openDetails": "Open {title} details",
-  "modal.close": "Close"
+  "modal.close": "Close",
+  "modal.share": "Share"
 }

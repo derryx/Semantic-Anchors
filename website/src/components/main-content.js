@@ -38,7 +38,7 @@ export function renderMain() {
           </div>
         </section>
 
-        <section id="filters" class="mb-6 flex flex-wrap gap-3">
+        <section id="filters" class="mb-6 flex flex-wrap gap-3 items-center">
           <input
             id="search-input"
             type="search"
@@ -52,6 +52,9 @@ export function renderMain() {
           >
             <option value="" data-i18n="filter.allRoles">${i18n.t('filter.allRoles')}</option>
           </select>
+          <span id="anchor-count" class="text-sm text-[var(--color-text-secondary)] ml-auto">
+            <span id="visible-count">0</span> / <span id="total-count">0</span> <span data-i18n="filter.anchors">${i18n.t('filter.anchors')}</span>
+          </span>
         </section>
 
         <div id="main-content"></div>

@@ -102,14 +102,17 @@ body {
   @apply leading-tight;
 }
 
-.anchor-edit-btn {
+.anchor-edit-btn,
+.anchor-copy-link-btn {
   @apply flex-shrink-0 p-1 rounded;
   @apply text-gray-400 hover:text-blue-500;
   @apply hover:bg-gray-100 dark:hover:bg-gray-700;
   @apply transition-colors duration-200;
+  @apply border-0 bg-transparent cursor-pointer;
 }
 
-.anchor-edit-btn:hover {
+.anchor-edit-btn:hover,
+.anchor-copy-link-btn:hover {
   @apply scale-110;
 }
 
@@ -210,4 +213,35 @@ body {
 
 .dark .asciidoc-content hr {
   border-color: #374151;
+}
+
+/* Toast Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+.animate-fade-out {
+  animation: fade-out 0.3s ease-out;
 }

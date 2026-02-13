@@ -14,6 +14,7 @@
   "main.documentation": "Dokumentation",
   "search.placeholder": "Anchors durchsuchen...",
   "filter.allRoles": "Alle Rollen",
+  "filter.anchors": "Anker",
   "footer.tagline": "Semantic Anchors &mdash; Gemeinsames Vokabular für LLM-Kommunikation",
   "footer.github": "GitHub",
   "footer.leaveStar": "Dir gefallen die semantischen Anker? Hinterlasse einen Stern!",
@@ -30,9 +31,12 @@
   "categories.strategic-planning": "Strategische Planung & Entscheidungsfindung",
   "categories.testing-quality": "Testing & Qualitätssicherung",
   "card.edit": "Auf GitHub bearbeiten",
+  "card.copyLink": "Link zu diesem Anker kopieren",
+  "card.linkCopied": "Link kopiert!",
   "card.roles": "Rolle",
   "card.rolesPlural": "Rollen",
   "card.tags": "Tags",
   "card.openDetails": "{title} Details öffnen",
-  "modal.close": "Schließen"
+  "modal.close": "Schließen",
+  "modal.share": "Teilen"
 }

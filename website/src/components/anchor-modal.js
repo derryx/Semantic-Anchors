@@ -16,11 +16,18 @@ export function createModal() {
     <div class="bg-[var(--color-bg)] rounded-xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden flex flex-col border border-[var(--color-border)]">
       <div class="flex items-center justify-between p-6 border-b border-[var(--color-border)]">
         <h2 id="modal-title" class="text-2xl font-bold text-[var(--color-text)]"></h2>
-        <button id="modal-close" class="text-[var(--color-text-secondary)] hover:text-[var(--color-text)] transition-colors p-2" aria-label="Close">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-          </svg>
-        </button>
+        <div class="flex items-center gap-2">
+          <button id="modal-share" class="text-[var(--color-text-secondary)] hover:text-[var(--color-text)] transition-colors p-2" data-i18n-aria="modal.share" aria-label="${i18n.t('modal.share')}">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
+            </svg>
+          </button>
+          <button id="modal-close" class="text-[var(--color-text-secondary)] hover:text-[var(--color-text)] transition-colors p-2" data-i18n-aria="modal.close" aria-label="${i18n.t('modal.close')}">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
       </div>
       <div id="modal-content" class="flex-1 overflow-y-auto p-6 prose prose-slate dark:prose-invert max-w-none">
         <div class="flex items-center justify-center h-64">
@@ -35,6 +42,15 @@ export function createModal() {
   // Close handlers
   const closeBtn = modal.querySelector('#modal-close')
   closeBtn.addEventListener('click', closeModal)
+
+  // Share handler
+  const shareBtn = modal.querySelector('#modal-share')
+  shareBtn.addEventListener('click', () => {
+    const anchorId = modal.dataset.currentAnchor
+    if (anchorId) {
+      shareAnchor(anchorId, modal.querySelector('#modal-title').textContent)
+    }
+  })
 
   modal.addEventListener('click', (e) => {
     if (e.target === modal) {
@@ -134,6 +150,39 @@ export async function loadAnchorContent(anchorId) {
 }
 
 export function showAnchorDetails(anchorId) {
+  const modal = document.getElementById('anchor-modal')
+  if (modal) {
+    modal.dataset.currentAnchor = anchorId
+  }
   openModal()
   loadAnchorContent(anchorId)
+}
+
+async function shareAnchor(anchorId, title) {
+  const url = `${window.location.origin}${window.location.pathname}#/anchor/${anchorId}`
+  const text = `${title} - Semantic Anchors`
+
+  // Try Web Share API first (mobile/modern browsers)
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: text,
+        url: url
+      })
+      return
+    } catch (err) {
+      // User cancelled or share failed, fall through to clipboard
+      if (err.name !== 'AbortError') {
+        console.warn('Share failed:', err)
+      }
+    }
+  }
+
+  // Fallback to clipboard
+  try {
+    await navigator.clipboard.writeText(url)
+    window.showToast(i18n.t('card.linkCopied'))
+  } catch (err) {
+    console.error('Failed to copy link:', err)
+  }
 }

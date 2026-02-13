@@ -4,7 +4,7 @@ import { initTheme, toggleTheme, currentTheme } from './theme.js'
 import { renderHeader } from './components/header.js'
 import { renderMain } from './components/main-content.js'
 import { renderFooter } from './components/footer.js'
-import { renderCardGrid, initCardGrid, applyCardFilters } from './components/card-grid.js'
+import { renderCardGrid, initCardGrid, applyCardFilters, updateAnchorCount } from './components/card-grid.js'
 import { fetchData } from './utils/data-loader.js'
 import { createModal, showAnchorDetails } from './components/anchor-modal.js'
 import { buildSearchIndex } from './utils/search-index.js'
@@ -12,6 +12,36 @@ import { initRouter, addRoute } from './utils/router.js'
 import { renderDocPage, loadDocContent } from './components/doc-page.js'
 
 const APP_VERSION = '0.4.0'
+
+// Global function for copying anchor links
+window.copyAnchorLink = async function(anchorId) {
+  const url = `${window.location.origin}${window.location.pathname}#/anchor/${anchorId}`
+
+  try {
+    await navigator.clipboard.writeText(url)
+
+    // Show toast notification
+    window.showToast(i18n.t('card.linkCopied'))
+  } catch (err) {
+    console.error('Failed to copy link:', err)
+  }
+}
+
+// Global toast notification function
+window.showToast = function(message) {
+  // Create toast element
+  const toast = document.createElement('div')
+  toast.className = 'fixed bottom-4 right-4 bg-green-600 text-white px-4 py-2 rounded-lg shadow-lg z-50 animate-fade-in'
+  toast.textContent = message
+
+  document.body.appendChild(toast)
+
+  // Remove after 2 seconds
+  setTimeout(() => {
+    toast.classList.add('animate-fade-out')
+    setTimeout(() => toast.remove(), 300)
+  }, 2000)
+}
 
 let appData = null
 
@@ -131,6 +161,9 @@ async function initCardGridVisualization() {
 
     // Initialize card event handlers
     initCardGrid()
+
+    // Initialize anchor count
+    updateAnchorCount(data.anchors.length, data.anchors.length)
 
     // Build search index in background
     buildSearchIndex(data.anchors).then(() => {
