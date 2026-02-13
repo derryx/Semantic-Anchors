@@ -29,7 +29,7 @@ export function createModal() {
           </button>
         </div>
       </div>
-      <div id="modal-content" class="flex-1 overflow-y-auto p-6 prose prose-slate dark:prose-invert max-w-none">
+      <div id="modal-content" class="flex-1 overflow-y-auto p-6 prose prose-slate dark:prose-invert max-w-none asciidoc-content">
         <div class="flex items-center justify-center h-64">
           <div class="text-[var(--color-text-secondary)]">Loading...</div>
         </div>
