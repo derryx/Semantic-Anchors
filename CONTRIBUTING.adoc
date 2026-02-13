@@ -1,0 +1,207 @@
+= Contributing to Semantic Anchors
+:toc:
+:toc-placement: preamble
+
+Thank you for your interest in contributing to the Semantic Anchors catalog! This guide explains how to propose new semantic anchors and what makes a good semantic anchor.
+
+== What are Semantic Anchors?
+
+Semantic anchors are well-defined terms, methodologies, and frameworks that serve as reference points when communicating with Large Language Models (LLMs). They act as shared vocabulary that triggers specific, contextually rich knowledge domains within an LLM's training data.
+
+*Example:* When you mention "TDD, London School" to an LLM, it activates knowledge about mock-heavy testing, outside-in development, and the work of Steve Freeman and Nat Pryce - much richer than simply saying "use mocks in testing."
+
+== Quality Criteria
+
+Before proposing a new semantic anchor, ensure it meets these four criteria:
+
+[%collapsible]
+====
+=== ✓ Precise
+The anchor references a *specific, established body of knowledge* with clear boundaries.
+
+*Good:* "SOLID Principles" - five specific design principles (SRP, OCP, LSP, ISP, DIP)
+
+*Bad:* "Good design" - vague and subjective
+
+=== ✓ Rich
+The anchor activates *multiple interconnected concepts*, not just a single instruction.
+
+*Good:* "Domain-Driven Design" - activates bounded contexts, ubiquitous language, aggregates, value objects, entities, repositories, etc.
+
+*Bad:* "Use meaningful names" - single instruction with no conceptual depth
+
+=== ✓ Consistent
+Different users invoking the anchor should get *similar conceptual activation* from the LLM.
+
+*Good:* "Test-Driven Development" - widely documented methodology with consistent understanding
+
+*Bad:* "Modern testing" - different interpretations by different people
+
+=== ✓ Attributable
+The anchor can be *traced to key proponents, publications, or documented standards*.
+
+*Good:* "Hexagonal Architecture" (Alistair Cockburn, 2005)
+
+*Bad:* "Best practices" - no specific source or authority
+====
+
+== Testing Your Semantic Anchor
+
+Before proposing, test the anchor with this prompt in an LLM:
+
+[source]
+----
+What concepts do you associate with '<your semantic anchor name>'?
+----
+
+Evaluate the response:
+
+* *Recognition:* Does the LLM recognize the term?
+* *Accuracy:* Is the explanation correct?
+* *Depth:* Does it cover multiple related concepts?
+* *Specificity:* Is the scope well-defined?
+
+== How to Propose a New Anchor
+
+We use an *automated workflow with GitHub Copilot* to validate and enrich proposals:
+
+=== Step 1: Create an Issue
+
+Click the btn:[Propose New Anchor] button on the https://raifdmueller.github.io/Semantic-Anchors/[website] or create an issue using our https://github.com/LLM-Coding/Semantic-Anchors/issues/new?template=propose-anchor.yml[proposal template].
+
+*All you need to provide:*
+
+* The term or concept name
+* (Optional) Why you think it would be valuable
+
+=== Step 2: Copilot Validation
+
+GitHub Copilot automatically:
+
+. Tests the anchor against the four quality criteria
+. Either accepts or rejects the proposal
+. If rejected: Explains why it doesn't meet criteria
+. If accepted: Enriches the issue with detailed information
+
+=== Step 3: Copilot Creates the Anchor
+
+Once accepted and enriched, Copilot is assigned to:
+
+. Create the AsciiDoc file in `docs/anchors/`
+. Add all required metadata (categories, roles, proponents, tags)
+. Submit a Pull Request
+. Maintainers review and merge
+
+=== Step 4: Published
+
+After merge, the new anchor appears on the website within minutes via automated deployment!
+
+== Anchor File Format
+
+Each anchor is stored as an AsciiDoc file with metadata attributes:
+
+[source,asciidoc]
+----
+= TDD, London School
+:categories: testing-quality
+:roles: software-developer, qa-engineer, architect
+:related: tdd-chicago-school, hexagonal-architecture
+:proponents: Steve Freeman, Nat Pryce
+:tags: testing, tdd, mocking, outside-in
+
+[%collapsible]
+====
+*Full Name*: Test-Driven Development, London School
+
+*Also known as*: Mockist TDD, Outside-In TDD
+
+*Core Concepts*:
+* Mock-heavy testing
+* Outside-in development
+* Interaction-based testing
+
+*Key Proponents*: Steve Freeman, Nat Pryce ("Growing Object-Oriented Software, Guided by Tests")
+
+*When to Use*:
+* Complex systems with many collaborating objects
+* When designing APIs and interfaces
+* Distributed systems where integration is costly
+====
+----
+
+*Required Metadata:*
+
+* `:categories:` - One or more category IDs (see website for list)
+* `:roles:` - One or more professional roles that use this anchor
+* `:proponents:` - Key people, publications, or standards
+* `:tags:` - Keywords for search (optional but recommended)
+* `:related:` - Related anchor IDs (optional)
+
+== Counter-Examples
+
+These are *NOT* semantic anchors:
+
+[horizontal]
+"TLDR":: Underspecified instruction, no defined structure
+"ELI5":: Vague target level, no pedagogical framework
+"Keep it short":: Pure instruction, no conceptual depth
+"Best practices":: No specific body of knowledge, not attributable
+"Modern approach":: Too vague, not consistent across users
+
+== Categories
+
+Anchors are organized into 12 MECE (Mutually Exclusive, Collectively Exhaustive) categories:
+
+. Communication & Presentation
+. Design Principles & Patterns
+. Development Workflow
+. Dialogue & Interaction Patterns
+. Documentation Practices
+. Meta (repository and catalog concepts)
+. Problem-Solving Methodologies
+. Requirements Engineering
+. Software Architecture
+. Statistical Methods & Process Monitoring
+. Strategic Planning & Decision Making
+. Testing & Quality Practices
+
+See the website for full category descriptions.
+
+== Professional Roles
+
+Anchors are tagged with professional roles to help filter relevant content:
+
+. Software Developer / Engineer
+. Software Architect
+. QA Engineer / Tester
+. DevOps Engineer
+. Product Owner / Product Manager
+. Business Analyst / Requirements Engineer
+. Technical Writer / Documentation Specialist
+. UX Designer / Researcher
+. Data Scientist / Statistician
+. Consultant / Coach
+. Team Lead / Engineering Manager
+. Educator / Trainer
+
+== Code of Conduct
+
+* Be respectful and constructive in discussions
+* Propose anchors in good faith
+* Respect maintainer decisions on quality criteria
+* Focus on established, documented methodologies
+* Give credit to original proponents
+
+== Questions?
+
+* Browse existing anchors on the https://raifdmueller.github.io/Semantic-Anchors/[website]
+* Check the https://github.com/LLM-Coding/Semantic-Anchors/blob/main/README.adoc[README] for project overview
+* Open a https://github.com/LLM-Coding/Semantic-Anchors/issues[GitHub issue] for questions
+
+== License
+
+By contributing, you agree that your contributions will be licensed under the same license as this project (see LICENSE file).
+
+---
+
+*Ready to propose?* Click here: https://github.com/LLM-Coding/Semantic-Anchors/issues/new?template=propose-anchor.yml[Propose New Semantic Anchor]
