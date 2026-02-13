@@ -9,6 +9,13 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          echarts: ['echarts']
+        }
+      }
+    }
   },
   server: {
     port: 5173,

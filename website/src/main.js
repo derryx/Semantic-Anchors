@@ -2,8 +2,9 @@ import './styles/main.css'
 import { renderHeader } from './components/header.js'
 import { renderMain } from './components/main-content.js'
 import { renderFooter } from './components/footer.js'
+import { initTreemap, updateTreemapByRole } from './components/treemap.js'
 
-const APP_VERSION = '0.1.0'
+const APP_VERSION = '0.2.0'
 
 function initApp() {
   const app = document.querySelector('#app')
@@ -16,6 +17,29 @@ function initApp() {
 
   initThemeToggle()
   initLanguageToggle()
+  initTreemapVisualization()
+}
+
+async function initTreemapVisualization() {
+  try {
+    const { currentData } = await initTreemap()
+
+    const roleFilter = document.getElementById('role-filter')
+    if (roleFilter && currentData.roles) {
+      currentData.roles.forEach(role => {
+        const option = document.createElement('option')
+        option.value = role.id
+        option.textContent = role.name
+        roleFilter.appendChild(option)
+      })
+
+      roleFilter.addEventListener('change', (e) => {
+        updateTreemapByRole(e.target.value)
+      })
+    }
+  } catch (err) {
+    console.error('Failed to initialize treemap:', err)
+  }
 }
 
 function initThemeToggle() {

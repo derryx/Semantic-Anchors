@@ -27,11 +27,11 @@ export function renderMain() {
           </select>
         </section>
 
-        <section id="treemap-container" class="rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-secondary)] p-4" style="min-height: 500px;">
-          <div class="flex items-center justify-center h-full text-[var(--color-text-secondary)]">
-            <p>Treemap visualization will be rendered here.</p>
-          </div>
-        </section>
+        <section
+          id="treemap-container"
+          class="rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-secondary)]"
+          style="min-height: 500px; height: calc(100vh - 350px);"
+        ></section>
       </div>
     </main>
   `
