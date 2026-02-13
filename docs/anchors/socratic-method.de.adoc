@@ -4,23 +4,32 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Sokratische Methode (auch Sokratischer Dialog, Elenchos)
+Vollständiger Name:: Sokratische Methode (auch Sokratischer Dialog, Elenchos)
 
 *Kernkonzepte*:
 
-* *Geführte Entdeckung*: Lernende durch Fragen zu Einsichten führen statt direkter Instruktion
-* *Elenchos*: Kreuzverhör-Technik zur Aufdeckung von Widersprüchen in Überzeugungen
-* *Maieutik*: "Hebammenkunst der Ideen" – anderen helfen, Wissen zu gebären, das sie bereits besitzen
-* *Aporie*: Zustand produktiver Verwirrung, der tiefere Untersuchung motiviert
-* *Fragenhierarchie*: Fortschritt von klärenden Fragen über Hinterfragen von Annahmen bis zur Erforschung von Implikationen
-* *Dialektische Methode*: Strukturierter Dialog, um durch begründete Argumentation zur Wahrheit zu gelangen
-* *Nicht-assertive Lehre*: Lehrer gibt Unwissenheit vor, führt durch Fragen
-* *Annahmen sichtbar machen*: Implizite Überzeugungen durch systematisches Befragen explizit machen
-* *Logische Konsistenz*: Ideen auf innere Kohärenz und Widersprüche testen
+Geführte Entdeckung:: Lernende durch Fragen zu Einsichten führen statt direkter Instruktion
 
-*Schlüsselvertreter*: Sokrates (via Platons Dialoge, ~400 v. Chr.)
+Elenchos:: Kreuzverhör-Technik zur Aufdeckung von Widersprüchen in Überzeugungen
 
-*Historischer Kontext*: 2400+ Jahre philosophische Tradition, grundlegend für westliche Philosophie und kritisches Denken in der Bildung
+Maieutik:: "Hebammenkunst der Ideen" – anderen helfen, Wissen zu gebären, das sie bereits besitzen
+
+Aporie:: Zustand produktiver Verwirrung, der tiefere Untersuchung motiviert
+
+Fragenhierarchie:: Fortschritt von klärenden Fragen über Hinterfragen von Annahmen bis zur Erforschung von Implikationen
+
+Dialektische Methode:: Strukturierter Dialog, um durch begründete Argumentation zur Wahrheit zu gelangen
+
+Nicht-assertive Lehre:: Lehrer gibt Unwissenheit vor, führt durch Fragen
+
+Annahmen sichtbar machen:: Implizite Überzeugungen durch systematisches Befragen explizit machen
+
+Logische Konsistenz:: Ideen auf innere Kohärenz und Widersprüche testen
+
+
+Schlüsselvertreter:: Sokrates (via Platons Dialoge, ~400 v. Chr.)
+
+Historischer Kontext:: 2400+ Jahre philosophische Tradition, grundlegend für westliche Philosophie und kritisches Denken in der Bildung
 
 *Wann zu verwenden*:
 

@@ -4,19 +4,26 @@
 
 [%collapsible]
 ====
-*Full Name*: Easy Approach to Requirements Syntax
+Full Name:: Easy Approach to Requirements Syntax
 
 *Core Concepts*:
 
-* *Ubiquitous requirements*: "The <system> shall <requirement>"
-* *Event-driven requirements*: "WHEN <trigger> the <system> shall <requirement>"
-* *Unwanted behavior*: "IF <condition>, THEN the <system> shall <requirement>"
-* *State-driven requirements*: "WHILE <state>, the <system> shall <requirement>"
-* *Optional features*: "WHERE <feature is included>, the <system> shall <requirement>"
-* *Structured syntax*: Consistent templates for clarity
-* *Testability*: Requirements written to be verifiable
+Ubiquitous requirements:: "The <system> shall <requirement>"
 
-*Key Proponent*: Alistair Mavin (Rolls-Royce)
+Event-driven requirements:: "WHEN <trigger> the <system> shall <requirement>"
+
+Unwanted behavior:: "IF <condition>, THEN the <system> shall <requirement>"
+
+State-driven requirements:: "WHILE <state>, the <system> shall <requirement>"
+
+Optional features:: "WHERE <feature is included>, the <system> shall <requirement>"
+
+Structured syntax:: Consistent templates for clarity
+
+Testability:: Requirements written to be verifiable
+
+
+Key Proponent:: Alistair Mavin (Rolls-Royce)
 
 *When to Use*:
 

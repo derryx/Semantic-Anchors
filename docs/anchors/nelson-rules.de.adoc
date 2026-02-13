@@ -4,30 +4,44 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Nelson Rules (Tests for Special Causes)
+Vollständiger Name:: Nelson Rules (Tests for Special Causes)
 
 *Kernkonzepte*:
 
 * *8 Regeln* zur Erkennung nicht-zufälliger Muster in Regelkarten
-* *Regel 1*: Ein Punkt jenseits von 3σ (Ausreißer)
-* *Regel 2*: 9 aufeinanderfolgende Punkte auf derselben Seite des Mittelwerts (Verschiebung/Bias)
-* *Regel 3*: 6 aufeinanderfolgende Punkte, die stetig steigen oder fallen (Trend)
-* *Regel 4*: 14 Punkte, die abwechselnd auf und ab gehen (Oszillation)
-* *Regel 5*: 2 von 3 Punkten jenseits von 2σ auf derselben Seite
-* *Regel 6*: 4 von 5 Punkten jenseits von 1σ auf derselben Seite
-* *Regel 7*: 15 Punkte innerhalb von 1σ (verdächtig niedrige Varianz)
-* *Regel 8*: 8 Punkte außerhalb von ±1σ, aber keiner jenseits von ±3σ (systematische Oszillation)
-* *Allgemeine vs. Spezielle Ursache*: Unterscheidung zwischen inhärenter und zuordenbarer Variation
-* *Zonen A/B/C*: Aufteilung der Regelkarte in 6 Zonen (jeweils 1σ breit)
-* *Falsch-Positiv-Abwägung*: Mehr aktive Regeln = höhere Sensitivität, aber mehr Fehlalarme
+Regel 1:: Ein Punkt jenseits von 3σ (Ausreißer)
 
-*Schlüsselvertreter*: Lloyd S. Nelson (1984, Journal of Quality Technology)
+Regel 2:: 9 aufeinanderfolgende Punkte auf derselben Seite des Mittelwerts (Verschiebung/Bias)
+
+Regel 3:: 6 aufeinanderfolgende Punkte, die stetig steigen oder fallen (Trend)
+
+Regel 4:: 14 Punkte, die abwechselnd auf und ab gehen (Oszillation)
+
+Regel 5:: 2 von 3 Punkten jenseits von 2σ auf derselben Seite
+
+Regel 6:: 4 von 5 Punkten jenseits von 1σ auf derselben Seite
+
+Regel 7:: 15 Punkte innerhalb von 1σ (verdächtig niedrige Varianz)
+
+Regel 8:: 8 Punkte außerhalb von ±1σ, aber keiner jenseits von ±3σ (systematische Oszillation)
+
+Allgemeine vs. Spezielle Ursache:: Unterscheidung zwischen inhärenter und zuordenbarer Variation
+
+Zonen A/B/C:: Aufteilung der Regelkarte in 6 Zonen (jeweils 1σ breit)
+
+Falsch-Positiv-Abwägung:: Mehr aktive Regeln = höhere Sensitivität, aber mehr Fehlalarme
+
+
+Schlüsselvertreter:: Lloyd S. Nelson (1984, Journal of Quality Technology)
 
 *Beziehung zu anderen Ankern*:
 
-* *Control Chart (Shewhart)*: Nelson Rules werden auf Regelkarten angewendet
-* *<<spc,SPC>>*: Nelson Rules sind ein Werkzeug innerhalb der Statistischen Prozesskontrolle
-* *Western Electric Rules*: Vorgänger; Nelson Rules erweitern diese mit Regeln 5-8
+Control Chart (Shewhart):: Nelson Rules werden auf Regelkarten angewendet
+
+<<spc,SPC>>:: Nelson Rules sind ein Werkzeug innerhalb der Statistischen Prozesskontrolle
+
+Western Electric Rules:: Vorgänger; Nelson Rules erweitern diese mit Regeln 5-8
+
 
 *Wann zu verwenden*:
 

@@ -4,21 +4,27 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Semantic Versioning Specification
+Vollständiger Name:: Semantic Versioning Specification
 
 *Kernkonzepte*:
 
-* *Versionsformat*: MAJOR.MINOR.PATCH (z.B. 2.4.7)
-** *MAJOR*: Inkompatible API-Änderungen (Breaking Changes)
-** *MINOR*: Rückwärtskompatible Funktionserweiterungen
-** *PATCH*: Rückwärtskompatible Fehlerbehebungen
-** *Pre-Release-Versionen*: Bindestrich und Identifikatoren anhängen (z.B. 1.0.0-alpha.1)
-* *Build-Metadaten*: Pluszeichen und Identifikatoren anhängen (z.B. 1.0.0+20241111)
-* *Versionspriorität*: Klare Regeln für Versionsvergleich
-* *Initiale Entwicklung*: 0.y.z für initiale Entwicklung (API instabil)
-* *Public API-Deklaration*: Sobald public API deklariert, sind Versionsabhängigkeiten wichtig
+Versionsformat::
++
+MAJOR::: Inkompatible API-Änderungen (Breaking Changes)
+MINOR::: Rückwärtskompatible Funktionserweiterungen
+PATCH::: Rückwärtskompatible Fehlerbehebungen
+Pre-Release-Versionen::: Bindestrich und Identifikatoren anhängen (z.B. 1.0.0-alpha.1)
 
-*Schlüsselvertreter*: Tom Preston-Werner
+Build-Metadaten:: Pluszeichen und Identifikatoren anhängen (z.B. 1.0.0+20241111)
+
+Versionspriorität:: Klare Regeln für Versionsvergleich
+
+Initiale Entwicklung:: 0.y.z für initiale Entwicklung (API instabil)
+
+Public API-Deklaration:: Sobald public API deklariert, sind Versionsabhängigkeiten wichtig
+
+
+Schlüsselvertreter:: Tom Preston-Werner
 
 *Wann zu verwenden*:
 

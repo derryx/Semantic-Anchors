@@ -5,29 +5,36 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Markdown Any Decision Records
+Vollständiger Name:: Markdown Any Decision Records
 
 *Kernkonzepte*:
 
-* *Strukturiertes Template*: Wohldefiniertes Format mit spezifischen Abschnitten
-* *Standardfelder*:
-** Titel (kurze Nominalphrase)
-** Status (vorgeschlagen, akzeptiert, abgelehnt, veraltet, ersetzt)
-** Kontext und Problemstellung
-** Entscheidungstreiber (Kräfte, die die Entscheidung beeinflussen)
-** Betrachtete Optionen (bewertete Alternativen)
-** Entscheidungsergebnis (gewählte Option mit Begründung)
-** Vor- und Nachteile der Optionen (Trade-off-Analyse)
-** Links (verwandte Entscheidungen, Referenzen)
-* *Markdown-Format*: Nutzt Standard-Markdown für breite Kompatibilität
-* *Klare Struktur*: Detaillierter als einfache ADRs, enthält explizite Alternativen
-* *Trade-off-Dokumentation*: Erfasst explizit Vor-/Nachteile jeder Option
-* *Versionskontrolle*: Mit Code gespeichert, unveränderlich wie andere ADRs
-* *Leichtgewichtig und dennoch umfassend*: Balanciert Vollständigkeit mit Wartbarkeit
+Strukturiertes Template:: Wohldefiniertes Format mit spezifischen Abschnitten
 
-*Schlüsselvertreter*: Oliver Kopp, Olaf Zimmermann (und MADR-Community)
+Standardfelder::
+* Titel (kurze Nominalphrase)
+* Status (vorgeschlagen, akzeptiert, abgelehnt, veraltet, ersetzt)
+* Kontext und Problemstellung
+* Entscheidungstreiber (Kräfte, die die Entscheidung beeinflussen)
+* Betrachtete Optionen (bewertete Alternativen)
+* Entscheidungsergebnis (gewählte Option mit Begründung)
+* Vor- und Nachteile der Optionen (Trade-off-Analyse)
+* Links (verwandte Entscheidungen, Referenzen)
 
-*Referenz*: https://adr.github.io/madr/
+Markdown-Format:: Nutzt Standard-Markdown für breite Kompatibilität
+
+Klare Struktur:: Detaillierter als einfache ADRs, enthält explizite Alternativen
+
+Trade-off-Dokumentation:: Erfasst explizit Vor-/Nachteile jeder Option
+
+Versionskontrolle:: Mit Code gespeichert, unveränderlich wie andere ADRs
+
+Leichtgewichtig und dennoch umfassend:: Balanciert Vollständigkeit mit Wartbarkeit
+
+
+Schlüsselvertreter:: Oliver Kopp, Olaf Zimmermann (und MADR-Community)
+
+Referenz:: https://adr.github.io/madr/
 
 *Wann zu verwenden*:
 

@@ -4,21 +4,30 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Impact Mapping nach Gojko Adzic
+Vollständiger Name:: Impact Mapping nach Gojko Adzic
 
 *Kernkonzepte*:
 
-* *Vier Ebenen*: Ziel → Akteure → Auswirkungen → Liefergegenstände
-* *Ziel*: Geschäftsziel (Warum?)
-* *Akteure*: Wer kann die gewünschte Auswirkung erzeugen oder verhindern? (Wer?)
-* *Auswirkungen*: Wie kann sich das Verhalten der Akteure ändern? (Wie?)
-* *Liefergegenstände*: Was können wir bauen? (Was?)
-* *Visuelles Mapping*: Mind-Map-Stil kollaboratives Diagramm
-* *Annahmentesten*: Annahmen explizit machen
-* *Scope-Management*: Scope Creep durch Verknüpfung mit Zielen verhindern
-* *Roadmap-Alternative*: Zielorientiert statt featureorientiert
+Vier Ebenen:: Ziel → Akteure → Auswirkungen → Liefergegenstände
 
-*Schlüsselvertreter*: Gojko Adzic ("Impact Mapping", 2012)
+Ziel:: Geschäftsziel (Warum?)
+
+Akteure:: Wer kann die gewünschte Auswirkung erzeugen oder verhindern? (Wer?)
+
+Auswirkungen:: Wie kann sich das Verhalten der Akteure ändern? (Wie?)
+
+Liefergegenstände:: Was können wir bauen? (Was?)
+
+Visuelles Mapping:: Mind-Map-Stil kollaboratives Diagramm
+
+Annahmentesten:: Annahmen explizit machen
+
+Scope-Management:: Scope Creep durch Verknüpfung mit Zielen verhindern
+
+Roadmap-Alternative:: Zielorientiert statt featureorientiert
+
+
+Schlüsselvertreter:: Gojko Adzic ("Impact Mapping", 2012)
 
 *Wann zu verwenden*:
 

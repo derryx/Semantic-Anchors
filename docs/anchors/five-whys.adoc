@@ -4,22 +4,30 @@
 
 [%collapsible]
 ====
-*Full Name*: Five Whys Root Cause Analysis
+Full Name:: Five Whys Root Cause Analysis
 
 *Core Concepts*:
 
-* *Iterative Causal Analysis*: Ask "Why?" repeatedly (typically ~5 times) to drill down to root causes
-* *Root Cause vs. Symptom*: Distinguish between surface symptoms and underlying causes
-* *Causal Chain*: Each answer becomes the subject of the next "Why?" question
-* *Actionable Root Cause*: Continue until you reach a cause that can be acted upon
-* *Simplicity*: No complex tools or statistical analysis required
-* *Team-Based Investigation*: Collaborative exploration of causal relationships
-* *Avoiding Blame*: Focus on process failures, not individual fault
-* *Countermeasure Identification*: Once root cause is found, design interventions
+Iterative Causal Analysis:: Ask "Why?" repeatedly (typically ~5 times) to drill down to root causes
 
-*Key Proponent*: Taiichi Ohno (Toyota Production System, 1950s)
+Root Cause vs. Symptom:: Distinguish between surface symptoms and underlying causes
 
-*Historical Context*: Core tool in Lean Manufacturing and Toyota Production System (TPS), foundational to continuous improvement (Kaizen)
+Causal Chain:: Each answer becomes the subject of the next "Why?" question
+
+Actionable Root Cause:: Continue until you reach a cause that can be acted upon
+
+Simplicity:: No complex tools or statistical analysis required
+
+Team-Based Investigation:: Collaborative exploration of causal relationships
+
+Avoiding Blame:: Focus on process failures, not individual fault
+
+Countermeasure Identification:: Once root cause is found, design interventions
+
+
+Key Proponent:: Taiichi Ohno (Toyota Production System, 1950s)
+
+Historical Context:: Core tool in Lean Manufacturing and Toyota Production System (TPS), foundational to continuous improvement (Kaizen)
 
 *When to Use*:
 

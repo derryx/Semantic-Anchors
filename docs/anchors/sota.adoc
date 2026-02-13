@@ -4,17 +4,24 @@
 
 [%collapsible]
 ====
-*Full Name*: State-of-the-Art
+Full Name:: State-of-the-Art
 
 *Core Concepts*:
 
-* *Latest approaches*: Focus on the most current, cutting-edge methods and techniques
-* *Research-grounded*: Reference current research papers, benchmarks, and empirical results
-* *Comparative analysis*: Compare new approaches with existing or previous methods
-* *Performance-focused*: Emphasize benchmark-leading and best-performing solutions
-* *Up-to-date information*: Provide current, grounded information rather than outdated practices
-* *Evidence-based*: Support claims with recent studies, benchmarks, and real-world implementations
-* *Contextual awareness*: Consider the specific domain and timeframe for "state-of-the-art"
+Latest approaches:: Focus on the most current, cutting-edge methods and techniques
+
+Research-grounded:: Reference current research papers, benchmarks, and empirical results
+
+Comparative analysis:: Compare new approaches with existing or previous methods
+
+Performance-focused:: Emphasize benchmark-leading and best-performing solutions
+
+Up-to-date information:: Provide current, grounded information rather than outdated practices
+
+Evidence-based:: Support claims with recent studies, benchmarks, and real-world implementations
+
+Contextual awareness:: Consider the specific domain and timeframe for "state-of-the-art"
+
 
 *Usage Patterns*:
 
@@ -29,7 +36,7 @@
 * "Give me the SOTA approach for semantic search"
 * "What's the SOTA in transformer architectures?"
 
-*Key Proponent*: Widely used in ML/AI research community
+Key Proponent:: Widely used in ML/AI research community
 
 *When to Use*:
 

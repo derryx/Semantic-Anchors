@@ -4,21 +4,30 @@
 
 [%collapsible]
 ====
-*Auch bekannt als*: Generatives Testen, QuickCheck-artiges Testen
+Auch bekannt als:: Generatives Testen, QuickCheck-artiges Testen
 
 *Kernkonzepte*:
 
-* *Properties (Eigenschaften)*: Invarianten, die immer gelten sollten
-* *Generatoren*: Automatische Testdatenerzeugung
-* *Shrinking (Vereinfachung)*: Minimierung fehlschlagender Testfälle zur einfachsten Form
-* *Universelle Quantifizierung*: Testen "für alle Eingaben"
-* *Spezifikationstesten*: Testen von High-Level-Eigenschaften, nicht Beispielen
-* *Edge-Case-Entdeckung*: Findet Fälle, an die man nicht gedacht hat
-* *Komplementär zu beispielbasiert*: Funktioniert neben traditionellen Unit-Tests
-* *Zustandsbehaftetes Testen*: Testen von Operationssequenzen
-* *Modellbasiertes Testen*: Implementierung gegen einfacheres Modell vergleichen
+Properties (Eigenschaften):: Invarianten, die immer gelten sollten
 
-*Wichtige Werkzeuge*: QuickCheck (Haskell), Hypothesis (Python), fast-check (JavaScript), FsCheck (.NET)
+Generatoren:: Automatische Testdatenerzeugung
+
+Shrinking (Vereinfachung):: Minimierung fehlschlagender Testfälle zur einfachsten Form
+
+Universelle Quantifizierung:: Testen "für alle Eingaben"
+
+Spezifikationstesten:: Testen von High-Level-Eigenschaften, nicht Beispielen
+
+Edge-Case-Entdeckung:: Findet Fälle, an die man nicht gedacht hat
+
+Komplementär zu beispielbasiert:: Funktioniert neben traditionellen Unit-Tests
+
+Zustandsbehaftetes Testen:: Testen von Operationssequenzen
+
+Modellbasiertes Testen:: Implementierung gegen einfacheres Modell vergleichen
+
+
+Wichtige Werkzeuge:: QuickCheck (Haskell), Hypothesis (Python), fast-check (JavaScript), FsCheck (.NET)
 
 *Wann zu verwenden*:
 

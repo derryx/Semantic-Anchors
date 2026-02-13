@@ -4,22 +4,30 @@
 
 [%collapsible]
 ====
-*Full Name*: Devil's Advocate (Latin: *Advocatus Diaboli*)
+Full Name:: Devil's Advocate (Latin: *Advocatus Diaboli*)
 
 *Core Concepts*:
 
-* *Systematic Counter-Argumentation*: Present opposing viewpoints even if not personally held
-* *Assumption Challenging*: Question premises and surface hidden assumptions
-* *Stress-Testing Ideas*: Identify weaknesses before they become problems
-* *Steelmanning*: Present the *strongest* version of the opposing argument, not a strawman
-* *Intellectual Honesty*: Separate idea evaluation from ego or political concerns
-* *Pre-Mortem Thinking*: Imagine failure scenarios to prevent them
-* *Dialectical Reasoning*: Thesis + Antithesis → Synthesis
-* *Risk Identification*: Surface potential problems proactively
+Systematic Counter-Argumentation:: Present opposing viewpoints even if not personally held
 
-*Key Origin*: Catholic Church canonization process (Promotor Fidei role, formalized 1587), secularized in critical thinking and decision-making
+Assumption Challenging:: Question premises and surface hidden assumptions
 
-*Historical Context*: 400+ years as formalized practice in the Church, adopted widely in law, philosophy, business strategy, and red teaming
+Stress-Testing Ideas:: Identify weaknesses before they become problems
+
+Steelmanning:: Present the *strongest* version of the opposing argument, not a strawman
+
+Intellectual Honesty:: Separate idea evaluation from ego or political concerns
+
+Pre-Mortem Thinking:: Imagine failure scenarios to prevent them
+
+Dialectical Reasoning:: Thesis + Antithesis → Synthesis
+
+Risk Identification:: Surface potential problems proactively
+
+
+Key Origin:: Catholic Church canonization process (Promotor Fidei role, formalized 1587), secularized in critical thinking and decision-making
+
+Historical Context:: 400+ years as formalized practice in the Church, adopted widely in law, philosophy, business strategy, and red teaming
 
 *When to Use*:
 

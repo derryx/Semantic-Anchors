@@ -4,22 +4,30 @@
 
 [%collapsible]
 ====
-*Full Name*: There Is More Than One Way To Do It
+Full Name:: There Is More Than One Way To Do It
 
-*Also known as*: Tim Toady
+Also known as:: Tim Toady
 
 *Core Concepts*:
 
-* *Multiple valid approaches*: Acknowledges that problems can be solved in different, equally valid ways
-* *Developer freedom*: Trust developers to choose the right approach for their context
-* *Expressiveness*: Languages and tools should support diverse problem-solving styles
-* *Context-dependent decisions*: The "best" solution depends on constraints, team, and situation
-* *No single canonical form*: Resist dogma — flexibility over prescription
-* *Trade-off awareness*: Different approaches have different trade-offs; none is universally superior
-* *Pragmatism over purity*: Practical results matter more than theoretical elegance
-* *Collaborative decision-making*: When working with others, discuss approach rather than assume
+Multiple valid approaches:: Acknowledges that problems can be solved in different, equally valid ways
 
-*Key Proponent*: Larry Wall (Perl programming language)
+Developer freedom:: Trust developers to choose the right approach for their context
+
+Expressiveness:: Languages and tools should support diverse problem-solving styles
+
+Context-dependent decisions:: The "best" solution depends on constraints, team, and situation
+
+No single canonical form:: Resist dogma — flexibility over prescription
+
+Trade-off awareness:: Different approaches have different trade-offs; none is universally superior
+
+Pragmatism over purity:: Practical results matter more than theoretical elegance
+
+Collaborative decision-making:: When working with others, discuss approach rather than assume
+
+
+Key Proponent:: Larry Wall (Perl programming language)
 
 *Contrast*:
 

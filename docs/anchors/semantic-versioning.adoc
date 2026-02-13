@@ -4,21 +4,27 @@
 
 [%collapsible]
 ====
-*Full Name*: Semantic Versioning Specification
+Full Name:: Semantic Versioning Specification
 
 *Core Concepts*:
 
-* *Version format*: MAJOR.MINOR.PATCH (e.g., 2.4.7)
-** *MAJOR*: Incompatible API changes (breaking changes)
-** *MINOR*: Backward-compatible functionality additions
-** *PATCH*: Backward-compatible bug fixes
-** *Pre-release versions*: Append hyphen and identifiers (e.g., 1.0.0-alpha.1)
-* *Build metadata*: Append plus sign and identifiers (e.g., 1.0.0+20241111)
-* *Version precedence*: Clear rules for version comparison
-* *Initial development*: 0.y.z for initial development (API unstable)
-* *Public API declaration*: Once public API declared, version dependencies matter
+Version format::
++
+MAJOR::: Incompatible API changes (breaking changes)
+MINOR::: Backward-compatible functionality additions
+PATCH::: Backward-compatible bug fixes
+Pre-release versions::: Append hyphen and identifiers (e.g., 1.0.0-alpha.1)
 
-*Key Proponent*: Tom Preston-Werner
+Build metadata:: Append plus sign and identifiers (e.g., 1.0.0+20241111)
+
+Version precedence:: Clear rules for version comparison
+
+Initial development:: 0.y.z for initial development (API unstable)
+
+Public API declaration:: Once public API declared, version dependencies matter
+
+
+Key Proponent:: Tom Preston-Werner
 
 *When to Use*:
 

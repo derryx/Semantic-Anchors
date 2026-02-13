@@ -5,24 +5,32 @@
 
 [%collapsible]
 ====
-*Full Name*: BLUF (Bottom Line Up Front)
+Full Name:: BLUF (Bottom Line Up Front)
 
-*Also known as*: Direct Answer Format, Conclusion-First Communication
+Also known as:: Direct Answer Format, Conclusion-First Communication
 
 *Core Concepts*:
 
-* *Conclusion First*: State the main point, decision, or recommendation immediately
-* *Inverted Pyramid*: Most important information first, supporting details follow
-* *Action Orientation*: Lead with what needs to happen or what was decided
-* *Busy Reader Optimization*: Enable time-pressed readers to get key information instantly
-* *Supporting Evidence Follows*: Detailed rationale, data, and background come after the conclusion
-* *Scannable Structure*: Clear hierarchy enables readers to stop at their needed depth
-* *Clarity Over Suspense*: No narrative buildup or delayed conclusions
-* *One Sentence First*: Ideally, the BLUF itself is a single, clear sentence
+Conclusion First:: State the main point, decision, or recommendation immediately
 
-*Key Proponents*: US Military (Army writing standards), adopted broadly in business and government
+Inverted Pyramid:: Most important information first, supporting details follow
 
-*Historical Context*: Standardized in military communication where rapid decision-making is critical; now standard in business writing (McKinsey, consulting, executive communication)
+Action Orientation:: Lead with what needs to happen or what was decided
+
+Busy Reader Optimization:: Enable time-pressed readers to get key information instantly
+
+Supporting Evidence Follows:: Detailed rationale, data, and background come after the conclusion
+
+Scannable Structure:: Clear hierarchy enables readers to stop at their needed depth
+
+Clarity Over Suspense:: No narrative buildup or delayed conclusions
+
+One Sentence First:: Ideally, the BLUF itself is a single, clear sentence
+
+
+Key Proponents:: US Military (Army writing standards), adopted broadly in business and government
+
+Historical Context:: Standardized in military communication where rapid decision-making is critical; now standard in business writing (McKinsey, consulting, executive communication)
 
 *When to Use*:
 
@@ -39,5 +47,5 @@
 * Complements MECE by providing the organizational principle for grouped information
 * Contrasts with narrative or exploratory writing styles
 
-*Counter-example*: Academic papers (which build to conclusions) or storytelling (which uses suspense)
+Counter-example:: Academic papers (which build to conclusions) or storytelling (which uses suspense)
 ====

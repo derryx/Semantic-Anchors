@@ -4,23 +4,32 @@
 
 [%collapsible]
 ====
-*Full Name*: Programming as Theory Building (Mental Model) according to Peter Naur
+Full Name:: Programming as Theory Building (Mental Model) according to Peter Naur
 
 *Core Concepts*:
 
-* *Theory building*: Programming is creating a mental model, not just writing code
-* *Theory of the program*: Deep understanding of why the program works and how it relates to the problem domain
-* *Knowledge in people*: The real program exists in developers' minds, not in the code
-* *Theory decay*: When original developers leave, the theory is lost
-* *Documentation limitations*: Written documentation cannot fully capture the theory
-* *Maintenance as theory*: Effective maintenance requires possessing the theory
-* *Communication is key*: Theory must be shared through collaboration and conversation
-* *Ramp-up time*: New team members need time to build the theory
-* *Code as artifact*: Code is merely a representation of the underlying theory
+Theory building:: Programming is creating a mental model, not just writing code
 
-*Key Proponent*: Peter Naur (Turing Award winner, 1978)
+Theory of the program:: Deep understanding of why the program works and how it relates to the problem domain
 
-*Original Work*: "Programming as Theory Building" (1985)
+Knowledge in people:: The real program exists in developers' minds, not in the code
+
+Theory decay:: When original developers leave, the theory is lost
+
+Documentation limitations:: Written documentation cannot fully capture the theory
+
+Maintenance as theory:: Effective maintenance requires possessing the theory
+
+Communication is key:: Theory must be shared through collaboration and conversation
+
+Ramp-up time:: New team members need time to build the theory
+
+Code as artifact:: Code is merely a representation of the underlying theory
+
+
+Key Proponent:: Peter Naur (Turing Award winner, 1978)
+
+Original Work:: "Programming as Theory Building" (1985)
 
 *Application in Software Development*:
 

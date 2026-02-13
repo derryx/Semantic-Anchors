@@ -4,21 +4,30 @@
 
 [%collapsible]
 ====
-*Auch bekannt als*: Ports and Adapters, Onion Architecture (Variante)
+Auch bekannt als:: Ports and Adapters, Onion Architecture (Variante)
 
 *Kernkonzepte*:
 
-* *Hexagonale Struktur*: Kerndomäne im Zentrum, isoliert von externen Belangen
-* *Ports*: Schnittstellen, die definieren, wie die Anwendung kommuniziert
-* *Adapter*: Implementierungen, die mit externen Systemen verbinden
-* *Dependency Inversion*: Abhängigkeiten zeigen nach innen zur Domäne
-* *Technologieunabhängigkeit*: Kernlogik hängt nicht von Frameworks oder Infrastruktur ab
-* *Primäre/Treibende Adapter*: Benutzeroberflächen, APIs (eingehend)
-* *Sekundäre/Getriebene Adapter*: Datenbanken, Message Queues (ausgehend)
-* *Testbarkeit*: Einfaches Testen der Kernlogik isoliert
-* *Symmetrie*: Alle externen Interaktionen werden einheitlich behandelt
+Hexagonale Struktur:: Kerndomäne im Zentrum, isoliert von externen Belangen
 
-*Schlüsselvertreter*: Alistair Cockburn (2005)
+Ports:: Schnittstellen, die definieren, wie die Anwendung kommuniziert
+
+Adapter:: Implementierungen, die mit externen Systemen verbinden
+
+Dependency Inversion:: Abhängigkeiten zeigen nach innen zur Domäne
+
+Technologieunabhängigkeit:: Kernlogik hängt nicht von Frameworks oder Infrastruktur ab
+
+Primäre/Treibende Adapter:: Benutzeroberflächen, APIs (eingehend)
+
+Sekundäre/Getriebene Adapter:: Datenbanken, Message Queues (ausgehend)
+
+Testbarkeit:: Einfaches Testen der Kernlogik isoliert
+
+Symmetrie:: Alle externen Interaktionen werden einheitlich behandelt
+
+
+Schlüsselvertreter:: Alistair Cockburn (2005)
 
 *Wann zu verwenden*:
 

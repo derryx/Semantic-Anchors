@@ -5,24 +5,36 @@
 
 [%collapsible]
 ====
-*Auch bekannt als*: Mutationsanalyse, Fehlerbasiertes Testen
+Auch bekannt als:: Mutationsanalyse, Fehlerbasiertes Testen
 
 *Kernkonzepte*:
 
-* *Testqualitätsbewertung*: Bewertung, wie effektiv Tests Fehler erkennen
-* *Code-Mutationen*: Absichtliches Einführen kleiner, syntaktischer Änderungen (Mutanten) in Quellcode
-* *Mutationsoperatoren*: Regeln zur Erstellung von Mutanten (z.B. `>` zu `>=` ändern, Boolean umkehren, Anweisung entfernen)
-* *Getötete Mutanten*: Mutationen, die durch fehlschlagende Tests erkannt wurden (gut)
-* *Überlebende Mutanten*: Mutationen, die von Tests nicht erkannt wurden (zeigt Testschwäche an)
-* *Äquivalente Mutanten*: Mutationen, die das Programmverhalten nicht ändern (Falsch-Positive)
-* *Mutations-Score*: Prozentsatz getöteter Mutanten: `(getötet / (gesamt - äquivalent)) × 100%`
-* *Mutationen erster Ordnung*: Einzelne atomare Änderung pro Mutant
-* *Mutationen höherer Ordnung*: Mehrere kombinierte Änderungen
-* *Schwache Mutation*: Test muss nur unterschiedlichen internen Zustand erzeugen
-* *Starke Mutation*: Test muss unterschiedliche finale Ausgabe erzeugen
-* *Testadäquatheitskriterium*: "Sind die Tests gut genug?" nicht nur "Ist die Abdeckung hoch genug?"
+Testqualitätsbewertung:: Bewertung, wie effektiv Tests Fehler erkennen
 
-*Schlüsselvertreter*: Richard Lipton (theoretische Grundlage, 1971), Richard DeMillo, Timothy Budd
+Code-Mutationen:: Absichtliches Einführen kleiner, syntaktischer Änderungen (Mutanten) in Quellcode
+
+Mutationsoperatoren:: Regeln zur Erstellung von Mutanten (z.B. `>` zu `>=` ändern, Boolean umkehren, Anweisung entfernen)
+
+Getötete Mutanten:: Mutationen, die durch fehlschlagende Tests erkannt wurden (gut)
+
+Überlebende Mutanten:: Mutationen, die von Tests nicht erkannt wurden (zeigt Testschwäche an)
+
+Äquivalente Mutanten:: Mutationen, die das Programmverhalten nicht ändern (Falsch-Positive)
+
+Mutations-Score:: Prozentsatz getöteter Mutanten: `(getötet / (gesamt - äquivalent)) × 100%`
+
+Mutationen erster Ordnung:: Einzelne atomare Änderung pro Mutant
+
+Mutationen höherer Ordnung:: Mehrere kombinierte Änderungen
+
+Schwache Mutation:: Test muss nur unterschiedlichen internen Zustand erzeugen
+
+Starke Mutation:: Test muss unterschiedliche finale Ausgabe erzeugen
+
+Testadäquatheitskriterium:: "Sind die Tests gut genug?" nicht nur "Ist die Abdeckung hoch genug?"
+
+
+Schlüsselvertreter:: Richard Lipton (theoretische Grundlage, 1971), Richard DeMillo, Timothy Budd
 
 *Wichtige Werkzeuge*:
 
@@ -44,15 +56,23 @@
 
 *Praktische Herausforderungen*:
 
-* *Rechenkosten*: N Mutationen × M Tests = teuer
-* *Äquivalente-Mutanten-Problem*: Schwierig, funktional identische Mutanten automatisch zu erkennen
-* *Zeitinvestition*: Kann bei großen Codebasen langsam sein
-* *Abhilfestrategien*: Selektive Mutation, Mutations-Sampling, inkrementelle Analyse
+Rechenkosten:: N Mutationen × M Tests = teuer
+
+Äquivalente-Mutanten-Problem:: Schwierig, funktional identische Mutanten automatisch zu erkennen
+
+Zeitinvestition:: Kann bei großen Codebasen langsam sein
+
+Abhilfestrategien:: Selektive Mutation, Mutations-Sampling, inkrementelle Analyse
+
 
 *Beziehung zu anderen Praktiken*:
 
-* *Code-Abdeckung*: Mutations-Testing zeigt, dass hohe Abdeckung ≠ gute Tests
-* *TDD*: Starkes TDD erzeugt oft natürlich hohe Mutations-Scores
-* *Property-based Testing*: Orthogonale, aber komplementäre Ansätze
-* *Fault Injection*: Ähnliches Konzept, angewendet auf Produktionssysteme
+Code-Abdeckung:: Mutations-Testing zeigt, dass hohe Abdeckung ≠ gute Tests
+
+TDD:: Starkes TDD erzeugt oft natürlich hohe Mutations-Scores
+
+Property-based Testing:: Orthogonale, aber komplementäre Ansätze
+
+Fault Injection:: Ähnliches Konzept, angewendet auf Produktionssysteme
+
 ====

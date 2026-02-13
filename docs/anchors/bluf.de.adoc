@@ -5,24 +5,32 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: BLUF (Bottom Line Up Front - Das Wichtigste zuerst)
+Vollständiger Name:: BLUF (Bottom Line Up Front - Das Wichtigste zuerst)
 
-*Auch bekannt als*: Direkte Antwortformat, Schlussfolgerung-zuerst-Kommunikation
+Auch bekannt als:: Direkte Antwortformat, Schlussfolgerung-zuerst-Kommunikation
 
 *Kernkonzepte*:
 
-* *Schlussfolgerung zuerst*: Nennen Sie den Hauptpunkt, die Entscheidung oder Empfehlung sofort
-* *Umgekehrte Pyramide*: Wichtigste Information zuerst, unterstützende Details folgen
-* *Handlungsorientierung*: Beginnen Sie mit dem, was passieren muss oder was entschieden wurde
-* *Optimierung für beschäftigte Leser*: Ermöglicht zeitgepressten Lesern, Schlüsselinformationen sofort zu erfassen
-* *Unterstützende Belege folgen*: Detaillierte Begründung, Daten und Hintergrund kommen nach der Schlussfolgerung
-* *Scanbare Struktur*: Klare Hierarchie ermöglicht Lesern, an ihrer benötigten Tiefe zu stoppen
-* *Klarheit statt Spannung*: Kein narrativer Aufbau oder verzögerte Schlussfolgerungen
-* *Ein Satz zuerst*: Idealerweise ist das BLUF selbst ein einzelner, klarer Satz
+Schlussfolgerung zuerst:: Nennen Sie den Hauptpunkt, die Entscheidung oder Empfehlung sofort
 
-*Schlüsselvertreter*: US-Militär (Army writing standards), weithin in Wirtschaft und Regierung übernommen
+Umgekehrte Pyramide:: Wichtigste Information zuerst, unterstützende Details folgen
 
-*Historischer Kontext*: Standardisiert in militärischer Kommunikation, wo schnelle Entscheidungsfindung kritisch ist; jetzt Standard im Business Writing (McKinsey, Consulting, Führungskommunikation)
+Handlungsorientierung:: Beginnen Sie mit dem, was passieren muss oder was entschieden wurde
+
+Optimierung für beschäftigte Leser:: Ermöglicht zeitgepressten Lesern, Schlüsselinformationen sofort zu erfassen
+
+Unterstützende Belege folgen:: Detaillierte Begründung, Daten und Hintergrund kommen nach der Schlussfolgerung
+
+Scanbare Struktur:: Klare Hierarchie ermöglicht Lesern, an ihrer benötigten Tiefe zu stoppen
+
+Klarheit statt Spannung:: Kein narrativer Aufbau oder verzögerte Schlussfolgerungen
+
+Ein Satz zuerst:: Idealerweise ist das BLUF selbst ein einzelner, klarer Satz
+
+
+Schlüsselvertreter:: US-Militär (Army writing standards), weithin in Wirtschaft und Regierung übernommen
+
+Historischer Kontext:: Standardisiert in militärischer Kommunikation, wo schnelle Entscheidungsfindung kritisch ist; jetzt Standard im Business Writing (McKinsey, Consulting, Führungskommunikation)
 
 *Wann zu verwenden*:
 
@@ -39,5 +47,5 @@
 * Ergänzt MECE durch Bereitstellung des Organisationsprinzips für gruppierte Informationen
 * Kontrastiert mit narrativen oder explorativen Schreibstilen
 
-*Gegenbeispiel*: Akademische Arbeiten (die zu Schlussfolgerungen aufbauen) oder Storytelling (das Spannung nutzt)
+Gegenbeispiel:: Akademische Arbeiten (die zu Schlussfolgerungen aufbauen) oder Storytelling (das Spannung nutzt)
 ====

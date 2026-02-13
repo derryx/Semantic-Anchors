@@ -4,19 +4,26 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Problem Space in Nonviolent Communication
+Vollständiger Name:: Problem Space in Nonviolent Communication
 
 *Kernkonzepte*:
 
-* *Beobachtungen*: Konkrete, objektive Fakten ohne Bewertung
-* *Gefühle*: Emotionen, die aus Beobachtungen entstehen
-* *Bedürfnisse*: Universelle menschliche Bedürfnisse, die Gefühlen zugrunde liegen
-* *Bitten*: Spezifische, umsetzbare Bitten (keine Forderungen)
-* *Empathische Verbindung*: Verstehen vor Problemlösung
-* *Trennung von Beobachtung und Interpretation*: Vermeidung von Urteilen
-* *Bedürfnisbasierte Konfliktlösung*: Lösungen finden, die die Bedürfnisse aller erfüllen
+Beobachtungen:: Konkrete, objektive Fakten ohne Bewertung
 
-*Schlüsselvertreter*: Marshall Rosenberg
+Gefühle:: Emotionen, die aus Beobachtungen entstehen
+
+Bedürfnisse:: Universelle menschliche Bedürfnisse, die Gefühlen zugrunde liegen
+
+Bitten:: Spezifische, umsetzbare Bitten (keine Forderungen)
+
+Empathische Verbindung:: Verstehen vor Problemlösung
+
+Trennung von Beobachtung und Interpretation:: Vermeidung von Urteilen
+
+Bedürfnisbasierte Konfliktlösung:: Lösungen finden, die die Bedürfnisse aller erfüllen
+
+
+Schlüsselvertreter:: Marshall Rosenberg
 
 *Anwendung in der Softwareentwicklung*:
 

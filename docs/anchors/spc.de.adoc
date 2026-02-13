@@ -5,29 +5,43 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Statistical Process Control
+Vollständiger Name:: Statistical Process Control
 
 *Kernkonzepte*:
 
-* *Prozessüberwachung*: Systematische statistische Überwachung laufender Prozesse
-* *Allgemeine Ursachen-Variation*: Inhärente, zufällige Schwankung — stabil und vorhersagbar
-* *Spezielle Ursachen-Variation*: Zuordenbare Ursache — instabil, korrigierbar
-* *Regelkarten*: Zentrales visuelles Werkzeug (siehe dedizierter Anker)
-* *Erkennungsregeln*: Nelson Rules, Western Electric Rules (siehe dedizierte Anker)
-* *Prozessfähigkeit*: Indizes Cp, Cpk (kurzfristig) und Pp, Ppk (langfristig)
-* *Unter Kontrolle*: Prozess zeigt nur Variation durch allgemeine Ursachen
-* *Außer Kontrolle*: Spezielle Ursache erkannt — Intervention erforderlich
-* *Kontinuierliche Verbesserung*: SPC als Grundlage für fortlaufende Prozessverbesserung
-* *DMAIC Control Phase*: SPC-Werkzeuge sichern Verbesserungen innerhalb von Six Sigma
+Prozessüberwachung:: Systematische statistische Überwachung laufender Prozesse
 
-*Schlüsselvertreter*: Walter A. Shewhart (Gründer), W. Edwards Deming (Verbreitung), Western Electric Company
+Allgemeine Ursachen-Variation:: Inhärente, zufällige Schwankung — stabil und vorhersagbar
+
+Spezielle Ursachen-Variation:: Zuordenbare Ursache — instabil, korrigierbar
+
+Regelkarten:: Zentrales visuelles Werkzeug (siehe dedizierter Anker)
+
+Erkennungsregeln:: Nelson Rules, Western Electric Rules (siehe dedizierte Anker)
+
+Prozessfähigkeit:: Indizes Cp, Cpk (kurzfristig) und Pp, Ppk (langfristig)
+
+Unter Kontrolle:: Prozess zeigt nur Variation durch allgemeine Ursachen
+
+Außer Kontrolle:: Spezielle Ursache erkannt — Intervention erforderlich
+
+Kontinuierliche Verbesserung:: SPC als Grundlage für fortlaufende Prozessverbesserung
+
+DMAIC Control Phase:: SPC-Werkzeuge sichern Verbesserungen innerhalb von Six Sigma
+
+
+Schlüsselvertreter:: Walter A. Shewhart (Gründer), W. Edwards Deming (Verbreitung), Western Electric Company
 
 *Beziehung zu anderen Ankern*:
 
-* *Control Chart (Shewhart)*: Zentrales Werkzeug innerhalb von SPC
-* *Nelson Rules*: Erkennungsregeln für spezielle Ursachen auf Regelkarten
-* *Six Sigma*: Nutzt SPC besonders in der Control-Phase
-* *Testing Pyramid*: Konzeptuelle Parallele — verschiedene Ebenen der Qualitätssicherung
+Control Chart (Shewhart):: Zentrales Werkzeug innerhalb von SPC
+
+Nelson Rules:: Erkennungsregeln für spezielle Ursachen auf Regelkarten
+
+Six Sigma:: Nutzt SPC besonders in der Control-Phase
+
+Testing Pyramid:: Konzeptuelle Parallele — verschiedene Ebenen der Qualitätssicherung
+
 
 *Wann zu verwenden*:
 

@@ -4,18 +4,26 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Single Source of Truth
+Vollständiger Name:: Single Source of Truth
 
 *Kernkonzepte*:
 
-* *Konzeptionelles Prinzip*: Fokussiert auf die Etablierung von Vertrauen und Autorität für Daten
-* *Autoritative Quelle*: Eine kanonische, vertrauenswürdige Stelle für jedes Datenstück
-* *Datenintegrität*: Alle Konsumenten referenzieren dieselbe vertrauenswürdige Quelle
-* *Versionskontrolle*: Einzelne Quelle stellt konsistente Versionierung sicher
-* *Abgeleitete Daten*: Andere Repräsentationen werden von der einzelnen Quelle abgeleitet
-* *Vertrauen und Zuverlässigkeit*: Die Quelle ist die definitive Version bei Konflikten
-* *System of Record*: Der primäre Datenspeicher für kritische Geschäftsinformationen
-* *Organisationspraxis*: Angewendet auf Architektur- und Geschäftsprozessebene
+Konzeptionelles Prinzip:: Fokussiert auf die Etablierung von Vertrauen und Autorität für Daten
+
+Autoritative Quelle:: Eine kanonische, vertrauenswürdige Stelle für jedes Datenstück
+
+Datenintegrität:: Alle Konsumenten referenzieren dieselbe vertrauenswürdige Quelle
+
+Versionskontrolle:: Einzelne Quelle stellt konsistente Versionierung sicher
+
+Abgeleitete Daten:: Andere Repräsentationen werden von der einzelnen Quelle abgeleitet
+
+Vertrauen und Zuverlässigkeit:: Die Quelle ist die definitive Version bei Konflikten
+
+System of Record:: Der primäre Datenspeicher für kritische Geschäftsinformationen
+
+Organisationspraxis:: Angewendet auf Architektur- und Geschäftsprozessebene
+
 
 *Hauptanwendungsbereiche*:
 
@@ -34,7 +42,7 @@
 * Erstellung von Audit-Trails und Sicherstellung von Compliance
 * Auflösung von Konflikten zwischen mehreren Datenquellen
 
-*Unterschied zu SPOT*: SSOT betont die autoritative, vertrauenswürdige Natur einer Datenquelle und wird auf Architektur-/Organisationsebene verwendet, während SPOT sich auf das Implementierungsmuster fokussiert
+Unterschied zu SPOT:: SSOT betont die autoritative, vertrauenswürdige Natur einer Datenquelle und wird auf Architektur-/Organisationsebene verwendet, während SPOT sich auf das Implementierungsmuster fokussiert
 
-*Verwandte Konzepte*: DRY, SPOT, Event Sourcing, Data Lakes, Master Data Management
+Verwandte Konzepte:: DRY, SPOT, Event Sourcing, Data Lakes, Master Data Management
 ====

@@ -4,17 +4,24 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: State-of-the-Art
+Vollständiger Name:: State-of-the-Art
 
 *Kernkonzepte*:
 
-* *Neueste Ansätze*: Fokus auf die aktuellsten, modernsten Methoden und Techniken
-* *Forschungsbasiert*: Referenz auf aktuelle Forschungsarbeiten, Benchmarks und empirische Ergebnisse
-* *Vergleichsanalyse*: Vergleich neuer Ansätze mit bestehenden oder früheren Methoden
-* *Leistungsorientiert*: Betonung benchmark-führender und best-performanter Lösungen
-* *Aktuelle Informationen*: Bereitstellung aktueller, fundierter Informationen statt veralteter Praktiken
-* *Evidenzbasiert*: Untermauerung von Behauptungen mit neuesten Studien, Benchmarks und Real-World-Implementierungen
-* *Kontextbewusstsein*: Berücksichtigung der spezifischen Domäne und des Zeitrahmens für "State-of-the-Art"
+Neueste Ansätze:: Fokus auf die aktuellsten, modernsten Methoden und Techniken
+
+Forschungsbasiert:: Referenz auf aktuelle Forschungsarbeiten, Benchmarks und empirische Ergebnisse
+
+Vergleichsanalyse:: Vergleich neuer Ansätze mit bestehenden oder früheren Methoden
+
+Leistungsorientiert:: Betonung benchmark-führender und best-performanter Lösungen
+
+Aktuelle Informationen:: Bereitstellung aktueller, fundierter Informationen statt veralteter Praktiken
+
+Evidenzbasiert:: Untermauerung von Behauptungen mit neuesten Studien, Benchmarks und Real-World-Implementierungen
+
+Kontextbewusstsein:: Berücksichtigung der spezifischen Domäne und des Zeitrahmens für "State-of-the-Art"
+
 
 *Nutzungsmuster*:
 
@@ -29,7 +36,7 @@
 * "Gib mir den SOTA-Ansatz für semantische Suche"
 * "Was ist der SOTA bei Transformer-Architekturen?"
 
-*Schlüsselvertreter*: Weit verbreitet in der ML/AI-Forschungsgemeinschaft
+Schlüsselvertreter:: Weit verbreitet in der ML/AI-Forschungsgemeinschaft
 
 *Wann zu verwenden*:
 

@@ -4,17 +4,22 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: SOLID Object-Oriented Design Principles
+Vollständiger Name:: SOLID Object-Oriented Design Principles
 
 *Kernkonzepte*:
 
-* *Single Responsibility Principle (SRP)*: Jede Klasse sollte eine Verantwortlichkeit haben
-* *Open/Closed Principle (OCP)*: Entitäten sollten offen für Erweiterung, geschlossen für Modifikation sein
-* *Liskov Substitution Principle (LSP)*: Subtypen müssen durch ihre Basistypen ersetzbar sein
-* *Interface Segregation Principle (ISP)*: Clients sollten nicht gezwungen werden, von Schnittstellen abzuhängen, die sie nicht nutzen
-* *Dependency Inversion Principle (DIP)*: Von Abstraktionen abhängen, nicht von konkreten Implementierungen
+Single Responsibility Principle (SRP):: Jede Klasse sollte eine Verantwortlichkeit haben
 
-*Schlüsselvertreter*: Robert C. Martin ("Uncle Bob")
+Open/Closed Principle (OCP):: Entitäten sollten offen für Erweiterung, geschlossen für Modifikation sein
+
+Liskov Substitution Principle (LSP):: Subtypen müssen durch ihre Basistypen ersetzbar sein
+
+Interface Segregation Principle (ISP):: Clients sollten nicht gezwungen werden, von Schnittstellen abzuhängen, die sie nicht nutzen
+
+Dependency Inversion Principle (DIP):: Von Abstraktionen abhängen, nicht von konkreten Implementierungen
+
+
+Schlüsselvertreter:: Robert C. Martin ("Uncle Bob")
 
 *Wann zu verwenden*:
 

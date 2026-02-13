@@ -4,22 +4,30 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Advocatus Diaboli (Anwalt des Teufels)
+Vollständiger Name:: Advocatus Diaboli (Anwalt des Teufels)
 
 *Kernkonzepte*:
 
-* *Systematische Gegenargumentation*: Gegensätzliche Standpunkte präsentieren, auch wenn nicht persönlich vertreten
-* *Annahmen hinterfragen*: Prämissen in Frage stellen und versteckte Annahmen aufdecken
-* *Ideen unter Stress testen*: Schwächen identifizieren, bevor sie zu Problemen werden
-* *Steelmanning*: Die *stärkste* Version des gegensätzlichen Arguments präsentieren, keinen Strohmann
-* *Intellektuelle Ehrlichkeit*: Ideenbewertung von Ego oder politischen Bedenken trennen
-* *Pre-Mortem-Denken*: Fehlszenarien vorstellen, um sie zu verhindern
-* *Dialektisches Denken*: These + Antithese → Synthese
-* *Risikoidentifikation*: Potenzielle Probleme proaktiv aufdecken
+Systematische Gegenargumentation:: Gegensätzliche Standpunkte präsentieren, auch wenn nicht persönlich vertreten
 
-*Schlüsselursprung*: Katholische Kirche Kanonisierungsprozess (Promotor-Fidei-Rolle, formalisiert 1587), säkularisiert in kritischem Denken und Entscheidungsfindung
+Annahmen hinterfragen:: Prämissen in Frage stellen und versteckte Annahmen aufdecken
 
-*Historischer Kontext*: 400+ Jahre als formalisierte Praxis in der Kirche, weithin übernommen in Recht, Philosophie, Geschäftsstrategie und Red Teaming
+Ideen unter Stress testen:: Schwächen identifizieren, bevor sie zu Problemen werden
+
+Steelmanning:: Die *stärkste* Version des gegensätzlichen Arguments präsentieren, keinen Strohmann
+
+Intellektuelle Ehrlichkeit:: Ideenbewertung von Ego oder politischen Bedenken trennen
+
+Pre-Mortem-Denken:: Fehlszenarien vorstellen, um sie zu verhindern
+
+Dialektisches Denken:: These + Antithese → Synthese
+
+Risikoidentifikation:: Potenzielle Probleme proaktiv aufdecken
+
+
+Schlüsselursprung:: Katholische Kirche Kanonisierungsprozess (Promotor-Fidei-Rolle, formalisiert 1587), säkularisiert in kritischem Denken und Entscheidungsfindung
+
+Historischer Kontext:: 400+ Jahre als formalisierte Praxis in der Kirche, weithin übernommen in Recht, Philosophie, Geschäftsstrategie und Red Teaming
 
 *Wann zu verwenden*:
 

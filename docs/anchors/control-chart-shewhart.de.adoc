@@ -4,36 +4,48 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Shewhart-Regelkarte
+Vollständiger Name:: Shewhart-Regelkarte
 
-*Auch bekannt als*: Prozesskontrollkarte, SPC-Karte
+Auch bekannt als:: Prozesskontrollkarte, SPC-Karte
 
 *Kernkonzepte*:
 
-* *Zeitreihendiagramm*: Messwert über Zeit aufgetragen
-* *Mittellinie (CL)*: Prozessmittelwert
-* *Obere/Untere Kontrollgrenze (UCL/LCL)*: Typischerweise bei ±3σ vom Mittelwert
-* *Zonen A/B/C*: Aufteilung in 6 Bereiche (jeweils 1σ breit) zur Mustererkennung
-* *Variation durch natürliche Ursachen*: Inhärente, zufällige Schwankung eines stabilen Prozesses
-* *Variation durch besondere Ursachen*: Zuordenbare, korrigierbare Abweichung
-* *Kartentypen*:
-** X-bar-Karte: Untergruppenmittelwerte
-** R-Karte: Untergruppenbereiche
-** I-MR-Karte: Einzelwerte und gleitender Bereich
-** p-Karte: Defektanteile
-** c-Karte: Defektanzahlen pro Einheit
-* *Unter Kontrolle vs. Außer Kontrolle*: Kernentscheidung basierend auf Regeln (Nelson, Western Electric)
-* *Normalverteilungsannahme*: Kontrollgrenzen basieren auf normalverteilten Daten
+Zeitreihendiagramm:: Messwert über Zeit aufgetragen
 
-*Schlüsselvertreter*: Walter A. Shewhart (1920er, Bell Labs / Western Electric)
+Mittellinie (CL):: Prozessmittelwert
 
-*Schlüsselwerk*: "Economic Control of Quality of Manufactured Product" (1931)
+Obere/Untere Kontrollgrenze (UCL/LCL):: Typischerweise bei ±3σ vom Mittelwert
+
+Zonen A/B/C:: Aufteilung in 6 Bereiche (jeweils 1σ breit) zur Mustererkennung
+
+Variation durch natürliche Ursachen:: Inhärente, zufällige Schwankung eines stabilen Prozesses
+
+Variation durch besondere Ursachen:: Zuordenbare, korrigierbare Abweichung
+
+Kartentypen::
+* X-bar-Karte: Untergruppenmittelwerte
+* R-Karte: Untergruppenbereiche
+* I-MR-Karte: Einzelwerte und gleitender Bereich
+* p-Karte: Defektanteile
+* c-Karte: Defektanzahlen pro Einheit
+
+Unter Kontrolle vs. Außer Kontrolle:: Kernentscheidung basierend auf Regeln (Nelson, Western Electric)
+
+Normalverteilungsannahme:: Kontrollgrenzen basieren auf normalverteilten Daten
+
+
+Schlüsselvertreter:: Walter A. Shewhart (1920er, Bell Labs / Western Electric)
+
+Schlüsselwerk:: "Economic Control of Quality of Manufactured Product" (1931)
 
 *Beziehung zu anderen Ankern*:
 
-* *Nelson Rules*: 8 Regeln zur Mustererkennung auf Regelkarten
-* *<<spc,SPC>>*: Regelkarten sind das zentrale Werkzeug der statistischen Prozesskontrolle
-* *Six Sigma*: Regelkarten werden in der Kontrollphase von DMAIC verwendet
+Nelson Rules:: 8 Regeln zur Mustererkennung auf Regelkarten
+
+<<spc,SPC>>:: Regelkarten sind das zentrale Werkzeug der statistischen Prozesskontrolle
+
+Six Sigma:: Regelkarten werden in der Kontrollphase von DMAIC verwendet
+
 
 *Wann zu verwenden*:
 

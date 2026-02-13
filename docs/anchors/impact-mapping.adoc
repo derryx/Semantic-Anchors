@@ -4,21 +4,30 @@
 
 [%collapsible]
 ====
-*Full Name*: Impact Mapping according to Gojko Adzic
+Full Name:: Impact Mapping according to Gojko Adzic
 
 *Core Concepts*:
 
-* *Four levels*: Goal → Actors → Impacts → Deliverables
-* *Goal*: Business objective (Why?)
-* *Actors*: Who can produce or prevent desired impact? (Who?)
-* *Impacts*: How can actors' behavior change? (How?)
-* *Deliverables*: What can we build? (What?)
-* *Visual mapping*: Mind-map style collaborative diagram
-* *Assumption testing*: Make assumptions explicit
-* *Scope management*: Prevent scope creep by linking to goals
-* *Roadmap alternative*: Goal-oriented rather than feature-oriented
+Four levels:: Goal → Actors → Impacts → Deliverables
 
-*Key Proponent*: Gojko Adzic ("Impact Mapping", 2012)
+Goal:: Business objective (Why?)
+
+Actors:: Who can produce or prevent desired impact? (Who?)
+
+Impacts:: How can actors' behavior change? (How?)
+
+Deliverables:: What can we build? (What?)
+
+Visual mapping:: Mind-map style collaborative diagram
+
+Assumption testing:: Make assumptions explicit
+
+Scope management:: Prevent scope creep by linking to goals
+
+Roadmap alternative:: Goal-oriented rather than feature-oriented
+
+
+Key Proponent:: Gojko Adzic ("Impact Mapping", 2012)
 
 *When to Use*:
 

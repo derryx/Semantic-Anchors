@@ -4,21 +4,27 @@
 
 [%collapsible]
 ====
-*Full Name*: C4 Model for Software Architecture Diagrams
+Full Name:: C4 Model for Software Architecture Diagrams
 
 *Core Concepts*:
 
-* *Four levels of abstraction*:
-** *Level 1 - Context*: System in its environment (users, external systems)
-** *Level 2 - Container*: Applications and data stores that make up the system
-** *Level 3 - Component*: Components within containers
-** *Level 4 - Code*: Class diagrams, entity relationships (optional)
-* *Zoom in/out*: Progressive disclosure of detail
-* *Simple notation*: Boxes and arrows, minimal notation overhead
-* *Audience-appropriate*: Different diagrams for different stakeholders
-* *Supplementary diagrams*: Deployment, dynamic views, etc.
+Four levels of abstraction::
++
+Level 1 - Context::: System in its environment (users, external systems)
+Level 2 - Container::: Applications and data stores that make up the system
+Level 3 - Component::: Components within containers
+Level 4 - Code::: Class diagrams, entity relationships (optional)
 
-*Key Proponent*: Simon Brown
+Zoom in/out:: Progressive disclosure of detail
+
+Simple notation:: Boxes and arrows, minimal notation overhead
+
+Audience-appropriate:: Different diagrams for different stakeholders
+
+Supplementary diagrams:: Deployment, dynamic views, etc.
+
+
+Key Proponent:: Simon Brown
 
 *When to Use*:
 

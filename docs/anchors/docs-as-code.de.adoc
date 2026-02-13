@@ -4,21 +4,30 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Docs-as-Code-Ansatz nach Ralf D. Müller
+Vollständiger Name:: Docs-as-Code-Ansatz nach Ralf D. Müller
 
 *Kernkonzepte*:
 
-* *Plain-Text-Formate*: AsciiDoc, Markdown
-* *Versionskontrolle*: Dokumentation in Git zusammen mit Code
-* *Automatisierte Toolchains*: Build-Pipelines für Dokumentation
-* *Single Source of Truth*: Mehrere Ausgabeformate aus einer Quelle generieren
-* *Diagramme als Code*: PlantUML, Mermaid, Graphviz, Kroki
-* *Kontinuierliche Dokumentation*: Mit jedem Commit aktualisiert
-* *Entwicklerfreundlich*: Dieselben Tools und Workflows wie für Code verwenden
-* *Review-Prozess*: Pull Requests für Dokumentationsänderungen
-* *Modulare Dokumentation*: Includes und Komposition
+Plain-Text-Formate:: AsciiDoc, Markdown
 
-*Schlüsselvertreter*: Ralf D. Müller (docToolchain-Ersteller)
+Versionskontrolle:: Dokumentation in Git zusammen mit Code
+
+Automatisierte Toolchains:: Build-Pipelines für Dokumentation
+
+Single Source of Truth:: Mehrere Ausgabeformate aus einer Quelle generieren
+
+Diagramme als Code:: PlantUML, Mermaid, Graphviz, Kroki
+
+Kontinuierliche Dokumentation:: Mit jedem Commit aktualisiert
+
+Entwicklerfreundlich:: Dieselben Tools und Workflows wie für Code verwenden
+
+Review-Prozess:: Pull Requests für Dokumentationsänderungen
+
+Modulare Dokumentation:: Includes und Komposition
+
+
+Schlüsselvertreter:: Ralf D. Müller (docToolchain-Ersteller)
 
 *Technischer Stack*:
 

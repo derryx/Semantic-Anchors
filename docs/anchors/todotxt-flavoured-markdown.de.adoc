@@ -5,21 +5,30 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: todo.txt-flavoured Markdown Task Lists
+Vollständiger Name:: todo.txt-flavoured Markdown Task Lists
 
-*Auch bekannt als*: Enhanced Markdown Tasks, Markdown with todo.txt conventions
+Auch bekannt als:: Enhanced Markdown Tasks, Markdown with todo.txt conventions
 
 *Kernkonzepte*:
 
-* *Markdown-Aufgabenlisten*: Standard GitHub-flavoured Markdown-Syntax (`- [ ]` unvollständig, `- [x]` vollständig)
-* *Prioritätsmarkierungen*: Verwendet todo.txt-Prioritätsnotation `(A)`, `(B)`, `(C)`, wobei `(A)` höchste Priorität ist
-* *Projekt-Tags*: Präfix `+` zur Gruppierung verwandter Aufgaben (z.B. `+website`, `+semantic-anchors`)
-* *Kontext-Tags*: Präfix `@` zur Angabe von Ort/Tool/Kontext (z.B. `@computer`, `@home`, `@research`)
-* *Key-Value-Metadaten*: Strukturierte Datenpaare wie `due:YYYY-MM-DD`, `priority:high` oder benutzerdefinierte Felder
-* *Datumsverfolgung*: Erstellungs- und Abschlussdaten im ISO-Format (YYYY-MM-DD)
-* *Menschliche Lesbarkeit*: Klartext-Format, das ohne spezielle Tools lesbar bleibt
-* *Tool-agnostisch*: Kann sowohl von Markdown-Renderern als auch von todo.txt-Tools verarbeitet werden
-* *Durchsuchbar und filterbar*: Einfach durch Tags, Prioritäten oder Metadaten zu grep/suchen
+Markdown-Aufgabenlisten:: Standard GitHub-flavoured Markdown-Syntax (`- [ ]` unvollständig, `- [x]` vollständig)
+
+Prioritätsmarkierungen:: Verwendet todo.txt-Prioritätsnotation `(A)`, `(B)`, `(C)`, wobei `(A)` höchste Priorität ist
+
+Projekt-Tags:: Präfix `+` zur Gruppierung verwandter Aufgaben (z.B. `+website`, `+semantic-anchors`)
+
+Kontext-Tags:: Präfix `@` zur Angabe von Ort/Tool/Kontext (z.B. `@computer`, `@home`, `@research`)
+
+Key-Value-Metadaten:: Strukturierte Datenpaare wie `due:YYYY-MM-DD`, `priority:high` oder benutzerdefinierte Felder
+
+Datumsverfolgung:: Erstellungs- und Abschlussdaten im ISO-Format (YYYY-MM-DD)
+
+Menschliche Lesbarkeit:: Klartext-Format, das ohne spezielle Tools lesbar bleibt
+
+Tool-agnostisch:: Kann sowohl von Markdown-Renderern als auch von todo.txt-Tools verarbeitet werden
+
+Durchsuchbar und filterbar:: Einfach durch Tags, Prioritäten oder Metadaten zu grep/suchen
+
 
 *Pattern Structure*:
 
@@ -40,7 +49,7 @@
 - [x] 2024-01-30 Fix bug in authentication +backend @computer
 ----
 
-*Schlüsselvertreter*: Combines GitHub-flavoured Markdown task lists with Gina Trapani's todo.txt format
+Schlüsselvertreter:: Combines GitHub-flavoured Markdown task lists with Gina Trapani's todo.txt format
 
 *Original References*:
 

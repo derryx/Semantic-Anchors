@@ -4,22 +4,32 @@
 
 [%collapsible]
 ====
-*Full Name*: Domain-Driven Design according to Eric Evans
+Full Name:: Domain-Driven Design according to Eric Evans
 
 *Core Concepts*:
 
-* *Ubiquitous Language*: Shared vocabulary between developers and domain experts
-* *Bounded Context*: Explicit boundaries where a model is defined and applicable
-* *Aggregates*: Cluster of domain objects treated as a single unit
-* *Entities*: Objects defined by identity, not attributes
-* *Value Objects*: Immutable objects defined by their attributes
-* *Repositories*: Abstraction for object persistence and retrieval
-* *Domain Events*: Significant occurrences in the domain
-* *Strategic Design*: Context mapping, anti-corruption layers
-* *Tactical Design*: Building blocks (entities, value objects, services)
-* *Model-Driven Design*: Code that expresses the domain model
+Ubiquitous Language:: Shared vocabulary between developers and domain experts
 
-*Key Proponent*: Eric Evans ("Domain-Driven Design: Tackling Complexity in the Heart of Software", 2003)
+Bounded Context:: Explicit boundaries where a model is defined and applicable
+
+Aggregates:: Cluster of domain objects treated as a single unit
+
+Entities:: Objects defined by identity, not attributes
+
+Value Objects:: Immutable objects defined by their attributes
+
+Repositories:: Abstraction for object persistence and retrieval
+
+Domain Events:: Significant occurrences in the domain
+
+Strategic Design:: Context mapping, anti-corruption layers
+
+Tactical Design:: Building blocks (entities, value objects, services)
+
+Model-Driven Design:: Code that expresses the domain model
+
+
+Key Proponent:: Eric Evans ("Domain-Driven Design: Tackling Complexity in the Heart of Software", 2003)
 
 *When to Use*:
 

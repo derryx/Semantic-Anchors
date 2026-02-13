@@ -4,22 +4,30 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: There Is More Than One Way To Do It
+Vollständiger Name:: There Is More Than One Way To Do It
 
-*Auch bekannt als*: Tim Toady
+Auch bekannt als:: Tim Toady
 
 *Kernkonzepte*:
 
-* *Mehrere valide Ansätze*: Anerkennt, dass Probleme auf unterschiedliche, gleichermaßen valide Weisen gelöst werden können
-* *Entwicklerfreiheit*: Vertrauen, dass Entwickler den richtigen Ansatz für ihren Kontext wählen
-* *Ausdruckskraft*: Sprachen und Tools sollten diverse Problemlösungsstile unterstützen
-* *Kontextabhängige Entscheidungen*: Die "beste" Lösung hängt von Rahmenbedingungen, Team und Situation ab
-* *Keine einzelne kanonische Form*: Widerstand gegen Dogmen — Flexibilität über Vorschrift
-* *Trade-off-Bewusstsein*: Verschiedene Ansätze haben unterschiedliche Trade-offs; keiner ist universell überlegen
-* *Pragmatismus über Reinheit*: Praktische Ergebnisse zählen mehr als theoretische Eleganz
-* *Kollaborative Entscheidungsfindung*: Bei Zusammenarbeit mit anderen den Ansatz diskutieren, statt anzunehmen
+Mehrere valide Ansätze:: Anerkennt, dass Probleme auf unterschiedliche, gleichermaßen valide Weisen gelöst werden können
 
-*Schlüsselvertreter*: Larry Wall (Perl Programmiersprache)
+Entwicklerfreiheit:: Vertrauen, dass Entwickler den richtigen Ansatz für ihren Kontext wählen
+
+Ausdruckskraft:: Sprachen und Tools sollten diverse Problemlösungsstile unterstützen
+
+Kontextabhängige Entscheidungen:: Die "beste" Lösung hängt von Rahmenbedingungen, Team und Situation ab
+
+Keine einzelne kanonische Form:: Widerstand gegen Dogmen — Flexibilität über Vorschrift
+
+Trade-off-Bewusstsein:: Verschiedene Ansätze haben unterschiedliche Trade-offs; keiner ist universell überlegen
+
+Pragmatismus über Reinheit:: Praktische Ergebnisse zählen mehr als theoretische Eleganz
+
+Kollaborative Entscheidungsfindung:: Bei Zusammenarbeit mit anderen den Ansatz diskutieren, statt anzunehmen
+
+
+Schlüsselvertreter:: Larry Wall (Perl Programmiersprache)
 
 *Kontrast*:
 

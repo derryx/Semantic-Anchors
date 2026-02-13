@@ -4,19 +4,26 @@
 
 [%collapsible]
 ====
-*Full Name*: Pugh Decision Matrix (also Pugh Controlled Convergence)
+Full Name:: Pugh Decision Matrix (also Pugh Controlled Convergence)
 
 *Core Concepts*:
 
-* *Baseline comparison*: Compare alternatives against a reference solution
-* *Criteria weighting*: Assign importance to evaluation criteria
-* *Relative scoring*: Better (+), Same (S), Worse (-) than baseline
-* *Structured evaluation*: Systematic comparison across multiple dimensions
-* *Iterative refinement*: Multiple rounds to converge on best solution
-* *Team decision-making*: Facilitates group consensus
-* *Hybrid solutions*: Combine strengths of different alternatives
+Baseline comparison:: Compare alternatives against a reference solution
 
-*Key Proponent*: Stuart Pugh
+Criteria weighting:: Assign importance to evaluation criteria
+
+Relative scoring:: Better (+), Same (S), Worse (-) than baseline
+
+Structured evaluation:: Systematic comparison across multiple dimensions
+
+Iterative refinement:: Multiple rounds to converge on best solution
+
+Team decision-making:: Facilitates group consensus
+
+Hybrid solutions:: Combine strengths of different alternatives
+
+
+Key Proponent:: Stuart Pugh
 
 *When to Use*:
 

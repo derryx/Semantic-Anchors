@@ -4,23 +4,32 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Programming as Theory Building (Mental Model) according to Peter Naur
+Vollständiger Name:: Programming as Theory Building (Mental Model) according to Peter Naur
 
 *Kernkonzepte*:
 
-* *Theory Building*: Programmieren ist Erstellen eines mentalen Modells, nicht nur Code schreiben
-* *Theorie des Programms*: Tiefes Verständnis, warum das Programm funktioniert und wie es zur Problemdomäne passt
-* *Wissen in Menschen*: Das echte Programm existiert in den Köpfen der Entwickler, nicht im Code
-* *Theoriezerfall*: Wenn ursprüngliche Entwickler gehen, geht die Theorie verloren
-* *Dokumentationsgrenzen*: Schriftliche Dokumentation kann die Theorie nicht vollständig erfassen
-* *Wartung als Theorie*: Effektive Wartung erfordert Besitz der Theorie
-* *Kommunikation ist Schlüssel*: Theorie muss durch Kollaboration und Konversation geteilt werden
-* *Ramp-up-Zeit*: Neue Teammitglieder brauchen Zeit, um die Theorie aufzubauen
-* *Code als Artefakt*: Code ist nur eine Repräsentation der zugrundeliegenden Theorie
+Theory Building:: Programmieren ist Erstellen eines mentalen Modells, nicht nur Code schreiben
 
-*Schlüsselvertreter*: Peter Naur (Turing Award Gewinner, 1978)
+Theorie des Programms:: Tiefes Verständnis, warum das Programm funktioniert und wie es zur Problemdomäne passt
 
-*Originalwerk*: "Programming as Theory Building" (1985)
+Wissen in Menschen:: Das echte Programm existiert in den Köpfen der Entwickler, nicht im Code
+
+Theoriezerfall:: Wenn ursprüngliche Entwickler gehen, geht die Theorie verloren
+
+Dokumentationsgrenzen:: Schriftliche Dokumentation kann die Theorie nicht vollständig erfassen
+
+Wartung als Theorie:: Effektive Wartung erfordert Besitz der Theorie
+
+Kommunikation ist Schlüssel:: Theorie muss durch Kollaboration und Konversation geteilt werden
+
+Ramp-up-Zeit:: Neue Teammitglieder brauchen Zeit, um die Theorie aufzubauen
+
+Code als Artefakt:: Code ist nur eine Repräsentation der zugrundeliegenden Theorie
+
+
+Schlüsselvertreter:: Peter Naur (Turing Award Gewinner, 1978)
+
+Originalwerk:: "Programming as Theory Building" (1985)
 
 *Anwendung in der Softwareentwicklung*:
 

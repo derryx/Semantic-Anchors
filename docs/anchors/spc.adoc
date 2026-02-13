@@ -5,29 +5,43 @@
 
 [%collapsible]
 ====
-*Full Name*: Statistical Process Control
+Full Name:: Statistical Process Control
 
 *Core Concepts*:
 
-* *Process monitoring*: Systematic statistical monitoring of running processes
-* *Common Cause Variation*: Inherent, random fluctuation — stable and predictable
-* *Special Cause Variation*: Assignable cause — unstable, correctable
-* *Control Charts*: Central visual tool (see dedicated anchor)
-* *Detection rules*: Nelson Rules, Western Electric Rules (see dedicated anchors)
-* *Process Capability*: Indices Cp, Cpk (short-term) and Pp, Ppk (long-term)
-* *In-Control*: Process exhibits only Common Cause Variation
-* *Out-of-Control*: Special Cause detected — intervention required
-* *Continuous Improvement*: SPC as a foundation for ongoing process improvement
-* *DMAIC Control Phase*: SPC tools secure improvements within Six Sigma
+Process monitoring:: Systematic statistical monitoring of running processes
 
-*Key Proponents*: Walter A. Shewhart (founder), W. Edwards Deming (dissemination), Western Electric Company
+Common Cause Variation:: Inherent, random fluctuation — stable and predictable
+
+Special Cause Variation:: Assignable cause — unstable, correctable
+
+Control Charts:: Central visual tool (see dedicated anchor)
+
+Detection rules:: Nelson Rules, Western Electric Rules (see dedicated anchors)
+
+Process Capability:: Indices Cp, Cpk (short-term) and Pp, Ppk (long-term)
+
+In-Control:: Process exhibits only Common Cause Variation
+
+Out-of-Control:: Special Cause detected — intervention required
+
+Continuous Improvement:: SPC as a foundation for ongoing process improvement
+
+DMAIC Control Phase:: SPC tools secure improvements within Six Sigma
+
+
+Key Proponents:: Walter A. Shewhart (founder), W. Edwards Deming (dissemination), Western Electric Company
 
 *Relationship to Other Anchors*:
 
-* *Control Chart (Shewhart)*: Central tool within SPC
-* *Nelson Rules*: Detection rules for Special Causes on Control Charts
-* *Six Sigma*: Uses SPC particularly in the Control phase
-* *Testing Pyramid*: Conceptual parallel — different levels of quality assurance
+Control Chart (Shewhart):: Central tool within SPC
+
+Nelson Rules:: Detection rules for Special Causes on Control Charts
+
+Six Sigma:: Uses SPC particularly in the Control phase
+
+Testing Pyramid:: Conceptual parallel — different levels of quality assurance
+
 
 *When to Use*:
 

@@ -4,21 +4,30 @@
 
 [%collapsible]
 ====
-*Full Name*: User Story Mapping according to Jeff Patton
+Full Name:: User Story Mapping according to Jeff Patton
 
 *Core Concepts*:
 
-* *Narrative flow*: Horizontal arrangement of user activities
-* *User activities*: High-level tasks users perform
-* *User tasks*: Steps within activities
-* *Walking skeleton*: Minimal end-to-end functionality first
-* *Release planning*: Horizontal slices for releases
-* *Prioritization by value*: Vertical ordering by importance
-* *Shared understanding*: Collaborative mapping builds team alignment
-* *Big picture view*: See the whole journey, not just backlog items
-* *Opportunity for conversation*: Stories as placeholders for discussion
+Narrative flow:: Horizontal arrangement of user activities
 
-*Key Proponent*: Jeff Patton ("User Story Mapping", 2014)
+User activities:: High-level tasks users perform
+
+User tasks:: Steps within activities
+
+Walking skeleton:: Minimal end-to-end functionality first
+
+Release planning:: Horizontal slices for releases
+
+Prioritization by value:: Vertical ordering by importance
+
+Shared understanding:: Collaborative mapping builds team alignment
+
+Big picture view:: See the whole journey, not just backlog items
+
+Opportunity for conversation:: Stories as placeholders for discussion
+
+
+Key Proponent:: Jeff Patton ("User Story Mapping", 2014)
 
 *When to Use*:
 

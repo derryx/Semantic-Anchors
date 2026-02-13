@@ -5,21 +5,30 @@
 
 [%collapsible]
 ====
-*Full Name*: todo.txt-flavoured Markdown Task Lists
+Full Name:: todo.txt-flavoured Markdown Task Lists
 
-*Also known as*: Enhanced Markdown Tasks, Markdown with todo.txt conventions
+Also known as:: Enhanced Markdown Tasks, Markdown with todo.txt conventions
 
 *Core Concepts*:
 
-* *Markdown task lists*: Standard GitHub-flavoured markdown syntax (`- [ ]` uncompleted, `- [x]` completed)
-* *Priority markers*: Uses todo.txt priority notation `(A)`, `(B)`, `(C)` where `(A)` is highest priority
-* *Project tags*: Prefixed with `+` to group related tasks (e.g., `+website`, `+semantic-anchors`)
-* *Context tags*: Prefixed with `@` to indicate location/tool/context (e.g., `@computer`, `@home`, `@research`)
-* *Key-value metadata*: Structured data pairs like `due:YYYY-MM-DD`, `priority:high`, or custom fields
-* *Date tracking*: Creation dates and completion dates in ISO format (YYYY-MM-DD)
-* *Human readability*: Plain text format that remains readable without special tools
-* *Tool-agnostic*: Can be processed by both markdown renderers and todo.txt tools
-* *Searchable and filterable*: Easy to grep/search by tags, priorities, or metadata
+Markdown task lists:: Standard GitHub-flavoured markdown syntax (`- [ ]` uncompleted, `- [x]` completed)
+
+Priority markers:: Uses todo.txt priority notation `(A)`, `(B)`, `(C)` where `(A)` is highest priority
+
+Project tags:: Prefixed with `+` to group related tasks (e.g., `+website`, `+semantic-anchors`)
+
+Context tags:: Prefixed with `@` to indicate location/tool/context (e.g., `@computer`, `@home`, `@research`)
+
+Key-value metadata:: Structured data pairs like `due:YYYY-MM-DD`, `priority:high`, or custom fields
+
+Date tracking:: Creation dates and completion dates in ISO format (YYYY-MM-DD)
+
+Human readability:: Plain text format that remains readable without special tools
+
+Tool-agnostic:: Can be processed by both markdown renderers and todo.txt tools
+
+Searchable and filterable:: Easy to grep/search by tags, priorities, or metadata
+
 
 *Pattern Structure*:
 
@@ -40,7 +49,7 @@
 - [x] 2024-01-30 Fix bug in authentication +backend @computer
 ----
 
-*Key Proponents*: Combines GitHub-flavoured Markdown task lists with Gina Trapani's todo.txt format
+Key Proponents:: Combines GitHub-flavoured Markdown task lists with Gina Trapani's todo.txt format
 
 *Original References*:
 

@@ -4,17 +4,24 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Single Point of Truth
+Vollständiger Name:: Single Point of Truth
 
 *Kernkonzepte*:
 
-* *Implementierungsmuster*: Fokussiert darauf, wo und wie Daten/Logik gespeichert und abgerufen werden
-* *Zentraler Ort*: Jede Information befindet sich an genau einer Stelle
-* *Referenzbeziehungen*: Andere Orte referenzieren den einzelnen Punkt, anstatt ihn zu duplizieren
-* *Datenkonsistenz*: Eliminiert Synchronisationsprobleme und widersprüchliche Daten
-* *Update-Propagierung*: Änderungen am einzelnen Punkt wirken sich automatisch auf alle Referenzen aus
-* *Klare Verantwortlichkeit*: Explizite Zuständigkeit für die Pflege jedes Wahrheitsstücks
-* *Code-Ebene-Praxis*: Angewendet auf Code- und Systemdesign-Ebene
+Implementierungsmuster:: Fokussiert darauf, wo und wie Daten/Logik gespeichert und abgerufen werden
+
+Zentraler Ort:: Jede Information befindet sich an genau einer Stelle
+
+Referenzbeziehungen:: Andere Orte referenzieren den einzelnen Punkt, anstatt ihn zu duplizieren
+
+Datenkonsistenz:: Eliminiert Synchronisationsprobleme und widersprüchliche Daten
+
+Update-Propagierung:: Änderungen am einzelnen Punkt wirken sich automatisch auf alle Referenzen aus
+
+Klare Verantwortlichkeit:: Explizite Zuständigkeit für die Pflege jedes Wahrheitsstücks
+
+Code-Ebene-Praxis:: Angewendet auf Code- und Systemdesign-Ebene
+
 
 *Wann zu verwenden*:
 
@@ -24,7 +31,7 @@
 * State-Management in Anwendungen
 * API-Design, wo Daten von einem einzelnen Endpoint fließen
 
-*Unterschied zu SSOT*: SPOT betont das Implementierungsdetail, wo Daten leben, während SSOT die autoritative, vertrauenswürdige Natur dieser Datenquelle betont
+Unterschied zu SSOT:: SPOT betont das Implementierungsdetail, wo Daten leben, während SSOT die autoritative, vertrauenswürdige Natur dieser Datenquelle betont
 
-*Verwandte Konzepte*: DRY, SSOT, Normalisierte Datenbanken, Master Data Management
+Verwandte Konzepte:: DRY, SSOT, Normalisierte Datenbanken, Master Data Management
 ====

@@ -4,22 +4,30 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Five Whys Ursachenanalyse (Fünf-Warums)
+Vollständiger Name:: Five Whys Ursachenanalyse (Fünf-Warums)
 
 *Kernkonzepte*:
 
-* *Iterative Kausalanalyse*: "Warum?" wiederholt fragen (typischerweise ~5 Mal), um zu Grundursachen vorzudringen
-* *Grundursache vs. Symptom*: Zwischen Oberflächensymptomen und zugrunde liegenden Ursachen unterscheiden
-* *Kausalkette*: Jede Antwort wird zum Subjekt der nächsten "Warum?"-Frage
-* *Handlungsfähige Grundursache*: Fortfahren, bis Sie eine Ursache erreichen, auf die gehandelt werden kann
-* *Einfachheit*: Keine komplexen Werkzeuge oder statistische Analyse erforderlich
-* *Teambasierte Untersuchung*: Kollaborative Erkundung kausaler Beziehungen
-* *Schuldzuweisung vermeiden*: Fokus auf Prozessfehler, nicht individuelle Schuld
-* *Gegenmaßnahmen-Identifikation*: Sobald Grundursache gefunden, Interventionen entwerfen
+Iterative Kausalanalyse:: "Warum?" wiederholt fragen (typischerweise ~5 Mal), um zu Grundursachen vorzudringen
 
-*Schlüsselvertreter*: Taiichi Ohno (Toyota-Produktionssystem, 1950er)
+Grundursache vs. Symptom:: Zwischen Oberflächensymptomen und zugrunde liegenden Ursachen unterscheiden
 
-*Historischer Kontext*: Kernwerkzeug in Lean Manufacturing und Toyota Production System (TPS), grundlegend für kontinuierliche Verbesserung (Kaizen)
+Kausalkette:: Jede Antwort wird zum Subjekt der nächsten "Warum?"-Frage
+
+Handlungsfähige Grundursache:: Fortfahren, bis Sie eine Ursache erreichen, auf die gehandelt werden kann
+
+Einfachheit:: Keine komplexen Werkzeuge oder statistische Analyse erforderlich
+
+Teambasierte Untersuchung:: Kollaborative Erkundung kausaler Beziehungen
+
+Schuldzuweisung vermeiden:: Fokus auf Prozessfehler, nicht individuelle Schuld
+
+Gegenmaßnahmen-Identifikation:: Sobald Grundursache gefunden, Interventionen entwerfen
+
+
+Schlüsselvertreter:: Taiichi Ohno (Toyota-Produktionssystem, 1950er)
+
+Historischer Kontext:: Kernwerkzeug in Lean Manufacturing und Toyota Production System (TPS), grundlegend für kontinuierliche Verbesserung (Kaizen)
 
 *Wann zu verwenden*:
 

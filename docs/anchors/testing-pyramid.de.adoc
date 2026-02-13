@@ -4,22 +4,29 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Testing Pyramid nach Mike Cohn
+Vollständiger Name:: Testing Pyramid nach Mike Cohn
 
 *Kernkonzepte*:
 
-* *Drei Schichten*:
-** *Unit-Tests* (Basis): Viele schnelle, isolierte Tests
-** *Integrationstests* (Mitte): Moderate Anzahl, testen Komponenteninteraktion
-** *End-to-End-Tests* (Spitze): Wenige, testen komplette User Journeys
-* *Proportionale Verteilung*: Mehr Unit-Tests, weniger E2E-Tests
-* *Kosten und Geschwindigkeit*: Unit-Tests günstig und schnell, E2E-Tests teuer und langsam
-* *Feedback-Schleifen*: Schnelleres Feedback von unteren Ebenen
-* *Anti-Pattern: Eistüte*: Zu viele E2E-Tests, zu wenige Unit-Tests
-* *Auf der richtigen Ebene testen*: Nicht durch UI testen, was isoliert getestet werden kann
-* *Vertrauensgradient*: Balance zwischen Vertrauen und Ausführungsgeschwindigkeit
+Drei Schichten::
+* *Unit-Tests* (Basis): Viele schnelle, isolierte Tests
+* *Integrationstests* (Mitte): Moderate Anzahl, testen Komponenteninteraktion
+* *End-to-End-Tests* (Spitze): Wenige, testen komplette User Journeys
 
-*Schlüsselvertreter*: Mike Cohn ("Succeeding with Agile", 2009)
+Proportionale Verteilung:: Mehr Unit-Tests, weniger E2E-Tests
+
+Kosten und Geschwindigkeit:: Unit-Tests günstig und schnell, E2E-Tests teuer und langsam
+
+Feedback-Schleifen:: Schnelleres Feedback von unteren Ebenen
+
+Anti-Pattern: Eistüte:: Zu viele E2E-Tests, zu wenige Unit-Tests
+
+Auf der richtigen Ebene testen:: Nicht durch UI testen, was isoliert getestet werden kann
+
+Vertrauensgradient:: Balance zwischen Vertrauen und Ausführungsgeschwindigkeit
+
+
+Schlüsselvertreter:: Mike Cohn ("Succeeding with Agile", 2009)
 
 *Wann zu verwenden*:
 

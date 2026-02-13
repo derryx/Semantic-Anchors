@@ -5,22 +5,30 @@
 
 [%collapsible]
 ====
-*Full Name*: Chain of Thought Prompting
+Full Name:: Chain of Thought Prompting
 
 *Core Concepts*:
 
-* *Step-by-Step Reasoning*: Explicitly show intermediate reasoning steps before reaching a conclusion
-* *Reasoning Transparency*: Make the thought process visible, not just the final answer
-* *Intermediate Representations*: Break complex problems into smaller, manageable steps
-* *Error Reduction*: Exposing reasoning allows detection of logical errors mid-process
-* *Complex Task Decomposition*: Handle multi-step problems that cannot be solved in one jump
-* *Zero-Shot CoT*: Simple prompt like "Let's think step by step" to trigger CoT behavior
-* *Few-Shot CoT*: Provide examples with reasoning chains to guide the model
-* *Self-Consistency*: Generate multiple reasoning paths and select most consistent answer
+Step-by-Step Reasoning:: Explicitly show intermediate reasoning steps before reaching a conclusion
 
-*Key Proponents*: Wei et al. (Google Research, 2022), "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+Reasoning Transparency:: Make the thought process visible, not just the final answer
 
-*Historical Context*: Breakthrough in LLM prompting research, significantly improved performance on reasoning tasks (math, logic, common sense)
+Intermediate Representations:: Break complex problems into smaller, manageable steps
+
+Error Reduction:: Exposing reasoning allows detection of logical errors mid-process
+
+Complex Task Decomposition:: Handle multi-step problems that cannot be solved in one jump
+
+Zero-Shot CoT:: Simple prompt like "Let's think step by step" to trigger CoT behavior
+
+Few-Shot CoT:: Provide examples with reasoning chains to guide the model
+
+Self-Consistency:: Generate multiple reasoning paths and select most consistent answer
+
+
+Key Proponents:: Wei et al. (Google Research, 2022), "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+
+Historical Context:: Breakthrough in LLM prompting research, significantly improved performance on reasoning tasks (math, logic, common sense)
 
 *When to Use*:
 

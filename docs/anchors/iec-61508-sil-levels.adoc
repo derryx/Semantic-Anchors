@@ -7,28 +7,39 @@
 
 [%collapsible]
 ====
-*Full Name*: IEC 61508 Safety Integrity Levels
+Full Name:: IEC 61508 Safety Integrity Levels
 
-*Also known as*: Functional Safety Levels, SIL Classification
+Also known as:: Functional Safety Levels, SIL Classification
 
 *Core Concepts*:
 
-* *Four Safety Integrity Levels*:
-** *SIL 1* (lowest): 10^-2^ ≤ PFD < 10^-1^ (tolerable risk reduction)
-** *SIL 2*: 10^-3^ ≤ PFD < 10^-2^ (moderate risk reduction)
-** *SIL 3*: 10^-4^ ≤ PFD < 10^-3^ (substantial risk reduction)
-** *SIL 4* (highest): 10^-5^ ≤ PFD < 10^-4^ (maximum risk reduction)
-* *Risk-based classification*: SIL level determined by hazard analysis and risk assessment
-* *Safety lifecycle*: Systematic approach from concept to decommissioning
-* *Hardware requirements*: Architectural constraints and systematic capability
-* *Software requirements*: Development methods, verification, and validation techniques
-* *Probability of Failure on Demand (PFD)*: Key metric for safety function reliability
-* *Safety instrumented systems (SIS)*: Protection layers implementing safety functions
-* *Verification and validation*: Independent assessment of safety claims
-* *Systematic failures*: Focus on preventing design and specification errors
-* *Random hardware failures*: Statistical analysis and fault tolerance
+Four Safety Integrity Levels::
++
+SIL 1 (lowest)::: 10^-2^ ≤ PFD < 10^-1^ (tolerable risk reduction)
+SIL 2::: 10^-3^ ≤ PFD < 10^-2^ (moderate risk reduction)
+SIL 3::: 10^-4^ ≤ PFD < 10^-3^ (substantial risk reduction)
+SIL 4 (highest)::: 10^-5^ ≤ PFD < 10^-4^ (maximum risk reduction)
 
-*Key Standard*: IEC 61508 "Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems" (first edition 1998, second edition 2010)
+Risk-based classification:: SIL level determined by hazard analysis and risk assessment
+
+Safety lifecycle:: Systematic approach from concept to decommissioning
+
+Hardware requirements:: Architectural constraints and systematic capability
+
+Software requirements:: Development methods, verification, and validation techniques
+
+Probability of Failure on Demand (PFD):: Key metric for safety function reliability
+
+Safety instrumented systems (SIS):: Protection layers implementing safety functions
+
+Verification and validation:: Independent assessment of safety claims
+
+Systematic failures:: Focus on preventing design and specification errors
+
+Random hardware failures:: Statistical analysis and fault tolerance
+
+
+Key Standard:: IEC 61508 "Functional Safety of Electrical/Electronic/Programmable Electronic Safety-related Systems" (first edition 1998, second edition 2010)
 
 *Related Standards*:
 

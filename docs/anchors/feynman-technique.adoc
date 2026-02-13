@@ -4,22 +4,30 @@
 
 [%collapsible]
 ====
-*Full Name*: Feynman Technique (also Feynman Learning Method)
+Full Name:: Feynman Technique (also Feynman Learning Method)
 
 *Core Concepts*:
 
-* *Explain Simply*: Teach the concept in simple language as if to a beginner (traditionally "explain to a 12-year-old")
-* *Identify Gaps*: When you struggle to explain, you've found gaps in your understanding
-* *Return to Source Material*: Go back and re-learn the parts you couldn't explain clearly
-* *Simplify and Use Analogies*: Refine explanation using plain language and concrete examples
-* *Iterative Refinement*: Repeat the cycle until you can explain clearly and simply
-* *No Jargon Hiding*: Inability to avoid jargon signals lack of true understanding
-* *Active Learning*: Transform passive reading into active teaching
-* *Metacognition*: Become aware of what you don't know
+Explain Simply:: Teach the concept in simple language as if to a beginner (traditionally "explain to a 12-year-old")
 
-*Key Attribution*: Richard Feynman (Nobel Prize-winning physicist, 1965), famous for making complex physics accessible
+Identify Gaps:: When you struggle to explain, you've found gaps in your understanding
 
-*Historical Context*: Feynman was renowned for his teaching ability and his belief that deep understanding meant being able to explain simply. The "technique" is a formalization of his learning approach.
+Return to Source Material:: Go back and re-learn the parts you couldn't explain clearly
+
+Simplify and Use Analogies:: Refine explanation using plain language and concrete examples
+
+Iterative Refinement:: Repeat the cycle until you can explain clearly and simply
+
+No Jargon Hiding:: Inability to avoid jargon signals lack of true understanding
+
+Active Learning:: Transform passive reading into active teaching
+
+Metacognition:: Become aware of what you don't know
+
+
+Key Attribution:: Richard Feynman (Nobel Prize-winning physicist, 1965), famous for making complex physics accessible
+
+Historical Context:: Feynman was renowned for his teaching ability and his belief that deep understanding meant being able to explain simply. The "technique" is a formalization of his learning approach.
 
 *When to Use*:
 
@@ -32,10 +40,10 @@
 
 *Four Steps (Canonical Form)*:
 
-1. *Choose a concept*: Pick the topic you want to understand
-2. *Teach it to a child*: Write an explanation in simple terms
-3. *Identify gaps and review*: Where you struggle, study more
-4. *Simplify and analogize*: Refine your explanation, use examples
+. *Choose a concept*: Pick the topic you want to understand
+. *Teach it to a child*: Write an explanation in simple terms
+. *Identify gaps and review*: Where you struggle, study more
+. *Simplify and analogize*: Refine your explanation, use examples
 
 *Related Concepts*:
 
@@ -45,5 +53,5 @@
 * Elaborative interrogation
 * Plain language movement
 
-*Quote*: "If you can't explain it simply, you don't understand it well enough." (Often attributed to Einstein, but embodies Feynman's philosophy)
+Quote:: "If you can't explain it simply, you don't understand it well enough." (Often attributed to Einstein, but embodies Feynman's philosophy)
 ====

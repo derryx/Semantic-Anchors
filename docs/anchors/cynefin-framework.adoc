@@ -4,23 +4,30 @@
 
 [%collapsible]
 ====
-*Full Name*: Cynefin Framework according to Dave Snowden
+Full Name:: Cynefin Framework according to Dave Snowden
 
 *Core Concepts*:
 
-* *Five domains*:
-** *Clear* (formerly "Simple"): Best practices apply, sense-categorize-respond
-** *Complicated*: Good practices exist, sense-analyze-respond
-** *Complex*: Emergent practices, probe-sense-respond
-** *Chaotic*: Novel practices needed, act-sense-respond
-** *Confused* (center): Don't know which domain you're in
-* *Domain transitions*: How situations move between domains
-* *Safe-to-fail probes*: Experiments in complex domain
-* *Complacency risk*: Moving from clear to chaotic
-* *Decision-making context*: Different domains require different approaches
-* *Facilitation tool*: Helps teams discuss and categorize challenges
+Five domains::
++
+Clear (formerly "Simple")::: Best practices apply, sense-categorize-respond
+Complicated::: Good practices exist, sense-analyze-respond
+Complex::: Emergent practices, probe-sense-respond
+Chaotic::: Novel practices needed, act-sense-respond
+Confused (center)::: Don't know which domain you're in
 
-*Key Proponent*: Dave Snowden (1999)
+Domain transitions:: How situations move between domains
+
+Safe-to-fail probes:: Experiments in complex domain
+
+Complacency risk:: Moving from clear to chaotic
+
+Decision-making context:: Different domains require different approaches
+
+Facilitation tool:: Helps teams discuss and categorize challenges
+
+
+Key Proponent:: Dave Snowden (1999)
 
 *When to Use*:
 

@@ -8,11 +8,13 @@ A term qualifies as a semantic anchor when it activates a rich, well-defined con
 
 A good semantic anchor is:
 
-* *Precise*: It references a specific, established body of knowledge or methodology with clear boundaries
-* *Rich*: It activates multiple interconnected concepts, not just a single instruction or directive
-* *Consistent*: Different users invoking it will get similar conceptual activation across contexts
-* *Attributable*: It can be traced to key proponents, publications, established practices, or documented standards
+Precise:: It references a specific, established body of knowledge or methodology with clear boundaries
 
+Rich:: It activates multiple interconnected concepts, not just a single instruction or directive
+
+Consistent:: Different users invoking it will get similar conceptual activation across contexts
+
+Attributable:: It can be traced to key proponents, publications, established practices, or documented standards
 
 Semantic anchors exist on a spectrum from domain-heavy to interaction-heavy:
 
@@ -26,9 +28,11 @@ Domain-heavy ◄─────────────────────�
 
 The distinction isn't a strict category but rather a matter of emphasis. Most anchors have *both* dimensions:
 
-* *Pyramid Principle*: Domain knowledge about structured communication + behavior change in how output is structured
-* *TDD, London School*: Domain knowledge about testing + behavior change in how code is written
-* *Socratic Method*: Interaction pattern for dialogue + domain knowledge from philosophical tradition
+Pyramid Principle:: Domain knowledge about structured communication + behavior change in how output is structured
+
+TDD, London School:: Domain knowledge about testing + behavior change in how code is written
+
+Socratic Method:: Interaction pattern for dialogue + domain knowledge from philosophical tradition
 
 The quality bar is the same across this spectrum – all anchors must be well-defined, rich, and activatable.
 
@@ -36,13 +40,15 @@ The quality bar is the same across this spectrum – all anchors must be well-de
 
 Well-known terms that are *not* semantic anchors because they lack definition depth:
 
-* *"TLDR"*: Underspecified, no defined structure or methodology, vague instruction to "be short"
-* *"ELI5"*: Vague target level, no pedagogical framework, no consistent interpretation
-* *"Keep it short"*: Pure instruction, no conceptual depth or established methodology
-* *"Make it simple"*: Ambiguous directive without reference to specific simplification frameworks
+"TLDR":: Underspecified, no defined structure or methodology, vague instruction to "be short"
+
+"ELI5":: Vague target level, no pedagogical framework, no consistent interpretation
+
+"Keep it short":: Pure instruction, no conceptual depth or established methodology
+
+"Make it simple":: Ambiguous directive without reference to specific simplification frameworks
 
 These terms may be useful in conversation, but they don't activate rich conceptual frameworks the way true semantic anchors do.
-
 
 Below is a curated list of semantic anchors useful for software development, architecture, and requirements engineering. Each anchor includes related concepts and practices.
 

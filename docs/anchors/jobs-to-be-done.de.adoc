@@ -5,21 +5,30 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Jobs To Be Done Framework (Christensen interpretation)
+Vollständiger Name:: Jobs To Be Done Framework (Christensen interpretation)
 
 *Kernkonzepte*:
 
-* *Job-Definition*: Fortschritt, den Menschen in einem bestimmten Kontext machen wollen
-* *Funktionaler Job*: Praktische Aufgabe zu erfüllen
-* *Emotionaler Job*: Wie Menschen sich fühlen wollen
-* *Sozialer Job*: Wie Menschen wahrgenommen werden wollen
-* *Hire and Fire*: Kunden "engagieren" Produkte für einen Job, "feuern" sie, wenn unzureichend
-* *Kontext zählt*: Jobs existieren in spezifischen Umständen
-* *Neudefinierte Konkurrenz*: Alles, was denselben Job löst, ist Konkurrenz
-* *Innovationsmöglichkeiten*: Unerfüllte Jobs oder schlecht bediente Jobs
-* *Job Stories*: Alternative zu User Stories mit Fokus auf Kontext und Motivation
+Job-Definition:: Fortschritt, den Menschen in einem bestimmten Kontext machen wollen
 
-*Schlüsselvertreter*: Clayton Christensen, Alan Klement, Bob Moesta
+Funktionaler Job:: Praktische Aufgabe zu erfüllen
+
+Emotionaler Job:: Wie Menschen sich fühlen wollen
+
+Sozialer Job:: Wie Menschen wahrgenommen werden wollen
+
+Hire and Fire:: Kunden "engagieren" Produkte für einen Job, "feuern" sie, wenn unzureichend
+
+Kontext zählt:: Jobs existieren in spezifischen Umständen
+
+Neudefinierte Konkurrenz:: Alles, was denselben Job löst, ist Konkurrenz
+
+Innovationsmöglichkeiten:: Unerfüllte Jobs oder schlecht bediente Jobs
+
+Job Stories:: Alternative zu User Stories mit Fokus auf Kontext und Motivation
+
+
+Schlüsselvertreter:: Clayton Christensen, Alan Klement, Bob Moesta
 
 *Wann zu verwenden*:
 

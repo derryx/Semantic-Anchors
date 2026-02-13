@@ -4,22 +4,30 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: Rubber Duck Debugging
+Vollständiger Name:: Rubber Duck Debugging
 
 *Kernkonzepte*:
 
-* *Erklären zum Verstehen*: Lautes Artikulieren eines Problems macht Verständnislücken sichtbar
-* *Schrittweise Verbalisierung*: Zwingt dazu, Code/Logik Zeile für Zeile durchzugehen
-* *Annahmen sichtbar machen*: Lautes Sprechen legt implizite Annahmen offen, die falsch sein könnten
-* *Keine Expertise erforderlich*: Der "Zuhörer" (Gummiente, Kollege, LLM) muss kein Experte sein
-* *Verlangsamung*: Der Akt des Erklärens erzwingt einen langsameren, überlegteren Denkprozess
-* *Externe Kognition*: Verbalisierung schafft eine externe Darstellung, die beim Debuggen hilft
-* *Selbstgesteuertes Lernen*: Oft löst der Erklärende das Problem, bevor er die Erklärung beendet
-* *Durch Lehren lernen*: Verwandt mit der Feynman-Technik und dem Lern-durch-Lehren-Prinzip
+Erklären zum Verstehen:: Lautes Artikulieren eines Problems macht Verständnislücken sichtbar
 
-*Schlüsselursprung*: "The Pragmatic Programmer" von Andrew Hunt und David Thomas (1999), unter Bezugnahme auf ältere Programmiererfolklore
+Schrittweise Verbalisierung:: Zwingt dazu, Code/Logik Zeile für Zeile durchzugehen
 
-*Historischer Kontext*: Jahrzehntealte Praxis in der Programmierkultur, formalisiert und benannt in einflussreicher Software-Engineering-Literatur
+Annahmen sichtbar machen:: Lautes Sprechen legt implizite Annahmen offen, die falsch sein könnten
+
+Keine Expertise erforderlich:: Der "Zuhörer" (Gummiente, Kollege, LLM) muss kein Experte sein
+
+Verlangsamung:: Der Akt des Erklärens erzwingt einen langsameren, überlegteren Denkprozess
+
+Externe Kognition:: Verbalisierung schafft eine externe Darstellung, die beim Debuggen hilft
+
+Selbstgesteuertes Lernen:: Oft löst der Erklärende das Problem, bevor er die Erklärung beendet
+
+Durch Lehren lernen:: Verwandt mit der Feynman-Technik und dem Lern-durch-Lehren-Prinzip
+
+
+Schlüsselursprung:: "The Pragmatic Programmer" von Andrew Hunt und David Thomas (1999), unter Bezugnahme auf ältere Programmiererfolklore
+
+Historischer Kontext:: Jahrzehntealte Praxis in der Programmierkultur, formalisiert und benannt in einflussreicher Software-Engineering-Literatur
 
 *Wann zu verwenden*:
 

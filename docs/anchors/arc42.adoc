@@ -5,27 +5,41 @@
 
 [%collapsible]
 ====
-*Full Name*: arc42 Architecture Documentation Template
+Full Name:: arc42 Architecture Documentation Template
 
 *Core Concepts*:
 
-* *12 standardized sections*: From introduction to glossary
-* *Section 1*: Introduction and Goals
-* *Section 2*: Constraints
-* *Section 3*: Context and Scope
-* *Section 4*: Solution Strategy
-* *Section 5*: Building Block View
-* *Section 6*: Runtime View
-* *Section 7*: Deployment View
-* *Section 8*: Crosscutting Concepts
-* *Section 9*: Architecture Decisions (ADRs)
-* *Section 10*: Quality Requirements
-* *Section 11*: Risks and Technical Debt
-* *Section 12*: Glossary
-* *Pragmatic documentation*: Document only what's necessary
-* *Multiple formats*: AsciiDoc, Markdown, Confluence, etc.
+12 standardized sections:: From introduction to glossary
 
-*Key Proponents*: Gernot Starke, Peter Hruschka
+Section 1:: Introduction and Goals
+
+Section 2:: Constraints
+
+Section 3:: Context and Scope
+
+Section 4:: Solution Strategy
+
+Section 5:: Building Block View
+
+Section 6:: Runtime View
+
+Section 7:: Deployment View
+
+Section 8:: Crosscutting Concepts
+
+Section 9:: Architecture Decisions (ADRs)
+
+Section 10:: Quality Requirements
+
+Section 11:: Risks and Technical Debt
+
+Section 12:: Glossary
+
+Pragmatic documentation:: Document only what's necessary
+
+Multiple formats:: AsciiDoc, Markdown, Confluence, etc.
+
+Key Proponents:: Gernot Starke, Peter Hruschka
 
 *When to Use*:
 

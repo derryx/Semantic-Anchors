@@ -5,27 +5,42 @@
 
 [%collapsible]
 ====
-*Vollständiger Name*: arc42 Architekturdokumentations-Template
+Vollständiger Name:: arc42 Architekturdokumentations-Template
 
 *Kernkonzepte*:
 
-* *12 standardisierte Abschnitte*: Von Einführung bis Glossar
-* *Abschnitt 1*: Einführung und Ziele
-* *Abschnitt 2*: Randbedingungen
-* *Abschnitt 3*: Kontext und Scope
-* *Abschnitt 4*: Lösungsstrategie
-* *Abschnitt 5*: Bausteinsicht
-* *Abschnitt 6*: Laufzeitsicht
-* *Abschnitt 7*: Verteilungssicht
-* *Abschnitt 8*: Querschnittliche Konzepte
-* *Abschnitt 9*: Architekturentscheidungen
-* *Abschnitt 10*: Qualitätsanforderungen
-* *Abschnitt 11*: Risiken und technische Schulden
-* *Abschnitt 12*: Glossar
-* *Pragmatische Dokumentation*: Nur das Notwendige dokumentieren
-* *Mehrere Formate*: AsciiDoc, Markdown, Confluence, etc.
+12 standardisierte Abschnitte:: Von Einführung bis Glossar
 
-*Schlüsselvertreter*: Gernot Starke, Peter Hruschka
+Abschnitt 1:: Einführung und Ziele
+
+Abschnitt 2:: Randbedingungen
+
+Abschnitt 3:: Kontext und Scope
+
+Abschnitt 4:: Lösungsstrategie
+
+Abschnitt 5:: Bausteinsicht
+
+Abschnitt 6:: Laufzeitsicht
+
+Abschnitt 7:: Verteilungssicht
+
+Abschnitt 8:: Querschnittliche Konzepte
+
+Abschnitt 9:: Architekturentscheidungen
+
+Abschnitt 10:: Qualitätsanforderungen
+
+Abschnitt 11:: Risiken und technische Schulden
+
+Abschnitt 12:: Glossar
+
+Pragmatische Dokumentation:: Nur das Notwendige dokumentieren
+
+Mehrere Formate:: AsciiDoc, Markdown, Confluence, etc.
+
+
+Schlüsselvertreter:: Gernot Starke, Peter Hruschka
 
 *Wann zu verwenden*:
 

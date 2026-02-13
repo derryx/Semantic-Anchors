@@ -7,15 +7,17 @@
 
 [%collapsible]
 ====
-*Also known as*: Alternative Name, Other Name
+Also known as:: Alternative Name, Other Name
 
 *Core Concepts*:
 
-* Concept 1
-* Concept 2
-* Concept 3
+Concept 1:: Brief description of concept 1
 
-*Key Proponents*: Author Name ("Book Title"), Another Author
+Concept 2:: Brief description of concept 2
+
+Concept 3:: Brief description of concept 3
+
+Key Proponents:: Author Name ("Book Title"), Another Author
 
 *When to Use*:
 

@@ -4,23 +4,32 @@
 
 [%collapsible]
 ====
-*Full Name*: Socratic Method (also Socratic Dialogue, Elenchus)
+Full Name:: Socratic Method (also Socratic Dialogue, Elenchus)
 
 *Core Concepts*:
 
-* *Guided Discovery*: Lead learners to insights through questions rather than direct instruction
-* *Elenchus*: Cross-examination technique to expose contradictions in beliefs
-* *Maieutics*: "Midwifery of ideas" – helping others give birth to knowledge they already possess
-* *Aporia*: State of productive confusion that motivates deeper inquiry
-* *Question Hierarchy*: Progress from clarifying questions to probing assumptions to exploring implications
-* *Dialectic Method*: Structured dialogue to arrive at truth through reasoned argument
-* *Non-assertive Teaching*: Teacher claims ignorance, guides through questions
-* *Assumption Surfacing*: Make implicit beliefs explicit through systematic questioning
-* *Logical Consistency*: Test ideas for internal coherence and contradictions
+Guided Discovery:: Lead learners to insights through questions rather than direct instruction
 
-*Key Proponent*: Socrates (via Plato's dialogues, ~400 BCE)
+Elenchus:: Cross-examination technique to expose contradictions in beliefs
 
-*Historical Context*: 2400+ years of philosophical tradition, foundational to Western philosophy and critical thinking education
+Maieutics:: "Midwifery of ideas" – helping others give birth to knowledge they already possess
+
+Aporia:: State of productive confusion that motivates deeper inquiry
+
+Question Hierarchy:: Progress from clarifying questions to probing assumptions to exploring implications
+
+Dialectic Method:: Structured dialogue to arrive at truth through reasoned argument
+
+Non-assertive Teaching:: Teacher claims ignorance, guides through questions
+
+Assumption Surfacing:: Make implicit beliefs explicit through systematic questioning
+
+Logical Consistency:: Test ideas for internal coherence and contradictions
+
+
+Key Proponent:: Socrates (via Plato's dialogues, ~400 BCE)
+
+Historical Context:: 2400+ years of philosophical tradition, foundational to Western philosophy and critical thinking education
 
 *When to Use*:
 

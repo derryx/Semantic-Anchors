@@ -8,11 +8,13 @@ Ein Begriff qualifiziert sich als semantischer Anker, wenn er ein reichhaltiges,
 
 Ein guter semantischer Anker ist:
 
-* *Präzise*: Er referenziert einen spezifischen, etablierten Wissenskörper oder eine Methodologie mit klaren Grenzen
-* *Reichhaltig*: Er aktiviert mehrere miteinander verbundene Konzepte, nicht nur eine einzelne Instruktion oder Direktive
-* *Konsistent*: Verschiedene Benutzer, die ihn aufrufen, erhalten ähnliche konzeptionelle Aktivierung über Kontexte hinweg
-* *Zuordenbar*: Er kann auf Schlüsselvertreter, Publikationen, etablierte Praktiken oder dokumentierte Standards zurückgeführt werden
+Präzise:: Er referenziert einen spezifischen, etablierten Wissenskörper oder eine Methodologie mit klaren Grenzen
 
+Reichhaltig:: Er aktiviert mehrere miteinander verbundene Konzepte, nicht nur eine einzelne Instruktion oder Direktive
+
+Konsistent:: Verschiedene Benutzer, die ihn aufrufen, erhalten ähnliche konzeptionelle Aktivierung über Kontexte hinweg
+
+Zuordenbar:: Er kann auf Schlüsselvertreter, Publikationen, etablierte Praktiken oder dokumentierte Standards zurückgeführt werden
 
 Semantische Anker existieren auf einem Spektrum von domänenlastig bis interaktionslastig:
 
@@ -26,9 +28,11 @@ Domänenlastig ◄────────────────────�
 
 Die Unterscheidung ist keine strikte Kategorie, sondern eher eine Frage der Betonung. Die meisten Anker haben *beide* Dimensionen:
 
-* *Pyramid Principle*: Domänenwissen über strukturierte Kommunikation + Verhaltensänderung in der Strukturierung von Output
-* *TDD, London School*: Domänenwissen über Testing + Verhaltensänderung beim Schreiben von Code
-* *Socratic Method*: Interaktionsmuster für Dialog + Domänenwissen aus philosophischer Tradition
+Pyramid Principle:: Domänenwissen über strukturierte Kommunikation + Verhaltensänderung in der Strukturierung von Output
+
+TDD, London School:: Domänenwissen über Testing + Verhaltensänderung beim Schreiben von Code
+
+Socratic Method:: Interaktionsmuster für Dialog + Domänenwissen aus philosophischer Tradition
 
 Die Qualitätsmesslatte ist über das gesamte Spektrum gleich – alle Anker müssen wohldefiniert, reichhaltig und aktivierbar sein.
 
@@ -36,13 +40,15 @@ Die Qualitätsmesslatte ist über das gesamte Spektrum gleich – alle Anker mü
 
 Wohlbekannte Begriffe, die *keine* semantischen Anker sind, weil ihnen Definitionstiefe fehlt:
 
-* *"TLDR"*: Unterspezifiziert, keine definierte Struktur oder Methodologie, vage Instruktion "sei kurz"
-* *"ELI5"*: Vages Zielniveau, kein pädagogisches Framework, keine konsistente Interpretation
-* *"Keep it short"*: Reine Instruktion, keine konzeptionelle Tiefe oder etablierte Methodologie
-* *"Make it simple"*: Mehrdeutige Direktive ohne Bezug zu spezifischen Vereinfachungs-Frameworks
+"TLDR":: Unterspezifiziert, keine definierte Struktur oder Methodologie, vage Instruktion "sei kurz"
+
+"ELI5":: Vages Zielniveau, kein pädagogisches Framework, keine konsistente Interpretation
+
+"Keep it short":: Reine Instruktion, keine konzeptionelle Tiefe oder etablierte Methodologie
+
+"Make it simple":: Mehrdeutige Direktive ohne Bezug zu spezifischen Vereinfachungs-Frameworks
 
 Diese Begriffe mögen in Konversationen nützlich sein, aber sie aktivieren keine reichhaltigen konzeptionellen Frameworks wie echte semantische Anker.
-
 
 Unten ist eine kuratierte Liste semantischer Anker, nützlich für Softwareentwicklung, Architektur und Requirements Engineering. Jeder Anker enthält verwandte Konzepte und Praktiken.
 

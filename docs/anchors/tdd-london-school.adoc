@@ -5,18 +5,24 @@
 
 [%collapsible]
 ====
-*Also known as*: Mockist TDD, Outside-In TDD
+Also known as:: Mockist TDD, Outside-In TDD
 
 *Core Concepts*:
 
-* *Mock-heavy testing*: Heavy use of test doubles (mocks, stubs) to isolate units
-* *Outside-in development*: Start from the outermost layers (UI, API) and work inward
-* *Interaction-based testing*: Focus on verifying interactions between objects
-* *Behavior verification*: Test how objects collaborate rather than state
-* *Interface discovery*: Use tests to discover and define interfaces
-* *Walking skeleton*: Build end-to-end functionality early, then fill in details
+Mock-heavy testing:: Heavy use of test doubles (mocks, stubs) to isolate units
 
-*Key Proponents*: Steve Freeman, Nat Pryce ("Growing Object-Oriented Software, Guided by Tests")
+Outside-in development:: Start from the outermost layers (UI, API) and work inward
+
+Interaction-based testing:: Focus on verifying interactions between objects
+
+Behavior verification:: Test how objects collaborate rather than state
+
+Interface discovery:: Use tests to discover and define interfaces
+
+Walking skeleton:: Build end-to-end functionality early, then fill in details
+
+
+Key Proponents:: Steve Freeman, Nat Pryce ("Growing Object-Oriented Software, Guided by Tests")
 
 *When to Use*:
 

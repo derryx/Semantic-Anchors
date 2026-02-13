@@ -6,18 +6,28 @@
 ====
 *Core Concepts*:
 
-* *Value chain*: Map components from user needs down
-* *Evolution axis*: Genesis → Custom → Product → Commodity
-* *Movement*: Components naturally evolve over time
-* *Situational awareness*: Understanding the landscape before deciding
-* *Gameplay patterns*: Common strategic moves
-* *Climatic patterns*: Forces that affect all players
-* *Doctrine*: Universal principles of good strategy
-* *Inertia*: Resistance to change in organizations
-* *Strategic planning*: Visual approach to strategy
-* *Build-Buy-Partner decisions*: Based on evolution stage
+Value chain:: Map components from user needs down
 
-*Key Proponent*: Simon Wardley
+Evolution axis:: Genesis → Custom → Product → Commodity
+
+Movement:: Components naturally evolve over time
+
+Situational awareness:: Understanding the landscape before deciding
+
+Gameplay patterns:: Common strategic moves
+
+Climatic patterns:: Forces that affect all players
+
+Doctrine:: Universal principles of good strategy
+
+Inertia:: Resistance to change in organizations
+
+Strategic planning:: Visual approach to strategy
+
+Build-Buy-Partner decisions:: Based on evolution stage
+
+
+Key Proponent:: Simon Wardley
 
 *When to Use*:
 

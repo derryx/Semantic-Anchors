@@ -7,22 +7,30 @@
 
 [%collapsible]
 ====
-*Full Name*: Morphological Analysis / Morphological Box (German: Morphologischer Kasten)
+Full Name:: Morphological Analysis / Morphological Box (German: Morphologischer Kasten)
 
 *Core Concepts*:
 
-* *Multi-dimensional decomposition*: Break complex problem into independent parameters/dimensions
-* *Variant enumeration*: Identify possible values/options for each parameter
-* *Matrix construction*: Organize parameters and variants in table/box form
-* *Combinatorial exploration*: Systematically examine combinations of variants
-* *Constraint filtering*: Eliminate infeasible or contradictory combinations
-* *Novel solution discovery*: Find non-obvious solutions through systematic recombination
-* *Complete solution space*: Ensure all possibilities are considered
-* *Structured creativity*: Systematic approach to innovation and ideation
+Multi-dimensional decomposition:: Break complex problem into independent parameters/dimensions
 
-*Key Proponent*: Fritz Zwicky (1940s-1960s, California Institute of Technology)
+Variant enumeration:: Identify possible values/options for each parameter
 
-*Historical Context*: Developed for aerospace engineering problems (jet engines, spacecraft propulsion), now widely applied in product development, system design, and innovation management.
+Matrix construction:: Organize parameters and variants in table/box form
+
+Combinatorial exploration:: Systematically examine combinations of variants
+
+Constraint filtering:: Eliminate infeasible or contradictory combinations
+
+Novel solution discovery:: Find non-obvious solutions through systematic recombination
+
+Complete solution space:: Ensure all possibilities are considered
+
+Structured creativity:: Systematic approach to innovation and ideation
+
+
+Key Proponent:: Fritz Zwicky (1940s-1960s, California Institute of Technology)
+
+Historical Context:: Developed for aerospace engineering problems (jet engines, spacecraft propulsion), now widely applied in product development, system design, and innovation management.
 
 *When to Use*:
 
