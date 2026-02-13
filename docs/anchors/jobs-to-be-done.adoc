@@ -1,0 +1,31 @@
+= Jobs To Be Done (JTBD)
+:categories: uncategorized
+:roles: product-owner, ux-designer, business-analyst
+:proponents: Clayton Christensen, Alan Klement, Bob Moesta
+
+[%collapsible]
+====
+*Full Name*: Jobs To Be Done Framework (Christensen interpretation)
+
+*Core Concepts*:
+
+* *Job definition*: Progress people want to make in a particular context
+* *Functional job*: Practical task to accomplish
+* *Emotional job*: How people want to feel
+* *Social job*: How people want to be perceived
+* *Hire and fire*: Customers "hire" products to do a job, "fire" when inadequate
+* *Context matters*: Jobs exist in specific circumstances
+* *Competition redefined*: Anything solving the same job is competition
+* *Innovation opportunities*: Unmet jobs or poorly served jobs
+* *Job stories*: Alternative to user stories focusing on context and motivation
+
+*Key Proponents*: Clayton Christensen, Alan Klement, Bob Moesta
+
+*When to Use*:
+
+* Product discovery and innovation
+* Understanding why customers choose solutions
+* Identifying true competition
+* Writing more meaningful user stories
+* Market segmentation based on jobs, not demographics
+====

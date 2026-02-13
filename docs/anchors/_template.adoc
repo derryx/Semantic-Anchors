@@ -1,0 +1,30 @@
+= Anchor Title
+:categories: category-id
+:roles: role-id-1, role-id-2
+:related: related-anchor-1, related-anchor-2
+:proponents: Author Name, Another Author
+:tags: tag1, tag2, tag3
+
+[%collapsible]
+====
+*Also known as*: Alternative Name, Other Name
+
+*Core Concepts*:
+
+* Concept 1
+* Concept 2
+* Concept 3
+
+*Key Proponents*: Author Name ("Book Title"), Another Author
+
+*When to Use*:
+
+* Use case 1
+* Use case 2
+* Use case 3
+
+*Related Anchors*:
+
+* <<related-anchor-1,Related Anchor Name>>
+* <<related-anchor-2,Another Related Anchor>>
+====

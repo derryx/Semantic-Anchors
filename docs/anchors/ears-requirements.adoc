@@ -1,0 +1,27 @@
+= EARS-Requirements
+:categories: uncategorized
+:roles: business-analyst, qa-engineer, technical-writer
+
+[%collapsible]
+====
+*Full Name*: Easy Approach to Requirements Syntax
+
+*Core Concepts*:
+
+* *Ubiquitous requirements*: "The <system> shall <requirement>"
+* *Event-driven requirements*: "WHEN <trigger> the <system> shall <requirement>"
+* *Unwanted behavior*: "IF <condition>, THEN the <system> shall <requirement>"
+* *State-driven requirements*: "WHILE <state>, the <system> shall <requirement>"
+* *Optional features*: "WHERE <feature is included>, the <system> shall <requirement>"
+* *Structured syntax*: Consistent templates for clarity
+* *Testability*: Requirements written to be verifiable
+
+*Key Proponent*: Alistair Mavin (Rolls-Royce)
+
+*When to Use*:
+
+* Safety-critical systems
+* Regulated industries (aerospace, automotive, medical)
+* When requirements traceability is essential
+* Large, distributed teams
+====

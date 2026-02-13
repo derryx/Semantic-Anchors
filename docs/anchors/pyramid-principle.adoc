@@ -1,0 +1,32 @@
+= Pyramid Principle according to Barbara Minto
+:categories: uncategorized
+:roles: business-analyst, consultant, team-lead, technical-writer
+
+[%collapsible]
+====
+*Full Name*: The Minto Pyramid Principle according to Barbara Minto
+
+*Core Concepts*:
+
+* *Governing Thought*: Single key message at the top of the pyramid
+* *SCQ Framework*: Situation → Complication → Question → Answer structure for setting context
+* *MECE Principle*: Mutually Exclusive, Collectively Exhaustive grouping of ideas
+* *Vertical Logic*: Each level answers "Why?" of the level above it
+* *Horizontal Logic*: Arguments at the same level grouped deductively or inductively
+* *Top-Down Delivery*: Present conclusion first, then supporting arguments
+* *Pyramid Structure*: One central idea supported by groups of three supporting ideas
+* *BLUF*: Bottom Line Up Front - lead with the conclusion
+* *Deductive vs. Inductive Reasoning*: Choose appropriate logic for horizontal grouping
+
+*Key Proponent*: Barbara Minto (McKinsey, "The Minto Pyramid Principle", 1987)
+
+*When to Use*:
+
+* Executive presentations and briefings
+* Written reports and proposals
+* Complex arguments requiring clear structure
+* Stakeholder communication where time is limited
+* Business cases and recommendations
+* Consulting deliverables
+* Any situation requiring persuasive, structured communication
+====

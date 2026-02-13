@@ -1,0 +1,59 @@
+= Five Whys (Ohno)
+:categories: uncategorized
+:roles: software-developer, qa-engineer, devops-engineer, team-lead
+
+[%collapsible]
+====
+*Full Name*: Five Whys Root Cause Analysis
+
+*Core Concepts*:
+
+* *Iterative Causal Analysis*: Ask "Why?" repeatedly (typically ~5 times) to drill down to root causes
+* *Root Cause vs. Symptom*: Distinguish between surface symptoms and underlying causes
+* *Causal Chain*: Each answer becomes the subject of the next "Why?" question
+* *Actionable Root Cause*: Continue until you reach a cause that can be acted upon
+* *Simplicity*: No complex tools or statistical analysis required
+* *Team-Based Investigation*: Collaborative exploration of causal relationships
+* *Avoiding Blame*: Focus on process failures, not individual fault
+* *Countermeasure Identification*: Once root cause is found, design interventions
+
+*Key Proponent*: Taiichi Ohno (Toyota Production System, 1950s)
+
+*Historical Context*: Core tool in Lean Manufacturing and Toyota Production System (TPS), foundational to continuous improvement (Kaizen)
+
+*When to Use*:
+
+* Incident post-mortems in software/DevOps
+* Debugging when surface fixes don't resolve the issue
+* Process improvement initiatives
+* Understanding recurring problems
+* Quality defect analysis
+* Any situation where symptoms are clear but causes are not
+
+*Related Concepts*:
+
+* Kaizen (continuous improvement)
+* Root Cause Analysis (RCA)
+* Fishbone Diagram (Ishikawa) – complementary tool
+* A3 Problem Solving (Toyota)
+* DevOps post-mortem culture
+
+*Pitfall to Avoid*:
+
+* Stopping too early at a symptom rather than root cause
+* Pursuing a single causal chain when multiple factors contribute (use Fishbone Diagram for complex causality)
+* Blame-focused questioning rather than system-focused
+
+*Example Application*:
+
+----
+Problem: Website is down
+Why? → Database connection failed
+Why? → Connection pool exhausted
+Why? → Long-running queries not timing out
+Why? → No query timeout configured
+Why? → Default configuration was never reviewed for production
+Root Cause: Configuration review process missing
+Countermeasure: Establish pre-production configuration checklist
+----
+====

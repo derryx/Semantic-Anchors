@@ -1,0 +1,30 @@
+= Property-Based Testing
+:categories: uncategorized
+:roles: software-developer, qa-engineer
+
+[%collapsible]
+====
+*Also known as*: Generative Testing, QuickCheck-style Testing
+
+*Core Concepts*:
+
+* *Properties*: Invariants that should always hold
+* *Generators*: Automatic test data creation
+* *Shrinking*: Minimizing failing test cases to simplest form
+* *Universal quantification*: Testing "for all inputs"
+* *Specification testing*: Testing high-level properties, not examples
+* *Edge case discovery*: Finds cases you didn't think of
+* *Complementary to example-based*: Works alongside traditional unit tests
+* *Stateful testing*: Testing sequences of operations
+* *Model-based testing*: Compare implementation against simpler model
+
+*Key Tools*: QuickCheck (Haskell), Hypothesis (Python), fast-check (JavaScript), FsCheck (.NET)
+
+*When to Use*:
+
+* Testing pure functions and algorithms
+* Validating business rules and invariants
+* Testing parsers and serializers
+* Finding edge cases in complex logic
+* Complementing example-based TDD
+====

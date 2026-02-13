@@ -1,0 +1,32 @@
+= Diátaxis Framework
+:categories: uncategorized
+
+[%collapsible]
+====
+*Full Name*: Diátaxis Documentation Framework according to Daniele Procida
+
+*Core Concepts*:
+
+* *Four documentation types*:
+** *Tutorials*: Learning-oriented, lessons for beginners
+** *How-to guides*: Task-oriented, directions for specific goals
+** *Reference*: Information-oriented, technical descriptions
+** *Explanation*: Understanding-oriented, conceptual discussions
+* *Two dimensions*:
+** Practical vs. Theoretical
+** Acquisition (learning) vs. Application (working)
+* *Separation of concerns*: Each type serves a distinct purpose
+* *User needs*: Different users need different documentation at different times
+* *Quality criteria*: Each type has specific quality indicators
+* *Systematic approach*: Framework for organizing any documentation
+
+*Key Proponent*: Daniele Procida
+
+*When to Use*:
+
+* Organizing technical documentation
+* Improving existing documentation
+* Planning documentation structure
+* Evaluating documentation quality
+* Complementing Docs-as-Code approaches
+====

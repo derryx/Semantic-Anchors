@@ -1,0 +1,29 @@
+= Clean Architecture
+:categories: uncategorized
+:roles: software-architect, software-developer
+
+[%collapsible]
+====
+*Full Name*: Clean Architecture according to Robert C. Martin
+
+*Core Concepts*:
+
+* *The Dependency Rule*: Dependencies only point inward
+* *Concentric circles*: Entities → Use Cases → Interface Adapters → Frameworks & Drivers
+* *Independent of frameworks*: Architecture doesn't depend on libraries
+* *Testable*: Business rules testable without UI, database, or external elements
+* *Independent of UI*: UI can change without changing business rules
+* *Independent of database*: Business rules not bound to database
+* *Independent of external agencies*: Business rules don't know about outside world
+* *Screaming Architecture*: Architecture reveals the intent of the system
+* *SOLID principles*: Foundation of the architecture
+
+*Key Proponent*: Robert C. Martin ("Uncle Bob")
+
+*When to Use*:
+
+* Enterprise applications with complex business logic
+* Systems requiring long-term maintainability
+* When team size and turnover are high
+* Projects where business rules must be protected from technology changes
+====

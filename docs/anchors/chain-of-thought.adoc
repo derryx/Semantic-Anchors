@@ -1,0 +1,50 @@
+= Chain of Thought (CoT)
+:categories: uncategorized
+:roles: software-developer, data-scientist, business-analyst
+:proponents: Wei et al. (Google Research, 2022), "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+
+[%collapsible]
+====
+*Full Name*: Chain of Thought Prompting
+
+*Core Concepts*:
+
+* *Step-by-Step Reasoning*: Explicitly show intermediate reasoning steps before reaching a conclusion
+* *Reasoning Transparency*: Make the thought process visible, not just the final answer
+* *Intermediate Representations*: Break complex problems into smaller, manageable steps
+* *Error Reduction*: Exposing reasoning allows detection of logical errors mid-process
+* *Complex Task Decomposition*: Handle multi-step problems that cannot be solved in one jump
+* *Zero-Shot CoT*: Simple prompt like "Let's think step by step" to trigger CoT behavior
+* *Few-Shot CoT*: Provide examples with reasoning chains to guide the model
+* *Self-Consistency*: Generate multiple reasoning paths and select most consistent answer
+
+*Key Proponents*: Wei et al. (Google Research, 2022), "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+
+*Historical Context*: Breakthrough in LLM prompting research, significantly improved performance on reasoning tasks (math, logic, common sense)
+
+*When to Use*:
+
+* Complex reasoning problems (multi-step math, logic puzzles)
+* When you need to verify the reasoning process, not just the answer
+* Debugging incorrect LLM outputs by seeing where reasoning went wrong
+* Teaching or explaining complex topics where steps matter
+* Problems requiring planning or strategy
+* Any task where intermediate steps provide value
+
+*Related Research*:
+
+* Tree of Thoughts (ToT): Extension allowing branching and backtracking
+* Self-Consistency: Sample multiple reasoning paths
+* Least-to-Most Prompting: Build up from simple to complex
+
+*Example Prompt Pattern*:
+
+----
+Problem: [Complex question]
+Let's solve this step by step:
+1. [First step]
+2. [Second step]
+...
+Therefore: [Conclusion]
+----
+====

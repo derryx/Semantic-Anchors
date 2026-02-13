@@ -1,0 +1,29 @@
+= Impact Mapping
+:categories: uncategorized
+:roles: product-owner, business-analyst, team-lead, consultant
+
+[%collapsible]
+====
+*Full Name*: Impact Mapping according to Gojko Adzic
+
+*Core Concepts*:
+
+* *Four levels*: Goal → Actors → Impacts → Deliverables
+* *Goal*: Business objective (Why?)
+* *Actors*: Who can produce or prevent desired impact? (Who?)
+* *Impacts*: How can actors' behavior change? (How?)
+* *Deliverables*: What can we build? (What?)
+* *Visual mapping*: Mind-map style collaborative diagram
+* *Assumption testing*: Make assumptions explicit
+* *Scope management*: Prevent scope creep by linking to goals
+* *Roadmap alternative*: Goal-oriented rather than feature-oriented
+
+*Key Proponent*: Gojko Adzic ("Impact Mapping", 2012)
+
+*When to Use*:
+
+* Strategic planning for products or projects
+* When stakeholders disagree on priorities
+* Aligning delivery with business outcomes
+* Avoiding building features that don't serve business goals
+====

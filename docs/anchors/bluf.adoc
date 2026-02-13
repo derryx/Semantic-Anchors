@@ -1,0 +1,43 @@
+= BLUF (Bottom Line Up Front)
+:categories: uncategorized
+:roles: business-analyst, team-lead, technical-writer, consultant
+:proponents: US Military (Army writing standards), adopted broadly in business and government
+
+[%collapsible]
+====
+*Full Name*: BLUF (Bottom Line Up Front)
+
+*Also known as*: Direct Answer Format, Conclusion-First Communication
+
+*Core Concepts*:
+
+* *Conclusion First*: State the main point, decision, or recommendation immediately
+* *Inverted Pyramid*: Most important information first, supporting details follow
+* *Action Orientation*: Lead with what needs to happen or what was decided
+* *Busy Reader Optimization*: Enable time-pressed readers to get key information instantly
+* *Supporting Evidence Follows*: Detailed rationale, data, and background come after the conclusion
+* *Scannable Structure*: Clear hierarchy enables readers to stop at their needed depth
+* *Clarity Over Suspense*: No narrative buildup or delayed conclusions
+* *One Sentence First*: Ideally, the BLUF itself is a single, clear sentence
+
+*Key Proponents*: US Military (Army writing standards), adopted broadly in business and government
+
+*Historical Context*: Standardized in military communication where rapid decision-making is critical; now standard in business writing (McKinsey, consulting, executive communication)
+
+*When to Use*:
+
+* Executive summaries and briefings
+* Status reports to leadership
+* Email to busy stakeholders
+* Incident reports requiring immediate action
+* Any high-stakes communication where the reader needs the conclusion first
+* Technical documentation for time-constrained readers
+
+*Relationship to Other Anchors*:
+
+* Related to <<pyramid-principle,Pyramid Principle>> but more narrowly focused on conclusion-first structure
+* Complements MECE by providing the organizational principle for grouped information
+* Contrasts with narrative or exploratory writing styles
+
+*Counter-example*: Academic papers (which build to conclusions) or storytelling (which uses suspense)
+====

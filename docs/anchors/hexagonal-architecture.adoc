@@ -1,0 +1,29 @@
+= Hexagonal Architecture (Ports & Adapters)
+:categories: uncategorized
+:roles: software-architect, software-developer
+
+[%collapsible]
+====
+*Also known as*: Ports and Adapters, Onion Architecture (variant)
+
+*Core Concepts*:
+
+* *Hexagonal structure*: Core domain at the center, isolated from external concerns
+* *Ports*: Interfaces defining how the application communicates
+* *Adapters*: Implementations that connect to external systems
+* *Dependency inversion*: Dependencies point inward toward the domain
+* *Technology independence*: Core logic doesn't depend on frameworks or infrastructure
+* *Primary/Driving adapters*: User interfaces, APIs (inbound)
+* *Secondary/Driven adapters*: Databases, message queues (outbound)
+* *Testability*: Easy to test core logic in isolation
+* *Symmetry*: All external interactions are treated uniformly
+
+*Key Proponent*: Alistair Cockburn (2005)
+
+*When to Use*:
+
+* Applications requiring high testability
+* Systems that need to support multiple interfaces (web, CLI, API)
+* When you want to defer infrastructure decisions
+* Microservices with clear domain boundaries
+====

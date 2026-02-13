@@ -1,0 +1,30 @@
+= ADR according to Nygard
+:categories: uncategorized
+
+[%collapsible]
+====
+*Full Name*: Architecture Decision Records according to Michael Nygard
+
+*Core Concepts*:
+
+* *Lightweight documentation*: Short, focused records
+* *Standard structure*:
+** Title
+** Status (proposed, accepted, deprecated, superseded)
+** Context (forces at play)
+** Decision (what was chosen)
+** Consequences (both positive and negative)
+* *Immutability*: ADRs are never deleted, only superseded
+* *Version control*: ADRs stored with code
+* *Decision archaeology*: Understanding why past decisions were made
+* *Evolutionary architecture*: Supporting architecture that changes over time
+
+*Key Proponent*: Michael Nygard
+
+*When to Use*:
+
+* All software projects (low overhead, high value)
+* Distributed teams needing shared understanding
+* When onboarding new team members
+* Complex systems with evolving architecture
+====

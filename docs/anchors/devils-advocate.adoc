@@ -1,0 +1,48 @@
+= Devil's Advocate
+:categories: uncategorized
+:roles: software-architect, team-lead, consultant, qa-engineer
+
+[%collapsible]
+====
+*Full Name*: Devil's Advocate (Latin: *Advocatus Diaboli*)
+
+*Core Concepts*:
+
+* *Systematic Counter-Argumentation*: Present opposing viewpoints even if not personally held
+* *Assumption Challenging*: Question premises and surface hidden assumptions
+* *Stress-Testing Ideas*: Identify weaknesses before they become problems
+* *Steelmanning*: Present the *strongest* version of the opposing argument, not a strawman
+* *Intellectual Honesty*: Separate idea evaluation from ego or political concerns
+* *Pre-Mortem Thinking*: Imagine failure scenarios to prevent them
+* *Dialectical Reasoning*: Thesis + Antithesis → Synthesis
+* *Risk Identification*: Surface potential problems proactively
+
+*Key Origin*: Catholic Church canonization process (Promotor Fidei role, formalized 1587), secularized in critical thinking and decision-making
+
+*Historical Context*: 400+ years as formalized practice in the Church, adopted widely in law, philosophy, business strategy, and red teaming
+
+*When to Use*:
+
+* Critical design or architecture decisions where failure is costly
+* Security threat modeling (red teaming)
+* Evaluating business strategies or proposals
+* Pre-mortems before launching significant initiatives
+* Code review where you want to challenge assumptions
+* Risk assessment and contingency planning
+* Any high-stakes decision where being wrong is expensive
+
+*Related Concepts*:
+
+* Red teaming (security context)
+* Pre-mortem analysis
+* Dialectical reasoning
+* Critical thinking frameworks
+* Steelmanning (vs. strawmanning)
+
+*Example Prompt Pattern*:
+
+----
+I propose [idea/design/decision].
+Play devil's advocate: What are the strongest arguments against this approach?
+----
+====
