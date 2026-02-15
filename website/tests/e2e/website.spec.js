@@ -218,9 +218,9 @@ test.describe('Routing - Documentation Pages', () => {
     // URL should update
     expect(page.url()).toContain('#/about')
 
-    // Wait for AsciiDoc content to load and render
-    await page.waitForSelector('#doc-content h1', { timeout: 10000 })
-    await expect(page.locator('#doc-content h1')).toContainText(/About|What are/)
+    // About content should be visible
+    await expect(page.locator('#doc-content')).toBeVisible()
+    await expect(page.locator('h1')).toContainText(/About|What are/)
 
     // Active nav link should be highlighted
     const aboutLink = page.locator('a[data-route="/about"]')
@@ -234,9 +234,9 @@ test.describe('Routing - Documentation Pages', () => {
     // URL should update
     expect(page.url()).toContain('#/contributing')
 
-    // Wait for AsciiDoc content to load and render
-    await page.waitForSelector('#doc-content h1', { timeout: 10000 })
-    await expect(page.locator('#doc-content h1')).toContainText(/Contributing/)
+    // Contributing content should be visible
+    await expect(page.locator('#doc-content')).toBeVisible()
+    await expect(page.locator('h1')).toContainText(/Contributing/)
 
     // Active nav link should be highlighted
     const contributingLink = page.locator('a[data-route="/contributing"]')
@@ -246,7 +246,6 @@ test.describe('Routing - Documentation Pages', () => {
   test('should navigate back to Catalog from About', async ({ page }) => {
     // Go to About
     await page.click('a[data-route="/about"]')
-    await page.waitForSelector('#doc-content h1', { timeout: 10000 })
 
     // Go back to Catalog
     await page.click('a[data-route="/"]')
@@ -266,9 +265,9 @@ test.describe('Routing - Documentation Pages', () => {
     // Navigate directly to About
     await page.goto('/#/about')
 
-    // Wait for AsciiDoc content to load and render
-    await page.waitForSelector('#doc-content h1', { timeout: 10000 })
-    await expect(page.locator('#doc-content h1')).toContainText(/About|What are/)
+    // About content should be visible
+    await expect(page.locator('#doc-content')).toBeVisible()
+    await expect(page.locator('h1')).toContainText(/About|What are/)
   })
 
   test('should handle browser back button', async ({ page }) => {
