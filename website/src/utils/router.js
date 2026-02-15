@@ -60,7 +60,11 @@ function handleRoute() {
     // Then open the anchor modal
     // Import dynamically to avoid circular dependency
     import('../components/anchor-modal.js').then(({ showAnchorDetails }) => {
-      showAnchorDetails(anchorId)
+      showAnchorDetails(anchorId).then(() => {
+        // Signal app ready after anchor content is loaded
+        const event = new Event('app-ready')
+        document.dispatchEvent(event)
+      })
     })
     return
   }

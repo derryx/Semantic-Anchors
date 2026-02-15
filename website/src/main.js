@@ -40,12 +40,27 @@ let appData = null
 let dataLoadingPromise = null
 let searchIndexTriggered = false
 let anchorModalModulePromise = null
+let appReadyFired = false
 
 function getAnchorModalModule() {
   if (!anchorModalModulePromise) {
     anchorModalModulePromise = import('./components/anchor-modal.js')
   }
   return anchorModalModulePromise
+}
+
+function signalAppReady() {
+  if (appReadyFired) return
+  appReadyFired = true
+
+  // Signal for prerenderer
+  const event = new Event('app-ready')
+  document.dispatchEvent(event)
+
+  // Reset flag after a short delay for subsequent route changes
+  setTimeout(() => {
+    appReadyFired = false
+  }, 100)
 }
 
 function ensureDataLoaded() {
@@ -126,6 +141,7 @@ function renderHomePage() {
   ensureDataLoaded()
     .then(() => {
       initCardGridVisualization()
+      signalAppReady()
     })
     .catch((err) => {
       console.error('Failed to initialize home page:', err)
@@ -133,6 +149,7 @@ function renderHomePage() {
       if (container) {
         container.innerHTML = '<div class="text-red-500 p-8">Failed to load anchors. Please try again later.</div>'
       }
+      signalAppReady()
     })
 }
 
@@ -142,7 +159,7 @@ function renderAboutPage() {
 
   pageContent.innerHTML = renderDocPage('About')
   updateActiveNavLink()
-  loadDocContent('docs/about.adoc')
+  loadDocContent('docs/about.adoc').finally(() => signalAppReady())
 }
 
 function renderContributingPage() {
@@ -151,7 +168,7 @@ function renderContributingPage() {
 
   pageContent.innerHTML = renderDocPage('Contributing')
   updateActiveNavLink()
-  loadDocContent('CONTRIBUTING.adoc')
+  loadDocContent('CONTRIBUTING.adoc').finally(() => signalAppReady())
 }
 
 function updateActiveNavLink() {
