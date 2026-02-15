@@ -32,10 +32,6 @@ jobs:
         working-directory: ./website
         run: npm ci
 
-      - name: Install Playwright browsers
-        working-directory: ./website
-        run: npx playwright install --with-deps chromium
-
       - name: Extract metadata and generate sitemap
         working-directory: ./scripts
         run: |
@@ -50,9 +46,9 @@ jobs:
           cp docs/about.adoc website/public/docs/
           cp CONTRIBUTING.adoc website/public/
 
-      - name: Build website with SSG (Static Site Generation)
+      - name: Build website
         working-directory: ./website
-        run: npm run build:ssg
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
