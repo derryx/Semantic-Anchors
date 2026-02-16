@@ -13,6 +13,7 @@
     "name": "Design Principles & Patterns",
     "anchors": [
       "dry-principle",
+      "fowler-patterns",
       "solid-principles",
       "spot-principle",
       "ssot-principle"

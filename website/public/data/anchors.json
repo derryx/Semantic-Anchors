@@ -306,6 +306,34 @@
     "filePath": "docs/anchors/five-whys.adoc"
   },
   {
+    "id": "fowler-patterns",
+    "title": "Patterns of Enterprise Application Architecture (PEAA)",
+    "categories": [
+      "design-principles"
+    ],
+    "roles": [
+      "software-architect",
+      "software-developer",
+      "team-lead"
+    ],
+    "related": [
+      "domain-driven-design",
+      "hexagonal-architecture",
+      "clean-architecture"
+    ],
+    "proponents": [
+      "Martin Fowler"
+    ],
+    "tags": [
+      "enterprise",
+      "architecture",
+      "patterns",
+      "design-patterns",
+      "orm"
+    ],
+    "filePath": "docs/anchors/fowler-patterns.adoc"
+  },
+  {
     "id": "hexagonal-architecture",
     "title": "Hexagonal Architecture (Ports &amp; Adapters)",
     "categories": [

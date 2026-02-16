@@ -1,0 +1,54 @@
+= Patterns of Enterprise Application Architecture (PEAA)
+:categories: design-principles
+:roles: software-architect, software-developer, team-lead
+:proponents: Martin Fowler
+:related: domain-driven-design, hexagonal-architecture, clean-architecture
+:tags: enterprise, architecture, patterns, design-patterns, orm
+
+[%collapsible]
+====
+Full Name:: Patterns of Enterprise Application Architecture according to Martin Fowler
+
+Also known as:: Fowler patterns, PEAA patterns, Enterprise patterns
+
+*Core Concepts*:
+
+Domain Logic Patterns:: Transaction Script, Domain Model, Table Module, Service Layer
+
+Data Source Architectural Patterns:: Table Data Gateway, Row Data Gateway, Active Record, Data Mapper
+
+Object-Relational Behavioral Patterns:: Unit of Work, Identity Map, Lazy Load
+
+Object-Relational Structural Patterns:: Identity Field, Foreign Key Mapping, Association Table Mapping, Dependent Mapping, Embedded Value, Serialized LOB, Single Table Inheritance, Class Table Inheritance, Concrete Table Inheritance
+
+Object-Relational Metadata Mapping Patterns:: Metadata Mapping, Query Object, Repository
+
+Web Presentation Patterns:: Model View Controller, Page Controller, Front Controller, Template View, Transform View, Two Step View, Application Controller
+
+Distribution Patterns:: Remote Facade, Data Transfer Object
+
+Offline Concurrency Patterns:: Optimistic Offline Lock, Pessimistic Offline Lock, Coarse-Grained Lock, Implicit Lock
+
+Session State Patterns:: Client Session State, Server Session State, Database Session State
+
+Base Patterns:: Gateway, Mapper, Layer Supertype, Separated Interface, Registry, Value Object, Money, Special Case, Plugin, Service Stub, Record Set
+
+
+Key Proponent:: Martin Fowler ("Patterns of Enterprise Application Architecture", 2002)
+
+*When to Use*:
+
+* Designing complex enterprise applications with data persistence
+* Building layered architectures with clear separation of concerns
+* Working with object-relational mapping and database interactions
+* Designing web applications with proper presentation layer patterns
+* Managing distributed system communication
+* Handling concurrency in multi-user enterprise systems
+* Creating maintainable and testable enterprise code
+
+*Related Anchors*:
+
+* <<domain-driven-design,Domain-Driven Design>> - Complements PEAA with domain modeling approach
+* <<hexagonal-architecture,Hexagonal Architecture>> - Architectural style emphasizing ports and adapters
+* <<clean-architecture,Clean Architecture>> - Layered architecture pattern with dependency rules
+====
