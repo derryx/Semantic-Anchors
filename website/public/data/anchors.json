@@ -109,6 +109,31 @@
     "filePath": "docs/anchors/chain-of-thought.adoc"
   },
   {
+    "id": "chatham-house-rule",
+    "title": "Chatham House Rule",
+    "categories": [
+      "communication-presentation"
+    ],
+    "roles": [
+      "team-lead",
+      "consultant",
+      "business-analyst",
+      "product-owner"
+    ],
+    "related": [],
+    "proponents": [
+      "Chatham House (Royal Institute of International Affairs)"
+    ],
+    "tags": [
+      "communication",
+      "confidentiality",
+      "meetings",
+      "open-discussion",
+      "trust"
+    ],
+    "filePath": "docs/anchors/chatham-house-rule.adoc"
+  },
+  {
     "id": "clean-architecture",
     "title": "Clean Architecture",
     "categories": [
@@ -304,6 +329,34 @@
     "proponents": [],
     "tags": [],
     "filePath": "docs/anchors/five-whys.adoc"
+  },
+  {
+    "id": "fowler-patterns",
+    "title": "Patterns of Enterprise Application Architecture (PEAA)",
+    "categories": [
+      "design-principles"
+    ],
+    "roles": [
+      "software-architect",
+      "software-developer",
+      "team-lead"
+    ],
+    "related": [
+      "domain-driven-design",
+      "hexagonal-architecture",
+      "clean-architecture"
+    ],
+    "proponents": [
+      "Martin Fowler"
+    ],
+    "tags": [
+      "enterprise",
+      "architecture",
+      "patterns",
+      "design-patterns",
+      "orm"
+    ],
+    "filePath": "docs/anchors/fowler-patterns.adoc"
   },
   {
     "id": "hexagonal-architecture",

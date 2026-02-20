@@ -1,0 +1,54 @@
+= Patterns of Enterprise Application Architecture (PEAA)
+:categories: design-principles
+:roles: software-architect, software-developer, team-lead
+:proponents: Martin Fowler
+:related: domain-driven-design, hexagonal-architecture, clean-architecture
+:tags: enterprise, architecture, patterns, design-patterns, orm
+
+[%collapsible]
+====
+Vollständiger Name:: Patterns of Enterprise Application Architecture nach Martin Fowler
+
+Auch bekannt als:: Fowler-Muster, PEAA-Muster, Enterprise-Muster
+
+*Kernkonzepte*:
+
+Domain-Logic-Muster:: Transaction Script, Domain Model, Table Module, Service Layer
+
+Data Source Architectural Patterns:: Table Data Gateway, Row Data Gateway, Active Record, Data Mapper
+
+Object-Relational Behavioral Patterns:: Unit of Work, Identity Map, Lazy Load
+
+Object-Relational Structural Patterns:: Identity Field, Foreign Key Mapping, Association Table Mapping, Dependent Mapping, Embedded Value, Serialized LOB, Single Table Inheritance, Class Table Inheritance, Concrete Table Inheritance
+
+Object-Relational Metadata Mapping Patterns:: Metadata Mapping, Query Object, Repository
+
+Web Presentation Patterns:: Model View Controller, Page Controller, Front Controller, Template View, Transform View, Two Step View, Application Controller
+
+Distribution Patterns:: Remote Facade, Data Transfer Object
+
+Offline Concurrency Patterns:: Optimistic Offline Lock, Pessimistic Offline Lock, Coarse-Grained Lock, Implicit Lock
+
+Session State Patterns:: Client Session State, Server Session State, Database Session State
+
+Base Patterns:: Gateway, Mapper, Layer Supertype, Separated Interface, Registry, Value Object, Money, Special Case, Plugin, Service Stub, Record Set
+
+
+Hauptvertreter:: Martin Fowler ("Patterns of Enterprise Application Architecture", 2002)
+
+*Wann verwenden*:
+
+* Beim Entwurf komplexer Unternehmensanwendungen mit Datenpersistenz
+* Beim Aufbau geschichteter Architekturen mit klarer Trennung der Belange
+* Bei der Arbeit mit objektrelationalem Mapping und Datenbankinteraktionen
+* Beim Entwurf von Webanwendungen mit geeigneten Präsentationsschichtmustern
+* Beim Verwalten verteilter Systemkommunikation
+* Beim Umgang mit Nebenläufigkeit in Mehrbenutzersystemen
+* Beim Erstellen wartbaren und testbaren Enterprise-Codes
+
+*Verwandte Anker*:
+
+* <<domain-driven-design,Domain-Driven Design>> - Ergänzt PEAA mit Domain-Modellierungsansatz
+* <<hexagonal-architecture,Hexagonal Architecture>> - Architekturstil mit Fokus auf Ports und Adaptern
+* <<clean-architecture,Clean Architecture>> - Geschichtete Architektur mit Abhängigkeitsregeln
+====
