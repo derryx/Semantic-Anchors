@@ -56,7 +56,7 @@ package "Semantic Anchors Website" {
     [State Manager] as state
 
     package "UI Components" {
-        [Treemap Visualizer] as treemap
+        [Card Grid Visualizer] as cardgrid
         [Role Filter] as rolefilter
         [Search Bar] as search
         [Anchor Details View] as anchorview
@@ -82,12 +82,12 @@ package "Semantic Anchors Website" {
 
 app --> router
 app --> state
-router --> treemap
+router --> cardgrid
 router --> anchorview
 state --> rolefilter
 state --> search
 
-treemap --> api
+cardgrid --> api
 rolefilter --> api
 search --> api
 anchorview --> asciidoc
@@ -157,7 +157,7 @@ class App {
 * Output: Component Rendering
 
 **Routes:**
-* `/` → Home (Treemap)
+* `/` → Home (Card Grid)
 * `/anchor/:id` → Anchor Details
 * `/category/:id` → Category View
 * `/role/:id` → Role View
@@ -191,50 +191,45 @@ class App {
 }
 ```
 
-==== Treemap Visualizer
+==== Card Grid Visualizer
 
 **Verantwortung:**
-* Rendert Kategorien als Treemap
-* Interaktive Tooltips
-* Click-Navigation
+* Rendert Kategorien als Card Grid mit Category Sections
+* Responsive Layout via CSS Grid (Karte öffnet Details-Modal)
+* Responsive Layout via CSS Grid
 
-**Technologie:** Apache ECharts
+**Technologie:** Vanilla JavaScript, CSS Grid (keine externe Library)
+
+**Anmerkung:** Ersetzt die ursprünglich geplante Apache ECharts Treemap (ADR-003) aufgrund fundamentaler Usability-Probleme (Text-Truncation, schlechter Kontrast, Viewport-Cut-off). Entscheidung dokumentiert in ADR-005.
 
 **Implementierung:**
 ```javascript
-// src/components/Treemap.js
-import * as echarts from 'echarts/core';
-import { TreemapChart } from 'echarts/charts';
-import { CanvasRenderer } from 'echarts/renderers';
-
-echarts.use([TreemapChart, CanvasRenderer]);
-
-export class Treemap {
-  constructor(elementId, data) {
-    this.chart = echarts.init(document.getElementById(elementId));
-    this.setData(data);
+// src/components/card-grid.js
+export class CardGrid {
+  constructor(containerEl, data) {
+    this.container = containerEl;
+    this.render(data);
   }
 
-  setData(data) {
-    const option = {
-      series: [{
-        type: 'treemap',
-        data: this.transformData(data)
-      }]
-    };
-    this.chart.setOption(option);
+  render(categories) {
+    this.container.innerHTML = categories
+      .map(cat => this.renderSection(cat))
+      .join('');
   }
 
-  transformData(categories) {
-    return categories.map(cat => ({
-      name: cat.name,
-      value: cat.anchorCount,
-      children: cat.anchors.map(anchor => ({
-        name: anchor.name,
-        value: 1,
-        anchorId: anchor.id
-      }))
-    }));
+  renderSection(category) {
+    const cards = category.anchors.map(a => this.renderCard(a)).join('');
+    return `<section class="category-section" data-category="${category.id}">
+      <h2 class="category-heading">${category.name}</h2>
+      <div class="card-grid">${cards}</div>
+    </section>`;
+  }
+
+  renderCard(anchor) {
+    return `<article class="anchor-card" data-anchor="${anchor.id}">
+      <h3>${anchor.name}</h3>
+      <p class="anchor-description">${anchor.description || ''}</p>
+    </article>`;
   }
 }
 ```

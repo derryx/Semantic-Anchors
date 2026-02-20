@@ -25,8 +25,8 @@ JSON --> API: Roles
 API -> JSON: GET /data/anchors.json
 JSON --> API: Anchors (Metadata only)
 API --> App: Daten geladen
-App -> App: Rendert Treemap
-App --> User: Zeigt Homepage mit Treemap
+App -> App: Rendert Card Grid
+App --> User: Zeigt Homepage mit Card Grid
 @enduml
 ----
 
@@ -40,15 +40,15 @@ App --> User: Zeigt Homepage mit Treemap
 actor User
 participant "Role Filter UI" as Filter
 participant "State Manager" as State
-participant "Treemap Component" as Treemap
+participant "Card Grid Component" as CardGrid
 participant "LocalStorage" as LS
 
 User -> Filter: Wählt "Software Developer"
 Filter -> State: updateFilters({roles: ['software-developer']})
 State -> State: Filtert Anchors
-State -> Treemap: update(filteredAnchors)
-Treemap -> Treemap: Generiert neue Treemap-Daten
-Treemap --> User: Zeigt gefilterte Treemap
+State -> CardGrid: update(filteredAnchors)
+CardGrid -> CardGrid: Filtert und blendet Cards/Sections
+CardGrid --> User: Zeigt gefilterte Card Grid
 State -> LS: Speichert Filter
 LS --> State: Gespeichert
 @enduml
@@ -86,7 +86,7 @@ Results --> User: Zeigt Suchergebnisse
 ----
 @startuml
 actor User
-participant "Treemap/Search" as UI
+participant "Card Grid/Search" as UI
 participant Router
 participant "Anchor View" as View
 participant "AsciiDoc Renderer" as Renderer
@@ -115,7 +115,7 @@ View --> User: Zeigt Anker-Details
 actor User
 participant "Theme Toggle" as Toggle
 participant "Theme Manager" as Manager
-participant "Treemap" as Chart
+participant "Card Grid" as Chart
 participant LocalStorage as LS
 
 User -> Toggle: Klick auf Theme Button
@@ -125,7 +125,7 @@ Manager -> Manager: document.body.className = currentTheme
 Manager -> Chart: updateTheme(currentTheme)
 Chart -> Chart: Dispose old chart
 Chart -> Chart: Init with new theme
-Chart --> User: Treemap mit neuem Theme
+Chart --> User: Card Grid mit neuem Theme
 Manager -> LS: Save theme preference
 LS --> Manager: Gespeichert
 @enduml

@@ -22,11 +22,16 @@ Dieses Kapitel referenziert die detaillierten Architecture Decision Records (ADR
 |link:../specs/adrs/adr-003-treemap-library.adoc[ADR-003]
 |**Apache ECharts** für Treemap
 |Native Treemap-Unterstützung, exzellente DX, Built-in Theming, Open Source
-|Accepted
+|Superseded by ADR-005
 
 |link:../specs/adrs/adr-004-one-file-per-anchor.adoc[ADR-004]
 |**Ein File pro Anchor** + Includes
 |Minimale Merge-Konflikte, klare Git-History, skaliert perfekt
+|Accepted
+
+|link:../specs/adrs/adr-005-card-grid-visualization.adoc[ADR-005]
+|**Card Grid** statt Treemap für Visualisierung
+|Löst fundamentale Usability-Probleme (Text-Truncation, Kontrast, Viewport), größerer Pugh-Score (+137)
 |Accepted
 |===
 
@@ -154,14 +159,42 @@ docs/
 
 **Details:** link:../specs/adrs/adr-004-one-file-per-anchor.adoc[ADR-004]
 
+=== ADR-005: Card Grid statt Treemap für Visualisierung
+
+**Alternative Optionen:** Treemap verbessern (Baseline), Tabs+Liste, Tag Cloud, Table View
+
+**Pugh-Matrix Ergebnis:**
+
+* Card Grid: **+137 Punkte**
+* Treemap verbessern: 0 (Baseline)
+* Table View: +100
+* Tag Cloud: +81
+* Tabs+Liste: +51
+
+**Kern-Argumente:**
+
+* ✅ Kein Text-Truncation (voller Platz für Labels)
+* ✅ WCAG-konformer Kontrast (Tailwind colors, kontrollierbar)
+* ✅ Responsive Layout (kein Viewport-Cut-off)
+* ✅ Kleinere Bundle-Size (kein ECharts ~300KB gespart)
+* ✅ Semantic HTML, bessere Accessibility
+* ❌ Mehr vertikaler Platz, Scrolling erforderlich
+* ❌ Weniger visuell beeindruckend als Treemap
+
+**Hintergrund:** Playwright-Testing zeigte fundamentale Usability-Probleme bei der Treemap:
+Issue #59 (Text-Truncation), Issue #60 (Map-Cut-off), Issue #61 (Poor Contrast).
+
+**Details:** link:../specs/adrs/adr-005-card-grid-visualization.adoc[ADR-005]
+
 === Zukünftige Entscheidungen
 
 **Offene Punkte:**
 
-* **ADR-005**: Suchindex-Implementierung (Client-Side vs. Build-Time)
-* **ADR-006**: Analytics-Lösung (Plausible vs. Simple Analytics vs. Keine)
-* **ADR-007**: Service Worker für Offline-Support (Ja/Nein)
-* **ADR-008**: Testing-Framework für E2E (Playwright vs. Cypress)
+* **ADR-005**: Card Grid Visualisierung - Accepted (ersetzt ADR-003 Treemap)
+* **ADR-006**: Suchindex-Implementierung (Client-Side vs. Build-Time)
+* **ADR-007**: Analytics-Lösung (Plausible vs. Simple Analytics vs. Keine)
+* **ADR-008**: Service Worker für Offline-Support (Ja/Nein)
+* **ADR-009**: Testing-Framework für E2E (Playwright vs. Cypress)
 
 === Entscheidungsprozess
 

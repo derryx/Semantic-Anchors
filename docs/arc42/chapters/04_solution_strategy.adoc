@@ -28,12 +28,12 @@
 ✅ Einfaches Refactoring +
 ❌ Mehr Files zu verwalten
 
-|**Apache ECharts für Treemap**
-|Native Treemap-Support. Einfache API. Built-in Theming. Open Source (Apache 2.0).
-|✅ Schnelle Implementation +
-✅ Professionelle Visualisierung +
-✅ Responsive +
-❌ ~100KB Bundle-Size
+|**Card Grid Visualisierung** _(ersetzt Apache ECharts Treemap, siehe ADR-005)_
+|CSS Grid, keine externe Library. Klare Hierarchie. WCAG-konformer Kontrast. Kein Text-Truncation.
+|✅ Kein Text-Truncation +
+✅ WCAG-konformer Kontrast +
+✅ Responsive Grid +
+✅ Kleinere Bundle-Size (kein ECharts)
 
 |**Client-Side Rendering**
 |GitHub Pages ist statisch. Alle Daten als JSON. Browser rendert mit JavaScript.
@@ -59,7 +59,7 @@ Vite (Build Tool & Dev Server)
     ↓
 Vanilla JavaScript / Alpine.js (3KB)
     ↓
-Apache ECharts (Treemap)
+CSS Grid (Card Grid Visualisierung)
     ↓
 asciidoctor.js (AsciiDoc → HTML)
     ↓
@@ -101,7 +101,7 @@ Domain: github.io (oder Custom Domain)
 
 |**Usability**
 |User-Centered Design, Mobile-First, Accessibility
-|Responsive Treemap, Keyboard-Navigation, ARIA-Labels, High Contrast
+|Responsive Card Grid, Keyboard-Navigation, ARIA-Labels, High Contrast
 
 |**Maintainability**
 |Modular Code, Clear Separation of Concerns, Documentation
@@ -126,19 +126,19 @@ Domain: github.io (oder Custom Domain)
 1. Metadata (`roles`) ist in JSON verfügbar
 2. Filter-UI (Multi-Select Dropdown)
 3. Client-Side Filtering: `anchors.filter(a => selectedRoles.some(r => a.roles.includes(r)))`
-4. Treemap wird mit gefilterten Daten neu generiert
+4. Card Grid wird mit gefilterten Daten aktualisiert
 5. localStorage persistiert Filter-Auswahl
 
-==== UC-02: Treemap-Visualisierung
+==== UC-02: Card Grid-Visualisierung
 
 **Problem:** Nutzer verliert Überblick bei 60+ Ankern.
 
 **Lösung:**
-1. Kategorien werden als Treemap visualisiert (Apache ECharts)
-2. Größe = Anzahl Anker pro Kategorie
-3. Farbe = Kategorie-Typ (aus Metadata)
-4. Interaktiv: Hover (Tooltip), Click (Navigation)
-5. Responsive: Anpassung an Viewport-Größe
+1. Kategorien werden als Card Grid mit Category Sections visualisiert
+2. Category Headings strukturieren die Übersicht
+3. Farbe = Kategorie-Typ (aus Metadata, via CSS Variable)
+4. Interaktiv: Click auf Card öffnet Details-Modal
+5. Responsive: CSS Grid passt sich an Viewport-Größe an
 
 ==== UC-03: Suche
 
@@ -221,7 +221,7 @@ graph LR
 |Fast Loading, SEO-friendly
 
 |**Component-Based Architecture**
-|Wiederverwendbare UI-Komponenten (Treemap, Filter, Search)
+|Wiederverwendbare UI-Komponenten (Card Grid, Filter, Search)
 |Maintainability, Testability
 
 |**Docs-as-Code**

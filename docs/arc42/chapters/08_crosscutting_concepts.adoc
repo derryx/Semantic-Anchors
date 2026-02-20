@@ -16,7 +16,7 @@ Siehe Kapitel 5 (Bausteinsicht) - Datenmodell mit Anchor, Category, Role, Propon
 
 **Interaction Patterns:**
 
-* **Hover**: Tooltips in Treemap
+* **Hover**: Hover-Effekt auf Anchor Cards (Elevation, Border-Highlight)
 * **Click**: Navigation zu Details
 * **Keyboard**: Tab-Navigation, Enter für Aktivierung, Escape für Schließen
 * **Touch**: Tap-friendly Buttons (min. 44x44px)
@@ -100,7 +100,7 @@ Content-Security-Policy:
 
 **Optimierungen:**
 
-* **Code-Splitting**: Lazy Load Treemap, AsciiDoc Renderer
+* **Code-Splitting**: Lazy Load AsciiDoc Renderer
 * **Tree-Shaking**: Nur benötigte ECharts-Module
 * **Image Optimization**: WebP, Responsive Images
 * **Font Optimization**: Subset Fonts, font-display: swap
@@ -112,7 +112,7 @@ Content-Security-Policy:
 
 * API Fetch Errors → Retry mit Exponential Backoff
 * AsciiDoc Render Errors → Fallback zu Plain Text
-* Treemap Render Errors → Fallback zu Liste
+* Card Grid Render Errors → Fallback zu einfacher Liste
 
 **User-Facing Errors:**
 
@@ -167,7 +167,7 @@ const logger = {
 **Test-Pyramide:**
 
 * **Unit Tests**: Utils, State Manager, Search Engine (Vitest)
-* **Component Tests**: Treemap, Filter, Search Bar (Vitest + @testing-library)
+* **Component Tests**: Card Grid, Filter, Search Bar (Vitest + @testing-library)
 * **E2E Tests**: User Flows (Playwright)
 * **Accessibility Tests**: axe-core, Lighthouse CI
 
@@ -220,8 +220,8 @@ VITE_ENABLE_ANALYTICS=true
   <svg aria-hidden="true">...</svg>
 </button>
 
-<div role="region" aria-label="Treemap visualization of categories">
-  <canvas id="treemap"></canvas>
+<div role="region" aria-label="Card grid visualization of categories">
+  <div id="card-grid" class="card-grid"></div>
 </div>
 ```
 

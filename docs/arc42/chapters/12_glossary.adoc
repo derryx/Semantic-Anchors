@@ -15,7 +15,7 @@
 |Etablierter Begriff, Methodologie oder Framework, der als Referenzpunkt in der LLM-Kommunikation dient (z.B. "TDD, London School", "SOLID Principles")
 
 |**Apache ECharts**
-|Open-Source Visualisierungs-Library (Apache 2.0) für interaktive Charts, inkl. Treemap
+|Open-Source Visualisierungs-Library (Apache 2.0) für interaktive Charts, inkl. Treemap. Wurde ursprünglich für dieses Projekt geplant (ADR-003), aber durch Card Grid ersetzt (ADR-005).
 
 |**arc42**
 |Standardisiertes Template für Software-Architekturdokumentation mit 12 Kapiteln
@@ -129,7 +129,10 @@
 |Build-Optimierung: Entfernung von ungenutztem Code aus Bundle
 
 |**Treemap**
-|Hierarchische Visualisierung als verschachtelte Rechtecke, Größe = Wert
+|Hierarchische Visualisierung als verschachtelte Rechtecke, Größe = Wert. In diesem Projekt ursprünglich geplant (ADR-003), aber aufgrund von Usability-Problemen (Text-Truncation, Kontrast, Viewport-Cut-off) durch ein Card Grid ersetzt (ADR-005).
+
+|**Card Grid**
+|Visualisierungsform mit Category Sections und Anchor Cards in einem CSS Grid-Layout. In diesem Projekt als Ersatz für die Treemap implementiert (ADR-005). Bietet bessere Lesbarkeit, WCAG-konformen Kontrast und responsives Layout.
 
 |**Vite**
 |Moderner Build-Tool und Dev-Server für Frontend-Projekte, sehr schnell durch native ES Modules
