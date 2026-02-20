@@ -13,7 +13,7 @@ Qualität
 ├── Performance (Prio 2)
 │   ├── Load Time: < 2s on 3G
 │   ├── Time to Interactive: < 3.5s
-│   └── Treemap Rendering: < 500ms
+│   └── Card Grid Rendering: < 500ms
 │
 ├── Maintainability (Prio 3)
 │   ├── Modularity: Neue Anker hinzufügen in < 10 Min
@@ -83,7 +83,7 @@ Qualität
 |Antwort
 |1. Dropdown öffnet mit allen Rollen +
 2. Wählt "Architect" +
-3. Treemap aktualisiert sich < 100ms +
+3. Card Grid aktualisiert sich < 100ms +
 4. Zeigt nur relevante Anker
 
 |Metrik
@@ -113,14 +113,14 @@ Qualität
 |Antwort
 |1. HTML lädt in < 500ms +
 2. Critical CSS inline +
-3. Treemap lädt lazy in < 2s total +
+3. Card Grid lädt in < 2s total +
 4. Seite ist interaktiv
 
 |Metrik
 |Time to Interactive < 2s
 |===
 
-**QS-P2: Responsive Treemap**
+**QS-P2: Responsive Card Grid**
 
 [cols="1,3", options="header"]
 |===
@@ -133,19 +133,19 @@ Qualität
 |Wählt 2 zusätzliche Rollen
 
 |Artefakt
-|Treemap Component
+|Card Grid Component
 
 |Umgebung
 |Desktop, normale Hardware
 
 |Antwort
 |1. Filter-State aktualisiert +
-2. Treemap-Daten neu berechnet +
-3. ECharts rendert +
-4. Neue Treemap sichtbar
+2. Card Grid-Daten neu gefiltert +
+3. CSS Grid rendert +
+4. Neues Card Grid sichtbar
 
 |Metrik
-|< 500ms vom Klick bis neue Treemap
+|< 500ms vom Klick bis neue Card Grid
 |===
 
 ==== Maintainability
@@ -247,18 +247,18 @@ Qualität
 |Blinde Person nutzt Screen Reader (NVDA, JAWS)
 
 |Stimulus
-|Navigiert zu Treemap
+|Navigiert zu Card Grid
 
 |Artefakt
-|Treemap Component
+|Card Grid Component
 
 |Umgebung
 |Windows, NVDA Screen Reader
 
 |Antwort
-|1. Screen Reader liest "Treemap visualization of categories" +
-2. Kategorien haben ARIA-Labels mit Namen und Anzahl +
-3. Navigation zu Details ist verständlich angekündigt
+|1. Screen Reader liest "Card grid visualization of categories" +
+2. Category Sections haben ARIA-Labels mit Namen +
+3. Anchor Cards sind mit Namen und Beschreibung erreichbar
 
 |Metrik
 |Alle Informationen für Screen Reader zugänglich
@@ -310,7 +310,7 @@ Qualität
 |> 90
 |Lighthouse CI
 
-|**Performance - Treemap**
+|**Performance - Card Grid**
 |Rendering Time
 |< 500ms
 |Performance.measure()

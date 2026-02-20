@@ -8,13 +8,13 @@ Das Semantic Anchors Repository ist ein kuratierter Katalog von semantischen Ank
 **Das Projekt benötigt:**
 
 * **Moderne Website**: Interaktive, zweisprachige (EN/DE) Website mit Dark/Light Mode
-* **Visualisierung**: Treemap-basierte Darstellung der Kategorien nach MECE-Prinzip
+* **Visualisierung**: Card Grid-basierte Darstellung der Kategorien nach MECE-Prinzip (abgelöst ADR-003 Treemap durch ADR-005 Card Grid)
 * **Skalierbare Struktur**: Aufteilung des monolithischen README.adoc in modulare Files
 * **Contribution Workflow**: Automatisierte Validierung und Erstellung neuer Anker via GitHub Actions
 
 **Kern-Features:**
 
-* Interaktive Treemap-Visualisierung der Kategorien
+* Interaktive Card Grid-Visualisierung der Kategorien
 * Filterung nach Rollen (Software Developer, Architect, Product Owner, etc.)
 * Volltextsuche über alle Anker
 * Detailansicht mit AsciiDoc-Rendering
@@ -35,7 +35,7 @@ Das Semantic Anchors Repository ist ein kuratierter Katalog von semantischen Ank
 |2
 |**Performance**
 |ISO 25010
-|Page Load < 2s auf 3G, Treemap-Rendering < 500ms. Langsame Seiten reduzieren Nutzung drastisch.
+|Page Load < 2s auf 3G, Card Grid-Rendering < 500ms. Langsame Seiten reduzieren Nutzung drastisch.
 
 |3
 |**Maintainability**

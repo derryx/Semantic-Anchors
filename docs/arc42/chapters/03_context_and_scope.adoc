@@ -45,7 +45,7 @@ Rel(browser, website, "Rendert", "")
 
 |**Website → Browser**
 |Ausgabe
-|Rendert Treemap, Anker-Details, Navigation
+|Rendert Card Grid, Anker-Details, Navigation
 |HTML, JSON, AsciiDoc (gerendert)
 
 |**Contributor → GitHub**
@@ -79,7 +79,7 @@ Rel(browser, website, "Rendert", "")
 Person(user, "Benutzer")
 
 Container(spa, "Single Page Application", "Vite, Vanilla JS/Alpine.js", "Statische Website mit Client-Side Routing")
-Container(treemap, "Treemap Component", "Apache ECharts", "Interaktive Visualisierung")
+Container(cardgrid, "Card Grid Component", "Vanilla JS / CSS Grid", "Interaktive Visualisierung")
 Container(asciidoc, "AsciiDoc Renderer", "asciidoctor.js", "Rendert .adoc zu HTML")
 Container(i18n, "i18n Module", "JSON-based", "EN/DE Übersetzungen")
 
@@ -89,7 +89,7 @@ System_Ext(cdn, "CDN (optional)", "jsDelivr, unpkg", "ECharts, Fonts")
 System_Ext(ghpages, "GitHub Pages", "Static Hosting")
 
 Rel(user, spa, "Verwendet", "HTTPS")
-Rel(spa, treemap, "Verwendet für Visualisierung", "JavaScript")
+Rel(spa, cardgrid, "Verwendet für Visualisierung", "JavaScript")
 Rel(spa, asciidoc, "Rendert Content", "JavaScript")
 Rel(spa, i18n, "Übersetzt UI", "JSON")
 Rel(spa, static, "Lädt Daten", "fetch API")
@@ -115,7 +115,7 @@ Rel(ghpages, spa, "Hostet", "")
 |Main Application, Routing, State Management
 |JavaScript Modules
 
-|**Treemap Component**
+|**Card Grid Component**
 |Apache ECharts
 |Kategorien-Visualisierung
 |JavaScript Object (ECharts Config)
@@ -170,7 +170,7 @@ Browser lädt SPA
     ↓
 SPA lädt JSON-Daten (fetch)
     ↓
-Treemap rendert Visualisierung
+Card Grid rendert Visualisierung
     ↓
 User interagiert (Filter, Search, Click)
     ↓

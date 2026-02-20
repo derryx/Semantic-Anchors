@@ -1,9 +1,9 @@
 # Product Requirements Document (PRD)
 ## Semantic Anchors for LLMs - Website & Repository Redesign
 
-**Version:** 1.0
-**Date:** 2025-02-13
-**Status:** Draft
+**Version:** 2.0
+**Date:** 2026-02-20
+**Status:** Implemented
 
 ---
 
@@ -12,7 +12,7 @@
 The Semantic Anchors repository has grown from a simple README to a comprehensive catalog of 60+ semantic anchors across 10 categories. To better serve its growing user base and enable easier contributions, the project requires:
 
 1. **Website**: A modern, bilingual (EN/DE), responsive website with dark/light mode
-2. **Visualization**: Interactive treemap showing MECE-compliant categories and role-based filtering
+2. **Visualization**: Card grid with category sections showing MECE-compliant categories and role-based filtering (originally planned as treemap, changed per ADR-005)
 3. **Repository Structure**: Modular AsciiDoc files replacing the monolithic README
 4. **Contribution Workflow**: Automated issue templates and GitHub Actions/Copilot integration for proposing and adding new anchors
 
@@ -83,7 +83,7 @@ The Semantic Anchors repository has grown from a simple README to a comprehensiv
 
 ### Discovery & Navigation
 - **US-01**: As a software developer, I want to filter anchors by my role so that I see only relevant methodologies
-- **US-02**: As a user, I want to visualize anchor categories in a treemap so that I understand the knowledge domain structure
+- **US-02**: As a user, I want to browse anchor categories in a structured card grid so that I understand the knowledge domain structure
 - **US-03**: As a user, I want to search anchors by keyword so that I can quickly find what I need
 - **US-04**: As a user, I want to see related anchors so that I can explore connected concepts
 - **US-05**: As a German speaker, I want to view the site in German so that I can understand content in my native language
@@ -193,11 +193,11 @@ Based on the current 60+ semantic anchors, the following roles provide meaningfu
 - **FR-1.8**: Search functionality (client-side)
 
 ### FR-2: Visualization
-- **FR-2.1**: Interactive treemap of categories (MECE-compliant)
+- **FR-2.1**: Card grid with category sections (MECE-compliant, originally planned as treemap, changed per ADR-005)
 - **FR-2.2**: Role-based filtering (multi-select)
-- **FR-2.3**: Click on treemap node to navigate to anchor details
-- **FR-2.4**: Visual indication of anchor density per category
-- **FR-2.5**: Responsive treemap (adapts to screen size)
+- **FR-2.3**: Click on anchor card to open anchor details
+- **FR-2.4**: Visual indication of category through color-coded section headers
+- **FR-2.5**: Responsive card grid (CSS Grid, adapts to screen size)
 
 ### FR-3: Content Structure
 - **FR-3.1**: Split README.adoc into modular files:
@@ -244,7 +244,7 @@ Based on the current 60+ semantic anchors, the following roles provide meaningfu
 ### NFR-1: Performance
 - **NFR-1.1**: Page load time < 2 seconds on 3G connection
 - **NFR-1.2**: Lighthouse score > 90 (Performance, Accessibility, Best Practices, SEO)
-- **NFR-1.3**: Treemap rendering < 500ms for 100 anchors
+- **NFR-1.3**: Card grid rendering < 500ms for 100 anchors
 
 ### NFR-2: Accessibility
 - **NFR-2.1**: WCAG 2.1 Level AA compliance
@@ -294,7 +294,7 @@ Based on the current 60+ semantic anchors, the following roles provide meaningfu
 ### TR-1: Frontend
 - Static Site Generator: **Astro** (pending confirmation)
 - AsciiDoc rendering: **asciidoctor.js**
-- Visualization: **D3.js** or **Apache ECharts** for treemap
+- Visualization: **CSS Grid** (card grid with category sections, per ADR-005; Apache ECharts treemap was originally planned per ADR-003 but replaced)
 - Styling: **Tailwind CSS** (responsive, dark mode support)
 - i18n: **i18next** or framework-native solution
 - Build: **Vite** (included with Astro)
@@ -335,7 +335,7 @@ semantic-anchors/
 │   ├── src/
 │   │   ├── pages/
 │   │   ├── components/
-│   │   │   ├── Treemap.astro
+│   │   │   ├── CardGrid.js
 │   │   │   ├── RoleFilter.astro
 │   │   │   └── AnchorCard.astro
 │   │   ├── layouts/
@@ -361,7 +361,7 @@ semantic-anchors/
 - [ ] Dark/Light mode
 - [ ] Responsive design
 - [ ] All existing anchors migrated to modular structure
-- [ ] Basic treemap visualization
+- [x] Card grid visualization (replaced treemap per ADR-005)
 - [ ] Role-based filtering (top 5 roles)
 - [ ] One issue template ("Propose New Anchor")
 - [ ] Updated README and CONTRIBUTING guide
@@ -408,7 +408,7 @@ The following are explicitly **not** included in this project phase:
 - [ ] Implement i18n (EN/DE)
 - [ ] Integrate asciidoctor.js
 - [ ] Build category/anchor browsing pages
-- [ ] Implement treemap visualization
+- [x] Implement card grid visualization (replaced treemap per ADR-005)
 - [ ] Implement role filtering
 
 ### Phase 3: Automation & Deployment (Week 6-7)
@@ -435,8 +435,8 @@ The following are explicitly **not** included in this project phase:
 2. **Anchor Granularity**: One file per anchor or one file per category?
    - **Recommendation**: Start with one file per category, split to individual files if needed for scalability
 
-3. **Treemap Library**: D3.js (flexible, complex) vs. Apache ECharts (easier, less flexible) vs. Plotly (balanced)?
-   - **Recommendation**: Apache ECharts for ease + good-enough flexibility
+3. **Visualization Library**: D3.js / Apache ECharts treemap was originally planned (ADR-003), but replaced by CSS Grid card grid (ADR-005) due to text truncation, contrast issues, and viewport problems.
+   - **Decision**: CSS Grid card grid (no external library needed)
 
 4. **Translation Approach**: Human translation or machine translation with review?
    - **Recommendation**: Human translation for quality, start with UI elements, anchor content can remain EN-only initially

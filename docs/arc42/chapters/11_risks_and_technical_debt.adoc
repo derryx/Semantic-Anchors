@@ -11,8 +11,8 @@
 |Bundle-Size zu groß
 |Mittel
 |Mittel
-|ECharts + asciidoctor.js könnten Bundle > 500KB machen, langsamer Load auf Mobile
-|Tree-Shaking, Code-Splitting, CDN für ECharts, Lazy Loading
+|asciidoctor.js könnte Bundle > 500KB machen, langsamer Load auf Mobile (ECharts wurde durch Card Grid ersetzt und entfernt)
+|Tree-Shaking, Code-Splitting, Lazy Loading AsciiDoc Renderer
 
 |**R-02**
 |SEO-Probleme (Client-Side Rendering)
@@ -32,8 +32,8 @@
 |Skalierung >200 Anker
 |Niedrig
 |Hoch
-|Treemap könnte bei sehr vielen Ankern unleserlich werden
-|Pagination, Collapsible Categories, Zoom-Feature in ECharts
+|Card Grid könnte bei sehr vielen Ankern sehr lang werden
+|Pagination, Collapsible Category Sections, Lazy Loading
 
 |**R-05**
 |GitHub Pages Downtime
