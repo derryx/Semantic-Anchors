@@ -2,6 +2,7 @@
   {
     "id": "business-analyst",
     "name": "Business Analyst / Requirements Engineer",
+    "name_de": "Business Analyst / Anforderungsmanager",
     "anchors": [
       "bdd-given-when-then",
       "bluf",
@@ -43,6 +44,7 @@
   {
     "id": "consultant",
     "name": "Consultant / Coach",
+    "name_de": "Berater / Coach",
     "anchors": [
       "4mat",
       "addie-model",
@@ -124,6 +126,7 @@
   {
     "id": "data-scientist",
     "name": "Data Scientist / Statistician",
+    "name_de": "Datenanalyst / Statistiker / Datenarchitekt",
     "anchors": [
       "big-five",
       "cap-theorem",
@@ -144,6 +147,7 @@
   {
     "id": "devops-engineer",
     "name": "DevOps Engineer",
+    "name_de": "DevOps-Engineer",
     "anchors": [
       "50-72-rule",
       "cap-theorem",
@@ -171,6 +175,7 @@
   {
     "id": "educator",
     "name": "Educator / Trainer",
+    "name_de": "Dozent / Trainer",
     "anchors": [
       "4mat",
       "addie-model",
@@ -229,6 +234,7 @@
   {
     "id": "product-owner",
     "name": "Product Owner / Product Manager",
+    "name_de": "Product Owner / Produktmanager",
     "anchors": [
       "aida-model",
       "atam",
@@ -281,6 +287,7 @@
   {
     "id": "qa-engineer",
     "name": "QA Engineer / Tester",
+    "name_de": "QA-Engineer / Tester",
     "anchors": [
       "bdd-given-when-then",
       "definition-of-done",
@@ -316,6 +323,7 @@
   {
     "id": "requirements-engineer",
     "name": "Requirements Engineer",
+    "name_de": "Requirements Engineer",
     "anchors": [
       "lehmans-classification"
     ]
@@ -323,6 +331,7 @@
   {
     "id": "software-architect",
     "name": "Software Architect",
+    "name_de": "Softwarearchitekt",
     "anchors": [
       "adr-according-to-nygard",
       "arc42",
@@ -345,6 +354,7 @@
       "dry",
       "effective-go",
       "effective-java",
+      "effective-python",
       "event-driven-architecture",
       "event-storming",
       "fagan-inspection",
@@ -431,6 +441,7 @@
   {
     "id": "software-developer",
     "name": "Software Developer / Engineer",
+    "name_de": "Softwareentwickler",
     "anchors": [
       "50-72-rule",
       "adr-according-to-nygard",
@@ -454,6 +465,7 @@
       "dry",
       "effective-go",
       "effective-java",
+      "effective-python",
       "event-driven-architecture",
       "fagan-inspection",
       "fallacies-of-distributed-computing",
@@ -553,6 +565,7 @@
   {
     "id": "systems-thinker",
     "name": "Systems Thinker",
+    "name_de": "Systems Thinker",
     "anchors": [
       "luhmann-system-theory",
       "meaningful-human-control",
@@ -563,6 +576,7 @@
   {
     "id": "team-lead",
     "name": "Team Lead / Engineering Manager",
+    "name_de": "Teamleiter / Engineering Manager",
     "anchors": [
       "4mat",
       "adr-according-to-nygard",
@@ -644,6 +658,7 @@
   {
     "id": "technical-writer",
     "name": "Technical Writer / Documentation Specialist",
+    "name_de": "Technischer Redakteur",
     "anchors": [
       "4mat",
       "addie-model",
@@ -678,6 +693,7 @@
   {
     "id": "ux-designer",
     "name": "UX Designer / Researcher",
+    "name_de": "UX-Designer / UX-Researcher",
     "anchors": [
       "aida-model",
       "bem-methodology",

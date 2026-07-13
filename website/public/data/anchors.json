@@ -88,7 +88,7 @@
     ],
     "filePath": "docs/anchors/addie-model.adoc",
     "tier": 3,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "adr-according-to-nygard",
@@ -216,7 +216,7 @@
     ],
     "filePath": "docs/anchors/atam.adoc",
     "tier": 3,
-    "addedAt": "2026-03-06T17:48:13+00:00"
+    "addedAt": "2026-03-06T17:48:13Z"
   },
   {
     "id": "bdd-given-when-then",
@@ -518,7 +518,7 @@
     ],
     "filePath": "docs/anchors/circuit-breaker.adoc",
     "tier": 2,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "clean-architecture",
@@ -680,7 +680,7 @@
     ],
     "filePath": "docs/anchors/consent-vs-consensus.adoc",
     "tier": 3,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "control-chart-shewhart",
@@ -839,7 +839,7 @@
     ],
     "filePath": "docs/anchors/crc-cards.adoc",
     "tier": 3,
-    "addedAt": "2026-03-29T15:12:41+00:00"
+    "addedAt": "2026-03-29T15:12:41Z"
   },
   {
     "id": "curse-of-knowledge",
@@ -874,7 +874,7 @@
     ],
     "filePath": "docs/anchors/curse-of-knowledge.adoc",
     "tier": 2,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "cynefin-framework",
@@ -1002,7 +1002,7 @@
     ],
     "filePath": "docs/anchors/definition-of-done.adoc",
     "tier": 3,
-    "addedAt": "2026-03-13T20:35:53+00:00"
+    "addedAt": "2026-03-13T20:35:53Z"
   },
   {
     "id": "design-by-contract",
@@ -1032,7 +1032,7 @@
     ],
     "filePath": "docs/anchors/design-by-contract.adoc",
     "tier": 2,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "devils-advocate",
@@ -1256,7 +1256,7 @@
     ],
     "filePath": "docs/anchors/dreyfus-skill-acquisition.adoc",
     "tier": 3,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "dry",
@@ -1347,7 +1347,7 @@
     ],
     "filePath": "docs/anchors/effective-go.adoc",
     "tier": 3,
-    "addedAt": "2026-03-31T16:15:17+00:00"
+    "addedAt": "2026-03-31T16:15:17Z"
   },
   {
     "id": "effective-java",
@@ -1376,7 +1376,34 @@
     ],
     "filePath": "docs/anchors/effective-java.adoc",
     "tier": 3,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
+  },
+  {
+    "id": "effective-python",
+    "title": "Effective Python",
+    "categories": [
+      "development-workflow"
+    ],
+    "roles": [
+      "software-developer",
+      "software-architect"
+    ],
+    "related": [
+      "effective-java",
+      "effective-go",
+      "solid-principles"
+    ],
+    "proponents": [
+      "Brett Slatkin"
+    ],
+    "tags": [
+      "python",
+      "best-practices",
+      "idiomatic",
+      "pythonic",
+      "style-guide"
+    ],
+    "filePath": "docs/anchors/effective-python.adoc"
   },
   {
     "id": "eisenhower-matrix",
@@ -1408,7 +1435,7 @@
     "filePath": "docs/anchors/eisenhower-matrix.adoc",
     "tier": 2,
     "advisory": "Activates an urgency-first framing its own field cautions against (see Criticism)",
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "event-driven-architecture",
@@ -1512,7 +1539,7 @@
     ],
     "filePath": "docs/anchors/fagan-inspection.adoc",
     "tier": 3,
-    "addedAt": "2026-03-13T20:34:53+00:00"
+    "addedAt": "2026-03-13T20:34:53Z"
   },
   {
     "id": "fallacies-of-distributed-computing",
@@ -1575,7 +1602,7 @@
     ],
     "filePath": "docs/anchors/fermi-estimation.adoc",
     "tier": 3,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "feynman-technique",
@@ -1641,7 +1668,7 @@
     ],
     "filePath": "docs/anchors/fichtean-curve.adoc",
     "tier": 3,
-    "addedAt": "2026-03-29T15:18:24+00:00"
+    "addedAt": "2026-03-29T15:18:24Z"
   },
   {
     "id": "first-principles-thinking",
@@ -1736,7 +1763,7 @@
     ],
     "filePath": "docs/anchors/four-sides-model.adoc",
     "tier": 3,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "fowler-patterns",
@@ -1766,7 +1793,7 @@
     ],
     "filePath": "docs/anchors/fowler-patterns.adoc",
     "tier": 3,
-    "addedAt": "2026-02-16T07:35:37+00:00"
+    "addedAt": "2026-02-16T07:35:37Z"
   },
   {
     "id": "freytags-pyramid",
@@ -1806,7 +1833,7 @@
     ],
     "filePath": "docs/anchors/freytags-pyramid.adoc",
     "tier": 3,
-    "addedAt": "2026-03-29T15:18:24+00:00"
+    "addedAt": "2026-03-29T15:18:24Z"
   },
   {
     "id": "gherkin",
@@ -1841,7 +1868,7 @@
     "filePath": "docs/anchors/gherkin.adoc",
     "tier": 3,
     "definition": "Gherkin is the structured, plain-language syntax used by Behaviour-Driven Development tools such as Cucumber to write executable specifications. Scenarios follow a Given/When/Then form — context, action, outcome — so the same text serves as readable acceptance criteria for stakeholders and as automated tests.",
-    "addedAt": "2026-03-11T11:07:57+00:00"
+    "addedAt": "2026-03-11T11:07:57Z"
   },
   {
     "id": "github-flow",
@@ -1873,7 +1900,7 @@
     ],
     "filePath": "docs/anchors/github-flow.adoc",
     "tier": 3,
-    "addedAt": "2026-03-13T12:59:50+00:00"
+    "addedAt": "2026-03-13T12:59:50Z"
   },
   {
     "id": "gof-abstract-factory-pattern",
@@ -2766,7 +2793,7 @@
     ],
     "filePath": "docs/anchors/gom.adoc",
     "tier": 2,
-    "addedAt": "2026-03-01T22:49:28+00:00"
+    "addedAt": "2026-03-01T22:49:28Z"
   },
   {
     "id": "goodharts-law",
@@ -2831,7 +2858,7 @@
     ],
     "filePath": "docs/anchors/grasp.adoc",
     "tier": 3,
-    "addedAt": "2026-03-26T09:40:28+00:00"
+    "addedAt": "2026-03-26T09:40:28Z"
   },
   {
     "id": "gtd",
@@ -2862,7 +2889,7 @@
     ],
     "filePath": "docs/anchors/gtd.adoc",
     "tier": 3,
-    "addedAt": "2026-03-27T08:37:19+00:00"
+    "addedAt": "2026-03-27T08:37:19Z"
   },
   {
     "id": "gutes-deutsch-wolf-schneider",
@@ -2893,7 +2920,7 @@
     ],
     "filePath": "docs/anchors/gutes-deutsch-wolf-schneider.adoc",
     "tier": 3,
-    "addedAt": "2026-03-12T10:10:57+00:00"
+    "addedAt": "2026-03-12T10:10:57Z"
   },
   {
     "id": "hemingway-bridge",
@@ -2961,7 +2988,7 @@
     ],
     "filePath": "docs/anchors/heros-journey.adoc",
     "tier": 3,
-    "addedAt": "2026-03-29T15:18:24+00:00"
+    "addedAt": "2026-03-29T15:18:24Z"
   },
   {
     "id": "hexaco",
@@ -3088,7 +3115,7 @@
     ],
     "filePath": "docs/anchors/iec-61508-sil-levels.adoc",
     "tier": 3,
-    "addedAt": "2026-02-13T15:45:20+00:00"
+    "addedAt": "2026-02-13T15:45:20Z"
   },
   {
     "id": "impact-mapping",
@@ -3180,7 +3207,7 @@
     ],
     "filePath": "docs/anchors/invest.adoc",
     "tier": 3,
-    "addedAt": "2026-03-13T20:36:17+00:00"
+    "addedAt": "2026-03-13T20:36:17Z"
   },
   {
     "id": "iosp",
@@ -3254,7 +3281,7 @@
     ],
     "filePath": "docs/anchors/iso-25010.adoc",
     "tier": 3,
-    "addedAt": "2026-03-23T13:51:39+00:00"
+    "addedAt": "2026-03-23T13:51:39Z"
   },
   {
     "id": "jobs-to-be-done",
@@ -3355,7 +3382,7 @@
     ],
     "filePath": "docs/anchors/kishotenketsu.adoc",
     "tier": 3,
-    "addedAt": "2026-03-29T15:18:24+00:00"
+    "addedAt": "2026-03-29T15:18:24Z"
   },
   {
     "id": "kiss-principle",
@@ -3387,7 +3414,7 @@
     ],
     "filePath": "docs/anchors/kiss-principle.adoc",
     "tier": 1,
-    "addedAt": "2026-03-26T09:33:10+00:00"
+    "addedAt": "2026-03-26T09:33:10Z"
   },
   {
     "id": "kotter-8-step-change-model",
@@ -3449,7 +3476,7 @@
     ],
     "filePath": "docs/anchors/laddering.adoc",
     "tier": 3,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "lasr",
@@ -3483,7 +3510,7 @@
     ],
     "filePath": "docs/anchors/lasr.adoc",
     "tier": 3,
-    "addedAt": "2026-03-06T17:54:58+00:00"
+    "addedAt": "2026-03-06T17:54:58Z"
   },
   {
     "id": "law-of-demeter",
@@ -3582,7 +3609,7 @@
     ],
     "filePath": "docs/anchors/linddun.adoc",
     "tier": 3,
-    "addedAt": "2026-03-17T19:17:27+00:00"
+    "addedAt": "2026-03-17T19:17:27Z"
   },
   {
     "id": "llm-evaluations",
@@ -3617,7 +3644,7 @@
     ],
     "filePath": "docs/anchors/llm-evaluations.adoc",
     "tier": 3,
-    "addedAt": "2026-03-18T09:46:17+00:00"
+    "addedAt": "2026-03-18T09:46:17Z"
   },
   {
     "id": "luhmann-system-theory",
@@ -3814,7 +3841,7 @@
       "reversible steps"
     ],
     "filePath": "docs/anchors/mikado-method.adoc",
-    "addedAt": "2026-03-11T15:45:43+00:00"
+    "addedAt": "2026-03-11T15:45:43Z"
   },
   {
     "id": "morphological-box",
@@ -3844,7 +3871,7 @@
     ],
     "filePath": "docs/anchors/morphological-box.adoc",
     "tier": 3,
-    "addedAt": "2026-02-13T15:34:15+00:00"
+    "addedAt": "2026-02-13T15:34:15Z"
   },
   {
     "id": "moscow",
@@ -3873,7 +3900,7 @@
     ],
     "filePath": "docs/anchors/moscow.adoc",
     "tier": 3,
-    "addedAt": "2026-02-22T07:45:12+00:00"
+    "addedAt": "2026-02-22T07:45:12Z"
   },
   {
     "id": "mutation-testing",
@@ -3972,7 +3999,7 @@
     "filePath": "docs/anchors/myers-briggs-type-indicator.adoc",
     "tier": 1,
     "advisory": "Widely regarded as pseudoscience with low test-retest reliability — use for reflection and dialogue, not selection (see Criticism)",
-    "addedAt": "2026-03-09T15:17:08+00:00"
+    "addedAt": "2026-03-09T15:17:08Z"
   },
   {
     "id": "nelson-rules",
@@ -4062,7 +4089,7 @@
     ],
     "filePath": "docs/anchors/okr.adoc",
     "tier": 2,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "owasp-top-10",
@@ -4095,7 +4122,7 @@
     ],
     "filePath": "docs/anchors/owasp-top-10.adoc",
     "tier": 3,
-    "addedAt": "2026-03-04T13:00:35+00:00"
+    "addedAt": "2026-03-04T13:00:35Z"
   },
   {
     "id": "para-method",
@@ -4125,7 +4152,7 @@
     ],
     "filePath": "docs/anchors/para-method.adoc",
     "tier": 3,
-    "addedAt": "2026-03-26T09:24:39+00:00"
+    "addedAt": "2026-03-26T09:24:39Z"
   },
   {
     "id": "pert",
@@ -4163,7 +4190,7 @@
     ],
     "filePath": "docs/anchors/pert.adoc",
     "tier": 2,
-    "addedAt": "2026-03-26T09:25:15+00:00"
+    "addedAt": "2026-03-26T09:25:15Z"
   },
   {
     "id": "plain-english-strunk-white",
@@ -4198,7 +4225,7 @@
     ],
     "filePath": "docs/anchors/plain-english-strunk-white.adoc",
     "tier": 3,
-    "addedAt": "2026-03-12T10:36:40+00:00"
+    "addedAt": "2026-03-12T10:36:40Z"
   },
   {
     "id": "postels-law",
@@ -4260,7 +4287,7 @@
     ],
     "filePath": "docs/anchors/prd.adoc",
     "tier": 3,
-    "addedAt": "2026-03-13T20:35:23+00:00"
+    "addedAt": "2026-03-13T20:35:23Z"
   },
   {
     "id": "problem-space-nvc",
@@ -4526,7 +4553,7 @@
     ],
     "filePath": "docs/anchors/regulated-environment.adoc",
     "tier": 2,
-    "addedAt": "2026-02-23T11:18:02+00:00"
+    "addedAt": "2026-02-23T11:18:02Z"
   },
   {
     "id": "req42",
@@ -4558,7 +4585,7 @@
     ],
     "filePath": "docs/anchors/req42.adoc",
     "tier": 3,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "save-the-cat",
@@ -4593,7 +4620,7 @@
     ],
     "filePath": "docs/anchors/save-the-cat.adoc",
     "tier": 3,
-    "addedAt": "2026-03-29T15:18:24+00:00"
+    "addedAt": "2026-03-29T15:18:24Z"
   },
   {
     "id": "semantic-versioning",
@@ -4690,7 +4717,7 @@
     ],
     "filePath": "docs/anchors/separation-of-concerns.adoc",
     "tier": 1,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "simon-constructivism",
@@ -5179,7 +5206,7 @@
     ],
     "filePath": "docs/anchors/story-circle-dan-harmon.adoc",
     "tier": 3,
-    "addedAt": "2026-03-29T15:18:24+00:00"
+    "addedAt": "2026-03-29T15:18:24Z"
   },
   {
     "id": "strangler-fig",
@@ -5210,7 +5237,7 @@
     ],
     "filePath": "docs/anchors/strangler-fig.adoc",
     "tier": 2,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "stride",
@@ -5244,7 +5271,7 @@
     ],
     "filePath": "docs/anchors/stride.adoc",
     "tier": 3,
-    "addedAt": "2026-03-17T19:16:00+00:00"
+    "addedAt": "2026-03-17T19:16:00Z"
   },
   {
     "id": "swot",
@@ -5279,7 +5306,7 @@
     ],
     "filePath": "docs/anchors/swot.adoc",
     "tier": 3,
-    "addedAt": "2026-03-11T08:44:49+00:00"
+    "addedAt": "2026-03-11T08:44:49Z"
   },
   {
     "id": "systemic-consulting",
@@ -5416,7 +5443,7 @@
     ],
     "filePath": "docs/anchors/team-topologies.adoc",
     "tier": 2,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "test-double-dummy",
@@ -5443,7 +5470,7 @@
     ],
     "filePath": "docs/anchors/test-double-dummy.adoc",
     "tier": 3,
-    "addedAt": "2026-03-14T18:16:20+00:00"
+    "addedAt": "2026-03-14T18:16:20Z"
   },
   {
     "id": "test-double-fake",
@@ -5471,7 +5498,7 @@
     ],
     "filePath": "docs/anchors/test-double-fake.adoc",
     "tier": 3,
-    "addedAt": "2026-03-14T18:16:20+00:00"
+    "addedAt": "2026-03-14T18:16:20Z"
   },
   {
     "id": "test-double-meszaros",
@@ -5542,7 +5569,7 @@
     ],
     "filePath": "docs/anchors/test-double-mock.adoc",
     "tier": 3,
-    "addedAt": "2026-03-14T18:16:20+00:00"
+    "addedAt": "2026-03-14T18:16:20Z"
   },
   {
     "id": "test-double-spy",
@@ -5571,7 +5598,7 @@
     ],
     "filePath": "docs/anchors/test-double-spy.adoc",
     "tier": 3,
-    "addedAt": "2026-03-14T18:16:20+00:00"
+    "addedAt": "2026-03-14T18:16:20Z"
   },
   {
     "id": "test-double-stub",
@@ -5600,7 +5627,7 @@
     ],
     "filePath": "docs/anchors/test-double-stub.adoc",
     "tier": 3,
-    "addedAt": "2026-03-14T18:16:20+00:00"
+    "addedAt": "2026-03-14T18:16:20Z"
   },
   {
     "id": "test-seam",
@@ -5732,7 +5759,7 @@
     ],
     "filePath": "docs/anchors/three-act-structure.adoc",
     "tier": 3,
-    "addedAt": "2026-03-29T15:18:24+00:00"
+    "addedAt": "2026-03-29T15:18:24Z"
   },
   {
     "id": "timtowtdi",
@@ -5854,7 +5881,7 @@
     ],
     "filePath": "docs/anchors/twelve-factor-app.adoc",
     "tier": 2,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "unix-philosophy",
@@ -5885,7 +5912,7 @@
     ],
     "filePath": "docs/anchors/unix-philosophy.adoc",
     "tier": 2,
-    "addedAt": "2026-06-26T20:19:59+00:00"
+    "addedAt": "2026-06-26T20:19:59Z"
   },
   {
     "id": "user-story-mapping",
@@ -5946,7 +5973,7 @@
     ],
     "filePath": "docs/anchors/vertical-slice-architecture.adoc",
     "tier": 3,
-    "addedAt": "2026-03-26T09:31:58+00:00"
+    "addedAt": "2026-03-26T09:31:58Z"
   },
   {
     "id": "walking-skeleton",
